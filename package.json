@@ -1,0 +1,14 @@
+{
+  "name": "Landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less":"lessc ./less/main.less ./css/main1.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.7.1"
+  }
+}

@@ -1,0 +1,873 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #222;
+  line-height: 1.4;
+  font-family: "Roboto";
+  font-size: 1vw;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+/*HKEY_CURRENT_USER\Software\Microsoft\ Windows\CurrentVersion\Policies\Explorer
+
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important;
+}
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */
+}
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.clearfix:after {
+  clear: both;
+}
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* CSS Document */
+/* colors */
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot');
+  src: url('fonts/icomoon.eot#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf') format('truetype'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-lion_s:before {
+  content: "\e903";
+}
+.icon-meter-svgrepo-com:before {
+  content: "\e900";
+}
+.icon-leather-svgrepo-com:before {
+  content: "\e901";
+}
+.icon-logo-svg:before {
+  content: "\e902";
+}
+.wide-title {
+  width: 100%;
+}
+.inner-content {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.main-wrapper {
+  max-width: 100%;
+}
+.section-hero {
+  background: #26c6da;
+  height: 60vw;
+}
+.section-hero .logo {
+  position: absolute;
+  left: 60rem;
+  top: 2rem;
+  fill: #ffffff;
+  z-index: 2;
+  width: 34rem;
+}
+.section-hero h1 {
+  font-family: "Roboto", Lucinda, Helvetica;
+  color: #ffffff;
+  right: 1em;
+  font-size: 4rem;
+  top: 3em;
+  text-align: right;
+  font-weight: 700;
+  padding-right: 20px;
+  margin-left: 300px;
+  z-index: 200;
+  position: absolute;
+}
+.section-hero img.main-banner {
+  width: 70em;
+  height: 70em;
+  float: left;
+  position: absolute;
+}
+.section-kickstarter {
+  text-align: center;
+  margin-bottom: 6.5em;
+}
+.section-kickstarter h3 {
+  color: #78909c;
+  font-size: 3rem;
+}
+.section-kickstarter label {
+  font-size: 2rem;
+  text-align: left;
+}
+.section-kickstarter .Input-text {
+  display: block;
+  margin: auto;
+  padding: 0.5em 1em;
+  color: inherit;
+  width: 35%;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: inherit;
+  border: none;
+  box-shadow: 0.5px 2px 3px #888888;
+}
+.section-kickstarter .submit {
+  background-color: #FF3D00;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 2em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-right: 2em;
+  padding-left: 2em;
+  color: white;
+  border: none;
+}
+.section-gps {
+  margin-bottom: 7em;
+}
+.section-gps .inner-content img {
+  position: absolute;
+  width: 62em;
+  top: -13em;
+}
+.section-gps .inner-content p {
+  color: #F5F5F5;
+  font-size: 2.2rem;
+}
+.section-gps .gps-content {
+  background-color: #051029;
+  text-align: right;
+  padding-right: 10em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.section-gps .gps-title {
+  color: #1de9b6;
+  font-family: "Roboto";
+  font-size: 5.5rem;
+  margin: 0;
+}
+.section-gps .gps-subtitle {
+  color: white;
+  font-family: "Roboto";
+  font-size: 3rem;
+  font-weight: 350;
+  margin-top: 0;
+  position: relative;
+  top: -0.5em;
+}
+.section-ar {
+  border-top: 1em solid #ffdf32;
+  position: relative;
+  top: -40px;
+  height: auto;
+  z-index: 2;
+}
+.section-ar h1 {
+  font-size: 3em;
+  font-family: "Roboto";
+  font-weight: 600;
+  display: block;
+  color: #3d3d3d;
+  background: rgba(252, 228, 99, 0.6);
+  padding: 1em;
+  max-width: 800px;
+  box-sizing: border-box;
+  margin-left: 300px;
+  position: relative;
+}
+.section-ar .ar-background {
+  width: 900px;
+  position: relative;
+  float: right;
+  top: -180px;
+  background: transparent;
+  height: 1400px;
+}
+.section-ar .border-top {
+  height: 4em;
+  background: #ffdf32;
+  width: 100%;
+  margin-top: 116px;
+}
+.section-ar .phone-simulation {
+  background: url(../img/Distance_battery.png) no-repeat;
+  width: 765px;
+  height: 1400px;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -60px;
+}
+.section-ar .phone-simulation .phone-content {
+  background: url(../img/ar-background.png) no-repeat;
+  width: 555px;
+  height: 1190px;
+  position: relative;
+  left: 100px;
+  top: 97px;
+  border-radius: 53px;
+}
+.section-ar .phone-simulation .phone-content .iphone-top {
+  background: url(../img/Notch-dot.png) no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  width: 315px;
+  height: 80px;
+  position: absolute;
+  top: -1px;
+  left: 120px;
+}
+.section-ar .phone-simulation .phone-content .device-title {
+  font-family: "Roboto";
+  font-size: 120px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 900;
+  left: -825px;
+  top: 400px;
+  position: absolute;
+}
+.section-ar .phone-simulation .phone-content .device-title.passport {
+  color: #40C4FF;
+  opacity: 0;
+}
+.section-ar .phone-simulation .phone-content .device-title.keys {
+  color: #FFD600;
+}
+.section-ar .phone-simulation .phone-content .device-title.wallet {
+  color: #1DE9B6;
+  opacity: 0;
+}
+.section-ar .phone-simulation .phone-content .device-title.cards {
+  color: #EC407A;
+  opacity: 0;
+}
+.section-ar .phone-simulation .phone-content .device-location {
+  font-size: 90px;
+  position: absolute;
+}
+.section-ar .phone-simulation .phone-content .device-location.keys {
+  color: rgba(252, 228, 99, 0.6);
+  right: 50px;
+  top: 680px;
+}
+.section-planner {
+  height: 60vw;
+}
+.section-planner .wide-title {
+  background: #1de9b6;
+  height: 13em;
+}
+.section-planner .wide-title h1 {
+  font-size: 3.8rem;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 0.39em;
+  padding-bottom: .35em;
+}
+.section-planner .inner-content img {
+  position: absolute;
+  top: -27em;
+  left: 61em;
+  width: 34em;
+}
+.section-planner .inner-content p {
+  font-size: 3.25rem;
+  display: block;
+  width: 45.5%;
+  float: left;
+  text-align: left;
+  margin-top: 3em;
+}
+.section-planner .phone-simulation {
+  background: url(../img/Distance_battery.png) no-repeat;
+  width: 765px;
+  height: 1400px;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -60px;
+}
+.section-planner .phone-simulation .phone-content {
+  background: url(../img/ar-background.png) no-repeat;
+  width: 555px;
+  height: 1190px;
+  position: relative;
+  left: 100px;
+  top: 97px;
+  border-radius: 53px;
+}
+.section-planner .phone-simulation .phone-content .iphone-top {
+  background: url(../img/Notch-dot.png) no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  width: 315px;
+  height: 80px;
+  position: absolute;
+  top: -1px;
+  left: 120px;
+}
+.section-planner .phone-simulation .phone-content .device-title {
+  font-family: "Roboto";
+  font-size: 120px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 900;
+  left: -825px;
+  top: 400px;
+  position: absolute;
+}
+.section-planner .phone-simulation .phone-content .device-title.passport {
+  color: #40C4FF;
+  opacity: 0;
+}
+.section-planner .phone-simulation .phone-content .device-title.keys {
+  color: #FFD600;
+}
+.section-planner .phone-simulation .phone-content .device-title.wallet {
+  color: #1DE9B6;
+  opacity: 0;
+}
+.section-planner .phone-simulation .phone-content .device-title.cards {
+  color: #EC407A;
+  opacity: 0;
+}
+.section-planner .phone-simulation .phone-content .device-location {
+  font-size: 90px;
+  position: absolute;
+}
+.section-planner .phone-simulation .phone-content .device-location.keys {
+  color: rgba(252, 228, 99, 0.6);
+  right: 50px;
+  top: 680px;
+}
+.section-rfid .inner-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10em;
+}
+.section-rfid .inner-content .half {
+  margin: auto;
+}
+.section-rfid .inner-content .half h1,
+.section-rfid .inner-content .half h2,
+.section-rfid .inner-content .half p {
+  margin: 0;
+}
+.section-rfid .inner-content .half h1 {
+  color: #1de9b6;
+  font-size: 5.5rem;
+}
+.section-rfid .inner-content .half h2 {
+  font-size: 2.3rem;
+  font-weight: 100;
+  color: #78909c;
+  position: relative;
+  top: -1em;
+}
+.section-rfid .inner-content .half p {
+  font-size: 1.2rem;
+}
+.section-rfid .inner-content .half img {
+  width: 100%;
+  height: auto;
+}
+.section-wood .img {
+  width: 100%;
+}
+.section-tracking {
+  height: 70em;
+}
+.section-tracking .wide-title {
+  background: #FFEA00;
+  height: 13em;
+}
+.section-tracking .wide-title h1 {
+  font-size: 3.8rem;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: right;
+  padding-top: 0.39em;
+  padding-bottom: .35em;
+}
+.section-tracking .inner-content img {
+  position: absolute;
+  width: 49em;
+  top: -19em;
+}
+.section-tracking .inner-content p {
+  font-size: 3rem;
+  display: block;
+  width: 55%;
+  float: right;
+  text-align: right;
+  margin-top: 3em;
+}
+.section-alerts {
+  height: auto;
+  background-image: url('../img/bg-blurr-ar.jpg');
+  background-position: bottom;
+}
+.section-alerts .inner-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+.section-alerts .inner-content h1 {
+  color: #1de9b6;
+  font-size: 5.4rem;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin: 0;
+}
+.section-alerts .inner-content h2 {
+  margin: 0;
+  position: relative;
+  top: -0.4em;
+  color: #78909C;
+  font-family: "Roboto";
+  font-size: 3.8rem;
+  font-weight: 650;
+}
+.section-alerts .inner-content h3 {
+  position: relative;
+  top: -1.2em;
+  color: #101B2A;
+  font-family: "Roboto";
+  font-size: 2.85rem;
+  font-weight: 250;
+}
+.section-alerts .inner-content .half {
+  width: 100%;
+}
+.section-alerts .inner-content .half .titles {
+  margin: auto;
+  text-align: left;
+  padding-left: 11em;
+  padding-top: 8em;
+}
+.section-alerts .inner-content .half .titles h1,
+.section-alerts .inner-content .half .titles h2,
+.section-alerts .inner-content .half .titles h3 {
+  margin: 0;
+  padding: 0;
+}
+.section-alerts .inner-content .half .alert-description-box {
+  margin-top: 2em;
+  width: 39%;
+  float: right;
+  font-size: 3.8rem;
+  text-align: right;
+  color: #37474f;
+}
+.section-alerts .inner-content .half img {
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(1.3);
+}
+.section-leather img {
+  display: block;
+  margin: auto;
+  width: 100vw;
+  height: auto;
+}
+.section-leather h1,
+.section-leather p {
+  margin-left: 14rem;
+}
+.section-leather h1 {
+  font-weight: 150;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.section-leather p {
+  color: #78909c;
+  font-size: 3rem;
+  text-align: left;
+  margin-top: 0;
+}
+.section-leather .info-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  left: 5em;
+  top: -5em;
+}
+.section-leather .info-container i {
+  position: relative;
+  top: 1.6em;
+  left: 0.8em;
+  font-size: 7rem;
+}
+.section-wireless-charging .inner-content .header {
+  padding-left: 9em;
+}
+.section-wireless-charging .inner-content .header h1,
+.section-wireless-charging .inner-content .header h2 {
+  margin: 0;
+}
+.section-wireless-charging .inner-content .header h1 {
+  color: #1de9b6;
+  font-size: 3.5rem;
+}
+.section-wireless-charging .inner-content .header h2 {
+  font-size: 2rem;
+  color: #78909c;
+  text-transform: uppercase;
+  font-weight: 200;
+  position: relative;
+  top: -0.5em;
+}
+.section-wireless-charging .inner-content .phone-power img {
+  width: 100%;
+  height: auto;
+}
+.section-wireless-charging .inner-content .phone-power .blockquote {
+  position: absolute;
+  top: 6em;
+  left: 23em;
+  color: white;
+  font-size: 2.2rem;
+  width: 18em;
+  height: 2e;
+  padding: 1.2em;
+  font-weight: 650;
+  background-color: rgba(29, 160, 233, 0.7);
+}
+.section-powerbank .inner-content img {
+  width: 100%;
+  height: auto;
+}
+.section-powerbank .inner-content .header {
+  margin: auto;
+  width: 13em;
+  color: #78909c;
+  font-size: 2.6rem;
+}
+.section-powerbank .inner-content .header h4 {
+  text-align: center;
+  font-weight: 200;
+}
+.section-powerbank .inner-content .blockquote {
+  position: absolute;
+  top: 18em;
+  left: 10em;
+}
+.section-powerbank .inner-content .blockquote h1,
+.section-powerbank .inner-content .blockquote h2 {
+  margin: 0;
+}
+.section-powerbank .inner-content .blockquote h1 {
+  text-transform: uppercase;
+  color: #1de9b6;
+  font-size: 3.5rem;
+}
+.section-powerbank .inner-content .blockquote h2 {
+  color: #78909c;
+  font-weight: 200;
+  font-size: 2rem;
+}
+.section-kickstarter-testimonials .wrapper {
+  width: 80%;
+  margin: auto;
+}
+.section-kickstarter-testimonials .wrapper .header h1 {
+  font-weight: 200;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin-bottom: 3em;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content img {
+  width: 50%;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content .kickstarter {
+  position: relative;
+  top: -1em;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content .kickstarter-name {
+  font-size: 0.8rem;
+}
+.section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content .kickstarter-member {
+  float: right;
+}
+footer .yellow-footer {
+  padding-top: 1em;
+  width: 50em;
+  text-align: center;
+  margin: auto;
+  background-color: #FFEA00;
+  position: relative;
+  top: 8em;
+}
+footer .yellow-footer h1 {
+  color: #1B4660;
+  width: 15em;
+  margin: auto;
+  font-weight: 100;
+  font-size: 1.8rem;
+  padding: 1em 0;
+}
+footer .brown-footer {
+  background-color: #212121;
+  margin: 0;
+  color: white;
+  height: 20em;
+  text-align: center;
+}
+footer .brown-footer .text-container {
+  position: relative;
+  width: 50em;
+  text-align: center;
+  top: 10em;
+  left: 25em;
+}
+footer .brown-footer .text-container p {
+  font-size: .7rem;
+  font-weight: 100;
+}
+footer .brown-footer .text-container p.copywrite {
+  margin-top: 8em;
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+.left {
+  position: relative;
+  left: -250px;
+}
+.right {
+  position: relative;
+  right: 2em;
+}
+.left {
+  position: relative;
+  left: 2em;
+}
