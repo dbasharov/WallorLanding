@@ -362,7 +362,6 @@ textarea {
   font-size: 1.2rem;
   font-weight: inherit;
   font-style: italic;
-  /*box-shadow: 0.5px 2px 3px #888888;*/
   float: left;
   border: solid 1px #e9edef;
   border-bottom-color: #90a4ae;
@@ -375,7 +374,7 @@ textarea {
   background-color: #FF3D00;
   font-size: 1.2rem;
   font-weight: normal;
-  margin-top: 0em;
+  margin-top: 0;
   margin-left: 1.5rem;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -437,7 +436,7 @@ textarea {
   font-weight: 350;
   margin-top: 0;
   position: relative;
-  top: 0em;
+  top: 0;
 }
 .section-ar {
   border-top: 1em solid #ffdf32;
@@ -702,11 +701,6 @@ textarea {
   padding-top: 8rem;
   margin-top: 0;
   margin-bottom: 5rem;
-}
-.section-alerts .inner-content {
-  /*display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      height: 100%;*/
 }
 .section-alerts .inner-content .titles {
   width: 100%;

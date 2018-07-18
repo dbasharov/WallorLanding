@@ -21,7 +21,6 @@
       color: @white;
       position: absolute;
       right: 4rem;
-      //font-size: 5em;
       font-size: 4rem;
       top: 3em;
       text-align: right;
@@ -35,7 +34,6 @@
     img.main-banner {
       width: 83em;
       height: 60em;
-      // height: inherit;
       float: left;
       position: absolute;
     }
@@ -103,7 +101,6 @@
       font-size: 1.2rem;
       font-weight: inherit;
       font-style: italic;
-      /*box-shadow: 0.5px 2px 3px #888888;*/
       float: left;
       border: solid 1px #e9edef;
       border-bottom-color: #90a4ae;
@@ -114,10 +111,10 @@
     }
 
     .submit {
-      background-color: #FF3D00;
+      background-color: @submit-button-color;
       font-size: 1.2rem;
       font-weight: normal;
-      margin-top: 0em;
+      margin-top: 0;
       margin-left: 1.5rem;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
@@ -128,7 +125,7 @@
       float: left;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
-      border: solid 1px #FF3D00;
+      border: solid 1px @submit-button-color;
       cursor: pointer;
     }
 
@@ -191,7 +188,7 @@
       font-weight: 350;
       margin-top: 0;
       position: relative;
-      top: 0em;
+      top: 0;
     }
   }
 
@@ -233,7 +230,6 @@
 
     }
     .phone-simulation {
-
       background: url(../img/Distance_battery.png) no-repeat;
       width: 765px;
       height: 1400px;
@@ -243,7 +239,6 @@
       top: -60px;
 
       .phone-content {
-
         background: url(../img/ar-background.png) no-repeat;
         width: 555px;
         height: 1190px;
@@ -307,7 +302,7 @@
 
   &-planner {
     height: 60vw;
-    // margin-bottom: 10px;
+
     .wide-title {
       background: @gps-text-color;
       height: 13em;
@@ -347,7 +342,6 @@
     }
 
     .phone-simulation {
-
       background: url(../img/Distance_battery.png) no-repeat;
       width: 765px;
       height: 1400px;
@@ -357,7 +351,6 @@
       top: -60px;
 
       .phone-content {
-
         background: url(../img/ar-background.png) no-repeat;
         width: 555px;
         height: 1190px;
@@ -518,9 +511,6 @@
     margin-bottom: 5rem;
 
     .inner-content {
-      /*display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      height: 100%;*/
 
       .titles {
         width: 100%;
