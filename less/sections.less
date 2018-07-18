@@ -697,7 +697,7 @@
     }
 
     h1 {
-      font-weight: 150;
+      font-weight: 200;
       font-size: 2.5rem;
       margin-bottom: 0;
     }
@@ -737,7 +737,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       position: relative;
-      left: 0em;
+      left: 0;
       background-color: #ECEFF1;
       padding-top: 7.5em;
       padding-bottom: 6em;
@@ -968,8 +968,6 @@
 
   &-kickstarter-testimonials {
 
-    margin-bottom:7rem;
-
     .wrapper {
       width: 80%;
       margin: auto;
@@ -1010,7 +1008,7 @@
       .inner-content {
         display: grid;
         grid-template-columns: 7.5rem 1fr;
-        margin-bottom: 0em;
+        margin-bottom: 0;
 
         img {
           display: block;
@@ -1027,20 +1025,20 @@
 
           &-name {
             font-size: 0.9rem;
-            color: #455A64;
+            color: @kickstarter-name-color;
           }
 
           &-backer {
             font-size: 0.9rem;
             font-style: italic;
-            color: #78909C;
+            color: @kickstarter-baker-since-color;
           }
 
           &-member {
             float: right;
             font-size: 0.9rem;
             font-style: italic;
-            color: #78909C;
+            color: @kickstarter-baker-since-color;
           }
 
         }
@@ -1049,18 +1047,18 @@
           font-size: 1.1rem;
           font-weight: 500;
           line-height: 2rem;
-          color: #37474F;
+          color: @kickstarter-testimonials-text-color;
         }
       }
     }
 
     .grey-bg {
-      background-color: #ECEFF1;
+      background-color: @kickstarter-testimonials-gray-bg-color;
     }
 
     hr {
       border: none;
-      border-bottom: solid 0.3rem #2DEA8E;
+      border-bottom: solid 0.5rem @kickstarter-testimonials-border-color;
       margin: 2em 0;
     }
   }
@@ -1106,7 +1104,6 @@ footer {
       width: 54em;
       text-align: center;
       margin: 0 auto;
-
       color: @footer-on-brown-text-color;
 
       p {
@@ -1124,11 +1121,6 @@ footer {
       }
     }
   }
-}
-
-.left {
-  position: relative;
-  left: -250px;
 }
 
 .right {

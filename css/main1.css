@@ -783,7 +783,7 @@ textarea {
   z-index: 10;
 }
 .section-leather h1 {
-  font-weight: 150;
+  font-weight: 200;
   font-size: 2.5rem;
   margin-bottom: 0;
 }
@@ -813,7 +813,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   position: relative;
-  left: 0em;
+  left: 0;
   background-color: #ECEFF1;
   padding-top: 7.5em;
   padding-bottom: 6em;
@@ -899,9 +899,6 @@ textarea {
   font-size: 2rem;
   line-height: 2.4rem;
 }
-.section-kickstarter-testimonials {
-  margin-bottom: 7rem;
-}
 .section-kickstarter-testimonials .wrapper {
   width: 80%;
   margin: auto;
@@ -936,7 +933,7 @@ textarea {
 .section-kickstarter-testimonials .kickstarter-row .inner-content {
   display: grid;
   grid-template-columns: 7.5rem 1fr;
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 .section-kickstarter-testimonials .kickstarter-row .inner-content img {
   display: block;
@@ -976,7 +973,7 @@ textarea {
 }
 .section-kickstarter-testimonials hr {
   border: none;
-  border-bottom: solid 0.3rem #2DEA8E;
+  border-bottom: solid 0.5rem #2DEA8E;
   margin: 2em 0;
 }
 footer .yellow-footer {
@@ -1026,10 +1023,6 @@ footer .brown-footer .text-container p.copywrite {
   padding-bottom: 3em;
   font-size: 0.7rem;
   font-weight: 100;
-}
-.left {
-  position: relative;
-  left: -250px;
 }
 .right {
   position: relative;
