@@ -968,28 +968,30 @@
 
   &-kickstarter-testimonials {
 
+    margin-bottom:7rem;
+
     .wrapper {
       width: 80%;
       margin: auto;
 
       .header {
         position: relative;
-        left: 0em;
-        padding-top: 0rem;
-        padding-bottom: 0rem;
+        left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
 
         h1 {
           strong {
             font-weight: bold;
           }
-          margin-left: 13rem;
+          margin-left: 12rem;
           font-weight: 200;
           font-size: 2.9rem;
           line-height: 6rem;
         }
 
         .icon-kickstarter img {
-          margin: 2.6rem 0 0 0.5rem;
+          margin: 2.6rem 0 0 1rem;
           position: relative;
           width: 6.5rem;
           display: block;
@@ -998,37 +1000,68 @@
 
       }
 
-      hr {
-        border-bottom: solid 0.3rem #2DEA8E;
-      }
+    }
 
-      .kickstarter-row {
+    .kickstarter-row {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 2rem 0;
 
-        margin-top: 6rem;
+      .inner-content {
+        display: grid;
+        grid-template-columns: 7.5rem 1fr;
+        margin-bottom: 0em;
 
-        .inner-content {
-          display: grid;
-          grid-template-columns: 1fr 5fr;
-          margin-bottom: 3em;
+        img {
+          display: block;
+          float: left;
+          width: 6.5rem;
+          margin-left: 1rem;
 
-          img {
-            width: 50%;
+        }
+
+        .kickstarter {
+          position: relative;
+          padding-left: 4.5rem;
+          line-height: 1.4rem;
+
+          &-name {
+            font-size: 0.9rem;
+            color: #455A64;
           }
 
-          .kickstarter {
-            position: relative;
-            top: -1em;
-
-            &-name {
-              font-size: 0.8rem;
-            }
-
-            &-member {
-              float: right;
-            }
+          &-backer {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #78909C;
           }
+
+          &-member {
+            float: right;
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #78909C;
+          }
+
+        }
+        p {
+          margin-top: 0.5rem;
+          font-size: 1.1rem;
+          font-weight: 500;
+          line-height: 2rem;
+          color: #37474F;
         }
       }
+    }
+
+    .grey-bg {
+      background-color: #ECEFF1;
+    }
+
+    hr {
+      border: none;
+      border-bottom: solid 0.3rem #2DEA8E;
+      margin: 2em 0;
     }
   }
 }
@@ -1036,22 +1069,22 @@
 footer {
 
   .yellow-footer {
-    padding-top: 0em;
-    width: 54em;
-    height: 18em;
+    padding-top: 0;
+    width: 54rem;
+    height: 18rem;
     text-align: center;
-    margin: -7.5em auto 0;
-    background-color: #FFEA00;
+    margin: -7.5rem auto 0;
+    background-color: @footer-on-yellow-color;
     position: relative;
     top: 8.5em;
 
-    img{
-    width: 18rem;
+    img {
+      width: 17rem;
       margin-top: 2em;
     }
 
     h1 {
-      color: #1B4660;
+      color: @footer-header-color;
       width: 15em;
       margin: 0 auto;
       font-weight: 100;
@@ -1061,9 +1094,9 @@ footer {
   }
 
   .brown-footer {
-    background-color: #212121;
+    background-color: @footer-on-brown-color;
     margin: 0;
-    padding-top: 9.8em;
+    padding-top: 9.8rem;
     color: white;
 
     text-align: center;
