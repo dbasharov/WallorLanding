@@ -281,6 +281,9 @@ textarea {
 .section-hero {
   background: #26C6DA;
   height: 60vw;
+  border: none;
+  border-bottom: solid 1rem #ffdf32;
+  margin: 0;
 }
 .section-hero .logo {
   position: absolute;
@@ -439,9 +442,9 @@ textarea {
   top: 0;
 }
 .section-ar {
-  border-top: 1em solid #ffdf32;
+  /*border-top: 1em solid rgba(255, 223, 50, 1);*/
   position: relative;
-  top: -40px;
+  /*top: -40px;*/
   height: auto;
   z-index: 2;
 }
@@ -456,6 +459,7 @@ textarea {
   max-width: 800px;
   box-sizing: border-box;
   margin-left: 300px;
+  margin-top: 0;
   position: relative;
 }
 .section-ar .ar-background {
