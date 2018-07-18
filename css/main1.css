@@ -929,7 +929,7 @@ textarea {
   border-bottom: solid 0.3rem #2DEA8E;
 }
 .section-kickstarter-testimonials .wrapper .kickstarter-row {
-  margin-top: 6rem ;
+  margin-top: 6rem;
 }
 .section-kickstarter-testimonials .wrapper .kickstarter-row .inner-content {
   display: grid;
@@ -950,43 +950,51 @@ textarea {
   float: right;
 }
 footer .yellow-footer {
-  padding-top: 1em;
-  width: 50em;
+  padding-top: 0em;
+  width: 54em;
+  height: 18em;
   text-align: center;
-  margin: auto;
+  margin: -7.5em auto 0;
   background-color: #FFEA00;
   position: relative;
-  top: 8em;
+  top: 8.5em;
+}
+footer .yellow-footer img {
+  width: 18rem;
+  margin-top: 2em;
 }
 footer .yellow-footer h1 {
   color: #1B4660;
   width: 15em;
-  margin: auto;
+  margin: 0 auto;
   font-weight: 100;
-  font-size: 1.8rem;
-  padding: 1em 0;
+  font-size: 2.1rem;
+  padding: 0.5em 0;
 }
 footer .brown-footer {
   background-color: #212121;
   margin: 0;
+  padding-top: 9.8em;
   color: white;
-  height: 20em;
   text-align: center;
 }
 footer .brown-footer .text-container {
   position: relative;
-  width: 50em;
+  width: 54em;
   text-align: center;
-  top: 10em;
-  left: 25em;
+  margin: 0 auto;
+  color: #fafafa;
 }
 footer .brown-footer .text-container p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  line-height: 2.2em;
   font-weight: 100;
 }
 footer .brown-footer .text-container p.copywrite {
-  margin-top: 8em;
-  font-size: 0.6rem;
+  margin-top: 4.2em;
+  margin-bottom: 0;
+  padding-bottom: 3em;
+  font-size: 0.7rem;
   font-weight: 100;
 }
 .left {
