@@ -447,6 +447,12 @@ textarea {
   /*top: -40px;*/
   height: auto;
   z-index: 2;
+  /* .border-top {
+       height: 4em;
+       background: #ffdf32;
+       width: 100%;
+       margin-top: 116px;
+     }*/
 }
 .section-ar h1 {
   font-size: 3em;
@@ -469,12 +475,6 @@ textarea {
   top: -180px;
   background: transparent;
   height: 1400px;
-}
-.section-ar .border-top {
-  height: 4em;
-  background: #ffdf32;
-  width: 100%;
-  margin-top: 116px;
 }
 .section-ar .phone-simulation {
   background: url(../img/Distance_battery.png) no-repeat;
