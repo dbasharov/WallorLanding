@@ -10,6 +10,10 @@
     border-bottom: solid 1rem rgba(255, 223, 50, 1);
     margin: 0;
 
+    .main-banner-320 {
+      display: none;
+    }
+
     .logo {
       position: absolute;
       right: 4rem;
@@ -17,6 +21,10 @@
       fill: @white;
       z-index: 2;
       width: 18rem;
+    }
+
+    h1.main-banner-title-320{
+      display: none;
     }
 
     h1 {
@@ -98,15 +106,15 @@
       display: block;
       margin: auto;
       padding: 0.5em 1em;
-      color: #424242;
+      color: @input-text-color;
       width: 22rem;
       font-family: inherit;
       font-size: 1.2rem;
       font-weight: inherit;
       font-style: italic;
       float: left;
-      border: solid 1px #e9edef;
-      border-bottom-color: #90a4ae;
+      border: solid 1px @input-border-color;
+      border-bottom-color: @input-border-bottom-color;
       outline: none;
       background: none;
       box-sizing: border-box;
@@ -201,6 +209,14 @@
     /*top: -40px;*/
     height: auto;
     z-index: 2;
+
+    .mobile-320-wrap {
+      display: none;
+    }
+
+    h1.main-banner-title-320{
+      display: none;
+    }
 
     h1 {
       font-size: 3em;
@@ -329,6 +345,10 @@
         top: -27em;
         right: 14em;
         width: 34em;
+      }
+
+      p.mobile-320{
+        display: none;
       }
 
       p {
@@ -471,7 +491,7 @@
     height: 70em;
     margin-top: 11em;
     .wide-title {
-      background: #FFEA00;
+      background: @yellow;
       height: 13em;
 
       h1 {
@@ -491,6 +511,10 @@
         position: absolute;
         width: 49em;
         top: -19em;
+      }
+
+      p.mobile-320{
+        display: none;
       }
 
       p {
@@ -1117,12 +1141,17 @@ footer {
   }
 }
 
-.right {
-  position: relative;
-  right: 8rem;
-}
 
-.left {
-  position: relative;
-  left: 8rem;
-}
+  @media only screen and (min-width: 321px) {
+
+
+    .right {
+      position: relative;
+      right: 8rem;
+    }
+
+    .left {
+      position: relative;
+      left: 8rem;
+    }
+  }
