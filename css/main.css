@@ -669,6 +669,9 @@ textarea {
   color: #78909C;
   padding: 0;
 }
+.section-rfid .inner-content .half p.mobile-320 {
+  display: none;
+}
 .section-rfid .inner-content .half p {
   font-size: 1.6rem;
   margin-top: 2.5rem;
@@ -764,6 +767,9 @@ textarea {
 .section-alerts .inner-content h3 {
   margin: 0;
   padding: 0;
+}
+.section-alerts .inner-content .alert-description-box-mobile-320 {
+  display: none;
 }
 .section-alerts .inner-content .alert-description-box {
   margin-top: 1.6em;
@@ -1138,38 +1144,38 @@ footer .brown-footer .text-container p.copywrite {
     margin-bottom: 0;
   }
   .section-gps .inner-content img {
-    position: absolute;
-    width: 62em;
-    top: -9.5em;
+    position: static;
+    width: 115%;
+    margin-bottom: -120rem;
+    margin-left: -6.5rem;
   }
   .section-gps .inner-content p {
     color: #F5F5F5;
-    font-size: 2.7rem;
+    font-size: 4rem;
+    line-height: 6.6rem;
+    text-align: center;
+    margin-top: 65rem;
   }
   .section-gps .inner-content p.extra-fees-title {
     margin-top: -1.4rem;
   }
   .section-gps .gps-content {
-    background-color: #051029;
+    height: 124rem;
     text-align: right;
-    padding-right: 18em;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding: 0;
   }
   .section-gps .gps-title {
-    color: #1DE9B6;
-    font-family: "Roboto";
-    font-size: 5.5rem;
-    margin: 2rem 0 0;
+    font-size: 10rem;
+    line-height: 10rem;
+    padding-top: 0.8em;
+    padding-right: 0.7em;
+    margin: 0;
   }
   .section-gps .gps-subtitle {
-    color: white;
-    font-family: "Roboto";
-    font-size: 4.5rem;
-    font-weight: 350;
-    margin-top: 0;
-    position: relative;
-    top: 0;
+    font-size: 6.6rem;
+    margin-top: -0.1em;
+    padding-right: 1.2em;
+    position: static;
   }
   .section-ar {
     height: auto;
@@ -1363,37 +1369,40 @@ footer .brown-footer .text-container p.copywrite {
     top: 680px;
   }
   .section-rfid .inner-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 6rem 4rem 12rem 4rem;
+    grid-template-columns: repeat(1, 2fr);
+    padding: 6rem 4rem 22rem 4rem;
   }
   .section-rfid .inner-content .half h1,
   .section-rfid .inner-content .half h2,
   .section-rfid .inner-content .half p {
     margin: 0;
-    margin-left: 12.5rem;
   }
   .section-rfid .inner-content .half h1 {
-    color: #1DE9B6;
-    font-size: 4rem;
-    line-height: 4.4rem;
-    margin-top: 2.8rem;
+    font-size: 10rem;
+    line-height: 10rem;
+    margin-top: 3.9rem;
+    margin-left: 12rem;
   }
   .section-rfid .inner-content .half h2 {
-    font-size: 2rem;
-    line-height: 2.4rem;
-    font-weight: 100;
-    color: #78909C;
+    font-size: 4.4rem;
+    line-height: 5.5rem;
     padding: 0;
+    margin-left: 12rem;
   }
   .section-rfid .inner-content .half p {
-    font-size: 1.6rem;
-    margin-top: 2.5rem;
+    display: none;
+  }
+  .section-rfid .inner-content .half p.mobile-320 {
+    display: block;
+    font-size: 4.8rem;
+    line-height: 7.8rem;
+    margin-top: 10rem;
+    text-align: center;
   }
   .section-rfid .inner-content .half img {
-    width: 80%;
-    height: auto;
-    margin-left: -3.2rem;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 2rem;
   }
   .section-wood .img {
     width: 100%;
@@ -1436,147 +1445,112 @@ footer .brown-footer .text-container p.copywrite {
     margin: -4em auto 0;
   }
   .section-alerts {
-    height: auto;
-    background-image: url('../img/bg-blurr-ar.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 8rem;
+    height: 263rem;
+    background-image: url('../img/alert-section-mobile-320-bg.jpg');
+    padding-top: 0;
     margin-top: 0;
     margin-bottom: 5rem;
   }
   .section-alerts .inner-content .titles {
     width: 100%;
-    background-color: #fafafa;
-    padding: 4rem 2rem 2rem 6rem;
+    height: 41rem;
     margin: 0 0 0 0;
-    text-align: left;
     padding-left: 10em;
     padding-top: 4em;
-    position: relative;
+    position: static;
   }
   .section-alerts .inner-content h1 {
-    color: #1DE9B6;
-    font-size: 5.4rem;
-    font-weight: 700;
-    font-family: "Roboto";
-    margin: 0;
+    font-size: 10rem;
   }
   .section-alerts .inner-content h2 {
-    margin: 0;
-    position: relative;
     top: -0.4em;
-    color: #78909C;
-    font-family: "Roboto";
-    font-size: 3.8rem;
-    font-weight: 650;
+    font-size: 5.5rem;
   }
   .section-alerts .inner-content h3 {
     position: relative;
-    top: -1.25em;
-    color: #101B2A;
-    font-family: "Roboto";
-    font-size: 2.85rem;
-    font-weight: 250;
-    margin: 0;
-  }
-  .section-alerts .inner-content h1,
-  .section-alerts .inner-content h2,
-  .section-alerts .inner-content h3 {
-    margin: 0;
-    padding: 0;
+    top: -0.8em;
+    font-size: 4.3rem;
   }
   .section-alerts .inner-content .alert-description-box {
-    margin-top: 1.6em;
-    margin-left: 8rem;
-    width: 35%;
-    float: left;
-    font-size: 4rem;
-    line-height: 8rem;
-    text-align: right;
-    color: #37474F;
+    display: none;
+  }
+  .section-alerts .inner-content .alert-description-box-mobile-320 {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    float: none;
+    font-size: 5.8rem;
+    line-height: 12rem;
+    text-align: center;
   }
   .section-alerts .inner-content img {
-    width: 55%;
+    width: 100%;
     height: auto;
-    margin: -31.3rem auto 0;
+    margin: -17.1rem auto 0;
     position: relative;
     z-index: 100;
-    float: right;
-    /*transform: scale(1.3);*/
+    float: none;
   }
   .section-leather .inner-content {
     margin: 0;
     height: auto;
   }
   .section-leather img {
-    display: block;
-    margin: auto;
-    width: 100vw;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: -14.5em;
-    position: relative;
-    z-index: 10;
+    width: 95vw;
+    margin-bottom: -32em;
   }
   .section-leather h1 {
     font-weight: 200;
-    font-size: 2.5rem;
+    font-size: 5.1rem;
     margin-bottom: 0;
   }
   .section-leather p {
-    color: #78909C;
-    font-size: 1.5rem;
-    text-align: left;
-    margin-top: 0;
+    font-size: 3.8rem;
+    line-height: 8rem;
   }
   .section-leather .h-left h1,
   .section-leather .h-left p {
-    margin-left: 25rem;
+    margin-left: 40rem;
   }
   .section-leather .h-left i {
-    top: 1.17em;
-    left: 2.1em;
+    top: 1.32em;
+    left: 17rem;
   }
   .section-leather .h-right h1,
   .section-leather .h-right p {
-    margin-left: 23rem;
+    margin-left: 40rem;
   }
   .section-leather .h-right i {
-    top: 1.17em;
-    left: 1.6em;
+    top: 1.32em;
+    left: 17rem;
   }
   .section-leather .info-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    position: relative;
-    left: 0;
-    background-color: #ECEFF1;
-    padding-top: 7.5em;
-    padding-bottom: 6em;
+    grid-template-rows: 20rem;
+    grid-template-columns: repeat(1, 2fr);
+    padding-top: 22em;
+    padding-bottom: 8em;
   }
   .section-leather .info-container i {
     position: relative;
-    font-size: 7rem;
+    font-size: 12.8rem;
   }
   .section-wireless-charging .inner-content .header {
-    padding: 0 4rem 0 16.5rem;
+    padding: 0 4rem 0 7.4rem;
+    margin-bottom: 2rem;
   }
   .section-wireless-charging .inner-content .header h1,
   .section-wireless-charging .inner-content .header h2 {
     margin: 0;
   }
   .section-wireless-charging .inner-content .header h1 {
-    color: #1DE9B6;
-    font-size: 4rem;
-    line-height: 4.4rem;
+    font-size: 7rem;
+    line-height: 9rem;
+    text-transform: uppercase;
   }
   .section-wireless-charging .inner-content .header h2 {
-    font-size: 2rem;
-    line-height: 2.4rem;
-    color: #78909C;
-    text-transform: uppercase;
-    font-weight: 200;
+    font-size: 6.6rem;
+    line-height: 8rem;
     padding-bottom: 3rem;
   }
   .section-wireless-charging .inner-content .phone-power img {
@@ -1584,36 +1558,30 @@ footer .brown-footer .text-container p.copywrite {
     height: auto;
   }
   .section-wireless-charging .inner-content .phone-power .blockquote {
-    position: absolute;
-    top: 7em;
-    right: 2em;
-    color: white;
-    font-size: 2.2rem;
-    line-height: 3.6rem;
-    width: 15em;
+    position: static;
+    font-size: 4.8rem;
+    line-height: 7.8rem;
+    width: 100%;
     padding: 1em 2em;
-    font-weight: 650;
-    background-color: rgba(29, 160, 233, 0.7);
+    font-weight: 400;
   }
   .section-powerbank .inner-content img {
     width: 100%;
     height: auto;
   }
   .section-powerbank .inner-content .header {
-    margin: auto;
-    width: 13em;
-    color: #78909C;
-    font-size: 2.6rem;
+    margin: 16rem auto 30rem;
+    width: 100%;
+    font-size: 5.2rem;
   }
   .section-powerbank .inner-content .header h4 {
     text-align: center;
     font-weight: 200;
-    color: #455A64;
-    line-height: 4.2rem;
+    line-height: 10rem;
   }
   .section-powerbank .inner-content .header h4 strong {
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
   }
   .section-powerbank .inner-content .blockquote {
     position: absolute;
