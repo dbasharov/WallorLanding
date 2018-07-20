@@ -121,6 +121,11 @@
       -moz-box-sizing: border-box;
     }
 
+    .Input-text::placeholder {
+
+    }
+
+
     .submit {
       background-color: @submit-button-color;
       font-size: 1.2rem;
@@ -1004,6 +1009,10 @@
         padding-top: 0;
         padding-bottom: 0;
 
+        h1.mobile-320{
+          display: none;
+        }
+
         h1 {
           strong {
             font-weight: bold;
@@ -1132,6 +1141,10 @@ footer {
       margin: 0 auto;
       color: @footer-on-brown-text-color;
 
+      p.mobile-320{
+        display: none;
+      }
+
       p {
         font-size: 0.9rem;
         line-height: 2.2em;
@@ -1150,7 +1163,7 @@ footer {
 }
 
 
-  @media only screen and (min-width: 321px) {
+  @media only screen and (min-width: 721px) {
 
 
     .right {
