@@ -414,32 +414,32 @@ textarea {
 }
 .section-tracking {
   height: 55em;
-  margin-top: 11em;
+  margin-top: 6.8rem;
 }
 .section-tracking .wide-title {
   background: #FFEA00;
-  height: 13em;
+  height: 11.2rem;
 }
 .section-tracking .wide-title h1 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3.8rem;
-  line-height: 4.8rem;
+  line-height: 4.4rem;
   font-family: "Roboto";
   text-transform: uppercase;
   text-align: right;
-  padding-top: 0.55em;
+  padding-top: 0.35em;
   padding-bottom: 0.35em;
 }
 .section-tracking .wide-title h1 span {
-  font-weight: 400;
+  font-weight: 300;
 }
 .section-tracking .inner-content img.mobile-320 {
   display: none;
 }
 .section-tracking .inner-content img {
   position: absolute;
-  width: 52.5em;
-  top: -17em;
+  width: 42.5rem;
+  top: -14.2rem;
   left: 9rem;
 }
 .section-tracking .inner-content p.mobile-320 {
