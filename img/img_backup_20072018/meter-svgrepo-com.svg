@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 121 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,330,-14993)">
+        <g id="meter-svgrepo-com" transform="matrix(0.333333,0,0,0.333333,-269.02,15053.3)">
+            <g transform="matrix(1,0,0,1,-180,-180)">
+                <path id="XMLID_1094_" d="M260,165.606L260,64.394L0,64.394L0,194.394L100,194.394L100,295.607L360,295.607L360,165.607L260,165.607L260,165.606ZM308.786,230.606L330,209.393L330,251.82L308.786,230.606ZM30,94.394L75,94.394L75,119.394L105,119.394L105,94.394L155,94.394L155,119.394L185,119.394L185,94.394L230,94.394L230,164.394L30,164.394L30,94.394ZM130,195.606L301.361,195.606L266.361,230.606L301.361,265.606L205,265.606L205,240.606L175,240.606L175,265.606L130,265.606L130,195.606Z" style="fill:rgb(26,26,26);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
