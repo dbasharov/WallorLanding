@@ -302,10 +302,11 @@ textarea {
 }
 .section-hero h1 {
   font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
+  letter-spacing: 0.04em;
   font-weight: 600;
-  line-height: 7rem;
-  font-size: 5rem;
-  color: #FFF;
+  line-height: 6.4rem;
+  font-size: 4.6rem;
+  color: #eeeeee;
   position: absolute;
   right: 4.8rem;
   top: 8rem;
@@ -328,11 +329,11 @@ textarea {
   text-transform: uppercase;
   font: "Roboto";
   font-weight: normal;
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
 }
 .section-kickstarter .kickstarter-logo {
   width: 18rem;
-  margin: 0 auto 4rem;
+  margin: 0 auto 2.5rem;
   display: inline-block;
 }
 .section-kickstarter .kickstarter-logo img {
@@ -404,12 +405,54 @@ textarea {
 }
 .section-kickstarter .save-up,
 .section-kickstarter .save-up span {
-  font-weight: bold;
+  font-weight: 500;
   font-style: italic;
   font-size: 2rem;
 }
 .section-kickstarter .save-up span {
   font-weight: 100;
+}
+.section-tracking {
+  height: 55em;
+  margin-top: 11em;
+}
+.section-tracking .wide-title {
+  background: #FFEA00;
+  height: 13em;
+}
+.section-tracking .wide-title h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  text-align: right;
+  padding-top: 0.55em;
+  padding-bottom: 0.35em;
+}
+.section-tracking .wide-title h1 span {
+  font-weight: 400;
+}
+.section-tracking .inner-content img.mobile-320 {
+  display: none;
+}
+.section-tracking .inner-content img {
+  position: absolute;
+  width: 52.5em;
+  top: -17em;
+  left: 9rem;
+}
+.section-tracking .inner-content p.mobile-320 {
+  display: none;
+}
+.section-tracking .inner-content p {
+  font-size: 2.7rem;
+  line-height: 4.5rem;
+  display: block;
+  width: 55%;
+  float: right;
+  text-align: right;
+  margin-top: 5.4em;
 }
 .section-gps {
   margin-bottom: 0;
@@ -693,48 +736,6 @@ textarea {
 }
 .section-wood .img {
   width: 100%;
-}
-.section-tracking {
-  height: 55em;
-  margin-top: 11em;
-}
-.section-tracking .wide-title {
-  background: #FFEA00;
-  height: 13em;
-}
-.section-tracking .wide-title h1 {
-  font-weight: 600;
-  font-size: 3.8rem;
-  line-height: 4.8rem;
-  font-family: "Roboto";
-  text-transform: uppercase;
-  text-align: right;
-  padding-top: 0.55em;
-  padding-bottom: 0.35em;
-}
-.section-tracking .wide-title h1 span {
-  font-weight: 400;
-}
-.section-tracking .inner-content img.mobile-320 {
-  display: none;
-}
-.section-tracking .inner-content img {
-  position: absolute;
-  width: 52.5em;
-  top: -17em;
-  left: 9rem;
-}
-.section-tracking .inner-content p.mobile-320 {
-  display: none;
-}
-.section-tracking .inner-content p {
-  font-size: 2.7rem;
-  line-height: 4.5rem;
-  display: block;
-  width: 55%;
-  float: right;
-  text-align: right;
-  margin-top: 5.4em;
 }
 .section-alerts {
   height: auto;
@@ -1804,7 +1805,7 @@ footer .brown-footer .text-container p.copywrite {
   }
   footer .brown-footer .text-container {
     width: 85rem;
-    margin: 0rem auto ;
+    margin: 0rem auto;
   }
   footer .brown-footer .text-container p {
     display: none;
