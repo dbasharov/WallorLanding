@@ -7,6 +7,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import "../css/fonts/SegoeUI/stylesheet.css";
 html {
   color: #222;
   line-height: 1.4;
@@ -290,7 +291,7 @@ textarea {
 }
 .section-hero .logo {
   position: absolute;
-  right: 4rem;
+  right: 4.5rem;
   top: 2rem;
   fill: #FFF;
   z-index: 2;
@@ -300,17 +301,16 @@ textarea {
   display: none;
 }
 .section-hero h1 {
-  font-family: "Roboto", Lucinda, Helvetica;
+  font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
+  font-weight: 600;
+  line-height: 7rem;
+  font-size: 5rem;
   color: #FFF;
-  right: 4rem;
-  font-size: 4rem;
-  top: 3em;
-  text-align: right;
-  font-weight: 700;
-  padding-right: 20px;
-  margin-left: 300px;
-  z-index: 200;
   position: absolute;
+  right: 4.8rem;
+  top: 8rem;
+  text-align: right;
+  z-index: 200;
 }
 .section-hero img.main-banner {
   width: 83em;
@@ -400,6 +400,7 @@ textarea {
 .section-kickstarter .save-up {
   margin: 3rem auto 0;
   text-transform: none;
+  color: #78909C;
 }
 .section-kickstarter .save-up,
 .section-kickstarter .save-up span {
@@ -421,16 +422,19 @@ textarea {
 .section-gps .inner-content p {
   color: #F5F5F5;
   font-size: 2.7rem;
+  line-height: 4rem;
 }
 .section-gps .inner-content p.extra-fees-title {
   margin-top: -1.4rem;
+  font-weight: 400;
 }
 .section-gps .gps-content {
   background-color: #051029;
   text-align: right;
+  font-weight: 300;
   padding-right: 18em;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 .section-gps .gps-title {
   color: #1DE9B6;
@@ -442,10 +446,11 @@ textarea {
   color: white;
   font-family: "Roboto";
   font-size: 4.5rem;
-  font-weight: 350;
+  line-height: 5rem;
+  font-weight: 400;
   margin-top: 0;
+  margin-bottom: 5rem;
   position: relative;
-  top: 0;
 }
 .section-ar {
   /*border-top: 1em solid rgba(255, 223, 50, 1);*/
@@ -498,7 +503,7 @@ textarea {
   top: -60px;
 }
 .section-ar .phone-simulation .phone-content {
-  background: url(../img/ar-background.png) no-repeat;
+  background: url(../img/ar-background.jpg) no-repeat;
   width: 555px;
   height: 1190px;
   position: relative;
@@ -561,14 +566,18 @@ textarea {
   font-size: 3.8rem;
   font-family: "Roboto";
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
+  line-height: 4.8rem;
   text-align: left;
-  padding-top: 0.39em;
+  padding-top: 0.55em;
   padding-bottom: 0.35em;
+}
+.section-planner .wide-title h1 span {
+  font-weight: 400;
 }
 .section-planner .inner-content img {
   position: absolute;
-  top: -27em;
+  top: -22em;
   right: 14em;
   width: 34em;
 }
@@ -577,11 +586,12 @@ textarea {
 }
 .section-planner .inner-content p {
   font-size: 2.7rem;
+  line-height: 5rem;
   display: block;
   width: 45%;
   float: left;
   text-align: left;
-  margin-top: 3em;
+  margin-top: 3.5em;
 }
 .section-planner .phone-simulation {
   background: url(../img/Distance_battery.png) no-repeat;
@@ -593,7 +603,7 @@ textarea {
   top: -60px;
 }
 .section-planner .phone-simulation .phone-content {
-  background: url(../img/ar-background.png) no-repeat;
+  background: url(../img/ar-background.jpg) no-repeat;
   width: 555px;
   height: 1190px;
   position: relative;
@@ -665,7 +675,7 @@ textarea {
 .section-rfid .inner-content .half h2 {
   font-size: 2rem;
   line-height: 2.4rem;
-  font-weight: 100;
+  font-weight: 400;
   color: #78909C;
   padding: 0;
 }
@@ -685,7 +695,7 @@ textarea {
   width: 100%;
 }
 .section-tracking {
-  height: 70em;
+  height: 55em;
   margin-top: 11em;
 }
 .section-tracking .wide-title {
@@ -693,29 +703,38 @@ textarea {
   height: 13em;
 }
 .section-tracking .wide-title h1 {
+  font-weight: 600;
   font-size: 3.8rem;
+  line-height: 4.8rem;
   font-family: "Roboto";
   text-transform: uppercase;
-  font-weight: 400;
   text-align: right;
-  padding-top: 0.39em;
+  padding-top: 0.55em;
   padding-bottom: 0.35em;
+}
+.section-tracking .wide-title h1 span {
+  font-weight: 400;
+}
+.section-tracking .inner-content img.mobile-320 {
+  display: none;
 }
 .section-tracking .inner-content img {
   position: absolute;
-  width: 49em;
-  top: -19em;
+  width: 52.5em;
+  top: -17em;
+  left: 9rem;
 }
 .section-tracking .inner-content p.mobile-320 {
   display: none;
 }
 .section-tracking .inner-content p {
-  font-size: 3rem;
+  font-size: 2.7rem;
+  line-height: 4.5rem;
   display: block;
   width: 55%;
   float: right;
   text-align: right;
-  margin-top: 3em;
+  margin-top: 5.4em;
 }
 .section-alerts {
   height: auto;
@@ -750,7 +769,7 @@ textarea {
   top: -0.4em;
   color: #78909C;
   font-family: "Roboto";
-  font-size: 3.8rem;
+  font-size: 4.1rem;
   font-weight: 650;
 }
 .section-alerts .inner-content h3 {
@@ -758,8 +777,8 @@ textarea {
   top: -1.25em;
   color: #101B2A;
   font-family: "Roboto";
-  font-size: 2.85rem;
-  font-weight: 250;
+  font-size: 2.8rem;
+  font-weight: 300;
   margin: 0;
 }
 .section-alerts .inner-content h1,
@@ -772,7 +791,7 @@ textarea {
   display: none;
 }
 .section-alerts .inner-content .alert-description-box {
-  margin-top: 1.6em;
+  margin-top: 1.2em;
   margin-left: 8rem;
   width: 35%;
   float: left;
@@ -805,7 +824,7 @@ textarea {
   z-index: 10;
 }
 .section-leather h1 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 2.5rem;
   margin-bottom: 0;
 }
@@ -817,11 +836,11 @@ textarea {
 }
 .section-leather .h-left h1,
 .section-leather .h-left p {
-  margin-left: 25rem;
+  margin-left: 24.5rem;
 }
 .section-leather .h-left i {
   top: 1.17em;
-  left: 2.1em;
+  left: 2em;
 }
 .section-leather .h-right h1,
 .section-leather .h-right p {
@@ -855,13 +874,14 @@ textarea {
   color: #1DE9B6;
   font-size: 4rem;
   line-height: 4.4rem;
+  text-transform: uppercase;
 }
 .section-wireless-charging .inner-content .header h2 {
   font-size: 2rem;
   line-height: 2.4rem;
   color: #78909C;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 400;
   padding-bottom: 3rem;
 }
 .section-wireless-charging .inner-content .phone-power img {
@@ -892,7 +912,7 @@ textarea {
 }
 .section-powerbank .inner-content .header h4 {
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   color: #455A64;
   line-height: 4.2rem;
 }
@@ -917,7 +937,7 @@ textarea {
 }
 .section-powerbank .inner-content .blockquote h2 {
   color: #78909C;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 2rem;
   line-height: 2.4rem;
 }
@@ -936,7 +956,7 @@ textarea {
 }
 .section-kickstarter-testimonials .wrapper .header h1 {
   margin-left: 12rem;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 2.9rem;
   line-height: 6rem;
 }
@@ -1017,9 +1037,10 @@ footer .yellow-footer img {
 }
 footer .yellow-footer h1 {
   color: #1B4660;
+  font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
   width: 15em;
   margin: 0 auto;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2.1rem;
   padding: 0.5em 0;
 }
@@ -1084,33 +1105,36 @@ footer .brown-footer .text-container p.copywrite {
     width: 100%;
   }
   .section-hero .logo {
-    width: 40rem;
+    width: 39.8rem;
     display: block;
     float: none;
     position: inherit;
     margin: 0 auto;
-    padding: 7.5rem 0 9rem;
+    padding: 7rem 0 8.8rem;
   }
   .section-hero h1 {
     display: none;
   }
   .section-hero h1.main-banner-title-320 {
-    font-family: "Roboto", Lucinda, Helvetica;
+    font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
     font-size: 8rem;
-    line-height: 15rem;
+    letter-spacing: 0.35rem;
+    font-weight: 400;
+    line-height: 10.8rem;
     text-align: center;
     padding: 0 6rem;
-    margin: 0 0 12rem 0;
+    margin: 0 0 8.5rem 0;
     display: block;
     float: none;
     position: inherit;
   }
   .section-kickstarter {
-    margin-bottom: 6em;
+    padding-bottom: 8.3rem;
   }
   .section-kickstarter h3 {
-    font-size: 7.1rem;
-    margin-bottom: 3rem;
+    font-size: 7.3rem;
+    margin-bottom: 3.8rem;
+    font-weight: 300;
   }
   .section-kickstarter .kickstarter-logo {
     width: 65rem;
@@ -1118,7 +1142,7 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-kickstarter .submit-box {
     width: 100%;
-    margin: 0;
+    margin: 3rem 0 6rem;
   }
   .section-kickstarter .submit-box div div {
     float: left;
@@ -1127,28 +1151,35 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-kickstarter .Input-text {
     font-size: 5.6rem;
-    width: 81rem;
+    font-weight: 300;
+    width: 78rem;
     float: none;
     margin: 7rem 0 10rem;
-    line-height: 7.2rem;
+    line-height: 10.6rem;
   }
   .section-kickstarter .Input-text::placeholder {
     font-size: 4.5rem;
-    line-height: 7.2rem;
+    line-height: 10.6rem;
   }
   .section-kickstarter .submit {
-    margin: 0 0;
+    margin: 2.9rem 0 0;
     font-size: 5.4rem;
-    line-height: 7.2rem;
-    width: 52rem;
+    line-height: 10.6rem;
+    font-weight: 400;
+    width: 56rem;
     float: none;
   }
   .section-kickstarter .save-up {
-    margin: 12rem auto 12rem;
+    margin: 16rem auto 0;
+    color: #78909C;
+    font-weight: 500;
   }
   .section-kickstarter .save-up,
   .section-kickstarter .save-up span {
     font-size: 7rem;
+  }
+  .section-kickstarter .save-up span {
+    font-weight: 100;
   }
   .section-gps {
     margin-bottom: 0;
@@ -1161,13 +1192,15 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-gps .inner-content p {
     color: #F5F5F5;
-    font-size: 4rem;
-    line-height: 6.6rem;
+    font-size: 4.2rem;
+    line-height: 6.4rem;
     text-align: center;
-    margin-top: 65rem;
+    margin-top: 62.8rem;
+    font-weight: 300;
   }
   .section-gps .inner-content p.extra-fees-title {
-    margin-top: -1.4rem;
+    margin-top: -0.2rem;
+    font-weight: 400;
   }
   .section-gps .gps-content {
     height: 124rem;
@@ -1175,14 +1208,15 @@ footer .brown-footer .text-container p.copywrite {
     padding: 0;
   }
   .section-gps .gps-title {
-    font-size: 10rem;
-    line-height: 10rem;
+    font-size: 11.2rem;
+    line-height: 11.2rem;
     padding-top: 0.8em;
-    padding-right: 0.7em;
+    padding-right: 0.6em;
     margin: 0;
   }
   .section-gps .gps-subtitle {
-    font-size: 6.6rem;
+    font-size: 7.2rem;
+    line-height: 8rem;
     margin-top: -0.1em;
     padding-right: 1.2em;
     position: static;
@@ -1190,7 +1224,7 @@ footer .brown-footer .text-container p.copywrite {
   .section-ar {
     height: auto;
     margin-bottom: 10rem;
-    box-shadow: 0 12px 20px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.1);
     /*background-image: url(../img/phone-without-video-box-320.jpg);
       background: no-repeat center;*/
   }
@@ -1207,12 +1241,14 @@ footer .brown-footer .text-container p.copywrite {
     width: 100%;
   }
   .section-ar .mobile-320-wrap h2 {
-    font-size: 8rem;
-    line-height: 12rem;
+    font-size: 7.5rem;
+    letter-spacing: 0.35rem;
+    font-weight: 400;
+    line-height: 8.8rem;
     text-align: center;
     color: #1A1A1A;
     background-color: #FCE463;
-    padding: 5rem;
+    padding: 4rem 5rem;
     margin: 0 0 -30rem 0;
     width: 100%;
     box-sizing: border-box;
@@ -1229,7 +1265,7 @@ footer .brown-footer .text-container p.copywrite {
     top: -60px;
   }
   .section-ar .phone-simulation .phone-content {
-    background: url(../img/ar-background.png) no-repeat;
+    background: url(../img/ar-background.jpg) no-repeat;
     width: 555px;
     height: 1190px;
     position: relative;
@@ -1282,20 +1318,21 @@ footer .brown-footer .text-container p.copywrite {
     top: 680px;
   }
   .section-planner {
-    height: 250rem;
+    height: 273.4rem;
   }
   .section-planner .wide-title {
     background: #1DE9B6;
     height: 57vw;
   }
   .section-planner .wide-title h1 {
-    font-size: 10rem;
-    line-height: 10rem;
+    font-size: 11.2rem;
+    line-height: 11.2rem;
     padding-top: 0.8em;
-    padding-left: 0.7em;
+    padding-left: 0.6em;
   }
   .section-planner .wide-title h1 span {
-    font-size: 6.6rem;
+    font-size: 7.2rem;
+    font-weight: 300;
   }
   .section-planner .inner-content img {
     position: static;
@@ -1308,8 +1345,8 @@ footer .brown-footer .text-container p.copywrite {
     display: none;
   }
   .section-planner .inner-content p.mobile-320 {
-    font-size: 5.8rem;
-    line-height: 10rem;
+    font-size: 6rem;
+    line-height: 9.5rem;
     display: block;
     width: 80%;
     float: none;
@@ -1326,7 +1363,7 @@ footer .brown-footer .text-container p.copywrite {
     top: -60px;
   }
   .section-planner .phone-simulation .phone-content {
-    background: url(../img/ar-background.png) no-repeat;
+    background: url(../img/ar-background.jpg) no-repeat;
     width: 555px;
     height: 1190px;
     position: relative;
@@ -1388,16 +1425,19 @@ footer .brown-footer .text-container p.copywrite {
     margin: 0;
   }
   .section-rfid .inner-content .half h1 {
-    font-size: 10rem;
-    line-height: 10rem;
-    margin-top: 3.9rem;
+    font-size: 11.2rem;
+    line-height: 11.2rem;
+    margin-top: 3rem;
     margin-left: 12rem;
   }
   .section-rfid .inner-content .half h2 {
-    font-size: 4.4rem;
+    font-size: 4.7rem;
     line-height: 5.5rem;
+    font-weight: 400;
     padding: 0;
     margin-left: 12rem;
+    letter-spacing: 0.1rem;
+    color: #78909C;
   }
   .section-rfid .inner-content .half p {
     display: none;
@@ -1406,53 +1446,61 @@ footer .brown-footer .text-container p.copywrite {
     display: block;
     font-size: 4.8rem;
     line-height: 7.8rem;
+    font-weight: 300;
     margin-top: 10rem;
     text-align: center;
   }
   .section-rfid .inner-content .half img {
     width: 100%;
     margin-left: 0;
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
   .section-wood .img {
     width: 100%;
   }
   .section-tracking {
-    height: 190em;
+    height: 172.3rem;
     margin-top: 11em;
-    margin-bottom: -20em;
   }
   .section-tracking .wide-title {
-    height: 51em;
+    height: 55.9rem;
   }
   .section-tracking .wide-title h1 {
-    font-size: 10rem;
-    line-height: 10rem;
+    font-size: 11.2rem;
+    line-height: 11.2rem;
     padding-top: 0.8em;
-    padding-right: 0.7em;
+    padding-right: 0.6em;
   }
   .section-tracking .wide-title h1 span {
-    font-size: 6.6rem;
+    font-size: 7.2rem;
+    font-weight: 300;
   }
   .section-tracking .inner-content {
     text-align: center;
   }
   .section-tracking .inner-content img {
+    display: none;
+  }
+  .section-tracking .inner-content img.mobile-320 {
+    display: block;
     position: relative;
-    width: 100em;
-    top: -20em;
-    left: -6em;
+    width: 100%;
+    margin-top: -1.8rem;
+    left: 0;
+    top: -19rem;
   }
   .section-tracking .inner-content p {
     display: none;
   }
   .section-tracking .inner-content p.mobile-320 {
     font-size: 5.8rem;
+    line-height: 9.5rem;
     display: block;
-    width: 75rem;
+    width: 80rem;
     float: none;
     text-align: center;
-    margin: -4em auto 0;
+    margin: -3.2em auto 0;
+    padding-bottom: 20rem;
   }
   .section-alerts {
     height: 263rem;
@@ -1463,23 +1511,24 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-alerts .inner-content .titles {
     width: 100%;
-    height: 41rem;
+    height: 42.8rem;
     margin: 0 0 0 0;
     padding-left: 10em;
-    padding-top: 4em;
+    padding-top: 1.4em;
     position: static;
   }
   .section-alerts .inner-content h1 {
-    font-size: 10rem;
+    font-size: 11.2rem;
   }
   .section-alerts .inner-content h2 {
-    top: -0.4em;
-    font-size: 5.5rem;
+    top: -0.3em;
+    font-size: 6.4rem;
   }
   .section-alerts .inner-content h3 {
     position: relative;
-    top: -0.8em;
-    font-size: 4.3rem;
+    top: -0.7em;
+    font-size: 4.8rem;
+    font-weight: 300;
   }
   .section-alerts .inner-content .alert-description-box {
     display: none;
@@ -1490,60 +1539,67 @@ footer .brown-footer .text-container p.copywrite {
     padding: 0;
     width: 90%;
     float: none;
-    font-size: 5.8rem;
-    line-height: 12rem;
+    font-size: 5.9rem;
+    line-height: 13rem;
     text-align: center;
   }
   .section-alerts .inner-content img {
     width: 100%;
     height: auto;
-    margin: -17.1rem auto 0;
+    margin: -16.2rem auto 0;
     position: relative;
     z-index: 100;
     float: none;
+    left: 2rem;
   }
   .section-leather .inner-content {
     margin: 0;
     height: auto;
   }
   .section-leather img {
-    width: 95vw;
-    margin-bottom: -32em;
+    width: 95rem;
+    height: 56rem;
+    margin-bottom: -33.8em;
+    position: relative;
   }
   .section-leather h1 {
-    font-weight: 200;
-    font-size: 5.1rem;
+    font-weight: 300;
+    font-size: 5.4rem;
     margin-bottom: 0;
+    color: #1a1a1a;
   }
   .section-leather p {
-    font-size: 3.8rem;
+    font-size: 4.1rem;
     line-height: 8rem;
+    font-weight: 300;
+    color: #546E7A;
   }
   .section-leather .h-left h1,
   .section-leather .h-left p {
-    margin-left: 40rem;
+    margin-left: 38rem;
   }
   .section-leather .h-left i {
-    top: 1.32em;
-    left: 17rem;
+    top: 1.36em;
+    left: 14.6rem;
   }
   .section-leather .h-right h1,
   .section-leather .h-right p {
-    margin-left: 40rem;
+    margin-left: 38rem;
   }
   .section-leather .h-right i {
-    top: 1.32em;
-    left: 17rem;
+    top: 1.36em;
+    left: 14.6rem;
   }
   .section-leather .info-container {
     grid-template-rows: 20rem;
     grid-template-columns: repeat(1, 2fr);
     padding-top: 22em;
-    padding-bottom: 8em;
+    padding-bottom: 10em;
   }
   .section-leather .info-container i {
     position: relative;
-    font-size: 12.8rem;
+    font-size: 12.4rem;
+    color: #1a1a1a;
   }
   .section-wireless-charging .inner-content .header {
     padding: 0 4rem 0 7.4rem;
@@ -1559,9 +1615,11 @@ footer .brown-footer .text-container p.copywrite {
     text-transform: uppercase;
   }
   .section-wireless-charging .inner-content .header h2 {
-    font-size: 6.6rem;
-    line-height: 8rem;
+    font-size: 4.6rem;
+    line-height: 6rem;
+    font-weight: 400;
     padding-bottom: 3rem;
+    letter-spacing: 0.1rem;
   }
   .section-wireless-charging .inner-content .phone-power img {
     width: 100%;
@@ -1570,27 +1628,32 @@ footer .brown-footer .text-container p.copywrite {
   .section-wireless-charging .inner-content .phone-power .blockquote {
     position: static;
     font-size: 4.8rem;
-    line-height: 7.8rem;
+    line-height: 7.6rem;
+    font-weight: 300;
     width: 100%;
-    padding: 1em 2em;
-    font-weight: 400;
+    padding: 1.1em 2.5em;
+  }
+  .section-wireless-charging .inner-content .phone-power .blockquote span {
+    font-weight: 500;
   }
   .section-powerbank .inner-content img {
-    width: 100%;
+    width: 100rem;
     height: auto;
     margin-bottom: 4rem;
+    position: relative;
+    left: -1rem;
   }
   .section-powerbank .inner-content .header {
-    margin: 18rem auto 24rem;
+    margin: 13.5rem auto 24rem;
     width: 100%;
-    font-size: 6.4rem;
+    font-size: 5.6rem;
     text-align: center;
   }
   .section-powerbank .inner-content .header h4 {
     text-align: center;
-    font-weight: 200;
-    line-height: 10rem;
-    width: 90%;
+    font-weight: 300;
+    line-height: 9.2rem;
+    width: 80%;
     margin: 0 auto;
   }
   .section-powerbank .inner-content .header h4 strong {
@@ -1599,7 +1662,7 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-powerbank .inner-content .blockquote {
     position: static;
-    margin: 0 0 -4.6rem 9rem;
+    margin: 0 0 -4.3rem 9rem;
   }
   .section-powerbank .inner-content .blockquote h1,
   .section-powerbank .inner-content .blockquote h2 {
@@ -1607,13 +1670,15 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-powerbank .inner-content .blockquote h1 {
     text-transform: uppercase;
-    font-size: 11rem;
-    line-height: 11rem;
+    font-size: 11.2rem;
+    line-height: 11.2rem;
   }
   .section-powerbank .inner-content .blockquote h2 {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 4.8rem;
     line-height: 6rem;
+    letter-spacing: 0.1rem;
+    color: #78909C;
   }
   .section-kickstarter-testimonials .wrapper {
     width: 80%;
@@ -1632,22 +1697,23 @@ footer .brown-footer .text-container p.copywrite {
   .section-kickstarter-testimonials .wrapper .header h1.mobile-320 {
     display: inherit;
     margin: 0 auto;
-    font-size: 4.9rem;
+    font-size: 5.3rem;
     line-height: 8.6rem;
+    font-weight: 400;
   }
   .section-kickstarter-testimonials .wrapper .header h1.mobile-320 strong {
     font-weight: bold;
   }
   .section-kickstarter-testimonials .wrapper .header .icon-kickstarter img {
     position: relative;
-    width: 31rem;
+    width: 30rem;
     float: none;
-    margin: 15rem auto 15rem;
+    margin: 6rem auto 9.6rem;
   }
   .section-kickstarter-testimonials .kickstarter-row {
     margin-top: 0;
     margin-bottom: 0;
-    padding: 11.5rem 0 18rem;
+    padding: 11.5rem 0 23.5rem;
   }
   .section-kickstarter-testimonials .kickstarter-row .inner-content {
     display: grid;
@@ -1657,38 +1723,50 @@ footer .brown-footer .text-container p.copywrite {
   .section-kickstarter-testimonials .kickstarter-row .inner-content img {
     display: block;
     float: none;
-    width: 37.5rem;
+    width: 38rem;
     margin: 0 auto 12rem;
   }
   .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter {
     position: relative;
     padding: 0;
-    line-height: 6rem;
+    line-height: 7rem;
   }
   .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter-name {
-    font-size: 3.8rem;
-    margin-bottom: 1.2rem;
+    font-size: 4.2rem;
+    font-weight: 300;
+    margin-bottom: 0.9rem;
     display: block;
   }
   .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter-backer {
-    font-size: 3.8rem;
+    font-size: 4.2rem;
+    font-weight: 300;
     display: block;
   }
   .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter-member {
     float: none;
-    font-size: 3.8rem;
+    font-size: 4.2rem;
+    font-weight: 300;
     display: block;
   }
   .section-kickstarter-testimonials .kickstarter-row .inner-content p {
     margin-top: 6rem;
-    font-size: 4.6rem;
-    line-height: 10.5rem;
+    margin-bottom: 2rem;
+    font-size: 4.75rem;
+    line-height: 11.2rem;
     font-weight: normal;
   }
   .section-kickstarter-testimonials hr {
     border: none;
-    border-bottom: solid 2rem #2DEA8E;
-    margin: 7rem 0 0;
+    border-bottom: solid 2.6rem #2DEA8E;
+    margin: 9rem 0 0;
+  }
+  .section-kickstarter-testimonials .border-dash {
+    /*
+        grid-template-columns: 40px 50px auto 50px 40px;
+        grid-template-rows: 25% 100px auto;
+        margin: 9rem 0 0;
+        height: 2.6rem;
+        */
   }
   .display-none {
     display: none;
@@ -1701,43 +1779,120 @@ footer .brown-footer .text-container p.copywrite {
     width: 82rem;
     height: 62rem;
     text-align: center;
-    margin: -40.5rem auto 0;
+    margin-bottom: -22.5rem;
     position: relative;
-    top: 31em;
   }
   footer .yellow-footer img {
-    width: 66rem;
+    width: 67rem;
     margin-top: 3rem;
   }
   footer .yellow-footer h1 {
     width: 74rem;
-    margin: 7.5rem auto 0;
-    font-size: 4.8rem;
+    font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    font-size: 5.4rem;
     line-height: 8rem;
+    margin: 7.2rem auto 0;
     padding: 0 0;
   }
   footer .brown-footer {
     margin: 0;
     padding-top: 35rem;
+    padding-bottom: 0rem;
     text-align: center;
   }
   footer .brown-footer .text-container {
-    width: 90rem;
-    margin: 0 auto;
+    width: 85rem;
+    margin: 0rem auto ;
   }
   footer .brown-footer .text-container p {
     display: none;
   }
   footer .brown-footer .text-container p.mobile-320 {
+    padding-top: 3rem;
     display: inherit;
-    font-size: 3rem;
+    font-size: 3.6rem;
     line-height: 3.1em;
+    font-weight: 300;
   }
   footer .brown-footer .text-container p.copywrite {
     display: inherit;
-    margin-top: 3.2em;
+    margin-top: 3em;
     margin-bottom: 0;
     padding-bottom: 3em;
-    font-size: 3.8rem;
+    font-size: 4rem;
   }
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
 }

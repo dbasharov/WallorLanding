@@ -16,7 +16,7 @@
 
     .logo {
       position: absolute;
-      right: 4rem;
+      right: 4.5rem;
       top: 2rem;
       fill: @white;
       z-index: 2;
@@ -28,18 +28,16 @@
     }
 
     h1 {
-      font-family: @title-font;
+      font-family: @title-font-mobile;
+      font-weight: 600;
+      line-height: 7rem;
+      font-size: 5rem;
       color: @white;
       position: absolute;
-      right: 4rem;
-      font-size: 4rem;
-      top: 3em;
+      right: 4.8rem;
+      top: 8rem;
       text-align: right;
-      font-weight: 700;
-      padding-right: 20px;
-      margin-left: 300px;
       z-index: 200;
-      position: absolute;
     }
 
     img.main-banner {
@@ -148,6 +146,7 @@
     .save-up {
       margin: 3rem auto 0;
       text-transform: none;
+      color: #78909C;
     }
 
     .save-up, .save-up span {
@@ -175,19 +174,22 @@
       p {
         color: #F5F5F5;
         font-size: 2.7rem;
+        line-height: 4rem;
       }
 
       p.extra-fees-title {
         margin-top: -1.4rem;
+        font-weight: 400;
       }
     }
 
     .gps-content {
       background-color: hsl(221, 80%, 9%);
       text-align: right;
+      font-weight: 300;
       padding-right: 18em;
       padding-top: 1em;
-      padding-bottom: 2em;
+      padding-bottom: 4em;
     }
 
     .gps-title {
@@ -201,10 +203,11 @@
       color: white;
       font-family: @content-font;
       font-size: 4.5rem;
-      font-weight: 350;
+      line-height: 5rem;
+      font-weight: 400;
       margin-top: 0;
+      margin-bottom: 5rem;
       position: relative;
-      top: 0;
     }
   }
 
@@ -333,12 +336,16 @@
       height: 13em;
 
       h1 {
+        span{
+          font-weight: 400;
+        }
         font-size: 3.8rem;
         font-family: @content-font;
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: 600;
+        line-height: 4.8rem;
         text-align: left;
-        padding-top: 0.39em;
+        padding-top: 0.55em;
         padding-bottom: .35em;
       }
 
@@ -347,7 +354,7 @@
     .inner-content {
       img {
         position: absolute;
-        top: -27em;
+        top: -22em;
         right: 14em;
         width: 34em;
       }
@@ -358,11 +365,12 @@
 
       p {
         font-size: 2.7rem;
+        line-height: 5rem;
         display: block;
         width: 45%;
         float: left;
         text-align: left;
-        margin-top: 3em;
+        margin-top: 3.5em;
       }
     }
 
@@ -465,7 +473,7 @@
         h2 {
           font-size: 2rem;
           line-height: 2.4rem;
-          font-weight: 100;
+          font-weight: 400;
           color: @alert-info-color;
           padding: 0;
         }
@@ -497,29 +505,39 @@
   }
 
   &-tracking {
-    height: 70em;
+    height: 55em;
     margin-top: 11em;
     .wide-title {
       background: @yellow;
       height: 13em;
 
       h1 {
+        span{
+          font-weight: 400;
+        }
+        font-weight: 600;
         font-size: 3.8rem;
+        line-height: 4.8rem;
         font-family: @content-font;
         text-transform: uppercase;
-        font-weight: 400;
         text-align: right;
-        padding-top: 0.39em;
+        padding-top: 0.55em;
         padding-bottom: .35em;
       }
 
-    }
+
+  }
 
     .inner-content {
+      img.mobile-320{
+        display: none;
+      }
+
       img {
         position: absolute;
-        width: 49em;
-        top: -19em;
+        width: 52.5em;
+        top: -17em;
+        left: 9rem;
       }
 
       p.mobile-320{
@@ -527,12 +545,13 @@
       }
 
       p {
-        font-size: 3rem;
+        font-size: 2.7rem;
+        line-height: 4.5rem;
         display: block;
         width: 55%;
         float: right;
         text-align: right;
-        margin-top: 3em;
+        margin-top: 5.4em;
       }
     }
   }
@@ -574,7 +593,7 @@
         top: -0.4em;
         color: #78909C;
         font-family: @content-font;
-        font-size: 3.8rem;
+        font-size: 4.1rem;
         font-weight: 650;
       }
 
@@ -583,8 +602,8 @@
         top: -1.25em;
         color: #101B2A;
         font-family: @content-font;
-        font-size: 2.85rem;
-        font-weight: 250;
+        font-size: 2.8rem;
+        font-weight: 300;
         margin: 0;
       }
 
@@ -598,7 +617,7 @@
       }
 
       .alert-description-box {
-        margin-top: 1.6em;
+        margin-top: 1.2em;
         margin-left: 8rem;
         width: 35%;
         float: left;
@@ -728,7 +747,7 @@
     }
 
     h1 {
-      font-weight: 200;
+      font-weight: 300;
       font-size: 2.5rem;
       margin-bottom: 0;
     }
@@ -742,12 +761,12 @@
 
     .h-left {
       h1, p {
-        margin-left: 25rem;
+        margin-left: 24.5rem;
       }
 
       i {
         top: 1.17em;
-        left: 2.1em;
+        left: 2.0em;
       }
 
     }
@@ -909,6 +928,7 @@
           color: @gps-text-color;
           font-size: 4rem;
           line-height: 4.4rem;
+          text-transform: uppercase;
         }
 
         h2 {
@@ -916,7 +936,7 @@
           line-height: 2.4rem;
           color: @alert-info-color;
           text-transform: uppercase;
-          font-weight: 200;
+          font-weight: 400;
           padding-bottom: 3rem;
         }
       }
@@ -965,7 +985,7 @@
             font-style: italic;
           }
           text-align: center;
-          font-weight: 200;
+          font-weight: 300;
           color: #455A64;
           line-height: 4.2rem;
         }
@@ -989,7 +1009,7 @@
 
         h2 {
           color: @alert-info-color;
-          font-weight: 200;
+          font-weight: 400;
           font-size: 2rem;
           line-height: 2.4rem;
         }
@@ -1018,7 +1038,7 @@
             font-weight: bold;
           }
           margin-left: 12rem;
-          font-weight: 200;
+          font-weight: 400;
           font-size: 2.9rem;
           line-height: 6rem;
         }
@@ -1118,9 +1138,10 @@ footer {
 
     h1 {
       color: @footer-header-color;
+      font-family: @title-font-mobile;
       width: 15em;
       margin: 0 auto;
-      font-weight: 100;
+      font-weight: 300;
       font-size: 2.1rem;
       padding: 0.5em 0;
     }
