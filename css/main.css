@@ -325,102 +325,117 @@ textarea {
   /*top: -40px;*/
   height: auto;
   z-index: 2;
+  /*
+    h1 {
+      font-size: 3em;
+      font-family: @content-font;
+      font-weight: 600;
+      display: block;
+      color: rgb(61, 61, 61);
+      background: rgba(252, 228, 99, .6);
+      padding: 1em;
+      max-width: 800px;
+      box-sizing: border-box;
+      margin-left: 300px;
+      margin-top: 0;
+      position: relative;
+    }
+    */
+  /* .ar-background {
+       width: 900px;
+       position: relative;
+       float: right;
+       top: -180px;
+       background: transparent;
+       height: 1400px;
+     }
+     */
   /* .border-top {
        height: 4em;
        background: #ffdf32;
        width: 100%;
        margin-top: 116px;
      }*/
+  /*
+
+    .phone-simulation {
+      background: url(../img/Distance_battery.png) no-repeat;
+      width: 765px;
+      height: 1400px;
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      top: -60px;
+
+      .phone-content {
+        background: url(../img/ar-background.jpg) no-repeat;
+        width: 555px;
+        height: 1190px;
+        position: relative;
+        left: 100px;
+        top: 97px;
+        border-radius: 53px;
+
+        .iphone-top {
+          background: url(../img/Notch-dot.png) no-repeat;
+          background-size: contain;
+          margin: 0 auto;
+          width: 315px;
+          height: 80px;
+          position: absolute;
+          top: -1px;
+          left: 120px;
+        }
+
+        .device-title {
+          font-family: @content-font;
+          font-size: 120px;
+          color: #FFF;
+          text-transform: uppercase;
+          font-weight: 900;
+          left: -825px;
+          top: 400px;
+          position: absolute;
+
+          &.passport {
+            color: #40C4FF;
+            opacity: 0;
+          }
+
+          &.keys {
+            color: #FFD600;
+          }
+          &.wallet {
+            color: #1DE9B6;
+            opacity: 0;
+          }
+          &.cards {
+            color: #EC407A;
+            opacity: 0;
+          }
+        }
+
+        .device-location {
+          font-size: 90px;
+          position: absolute;
+
+          &.keys {
+            color: rgba(252, 228, 99, 0.6);
+            right: 50px;
+            top: 680px;
+          }
+        }
+      }
+    }
+
+
+  */
 }
 .section-ar .mobile-320-wrap {
   display: none;
 }
 .section-ar h1.main-banner-title-320 {
   display: none;
-}
-.section-ar h1 {
-  font-size: 3em;
-  font-family: "Roboto";
-  font-weight: 600;
-  display: block;
-  color: #3d3d3d;
-  background: rgba(252, 228, 99, 0.6);
-  padding: 1em;
-  max-width: 800px;
-  box-sizing: border-box;
-  margin-left: 300px;
-  margin-top: 0;
-  position: relative;
-}
-.section-ar .ar-background {
-  width: 900px;
-  position: relative;
-  float: right;
-  top: -180px;
-  background: transparent;
-  height: 1400px;
-}
-.section-ar .phone-simulation {
-  background: url(../img/Distance_battery.png) no-repeat;
-  width: 765px;
-  height: 1400px;
-  background-size: cover;
-  position: absolute;
-  left: 0;
-  top: -60px;
-}
-.section-ar .phone-simulation .phone-content {
-  background: url(../img/ar-background.jpg) no-repeat;
-  width: 555px;
-  height: 1190px;
-  position: relative;
-  left: 100px;
-  top: 97px;
-  border-radius: 53px;
-}
-.section-ar .phone-simulation .phone-content .iphone-top {
-  background: url(../img/Notch-dot.png) no-repeat;
-  background-size: contain;
-  margin: 0 auto;
-  width: 315px;
-  height: 80px;
-  position: absolute;
-  top: -1px;
-  left: 120px;
-}
-.section-ar .phone-simulation .phone-content .device-title {
-  font-family: "Roboto";
-  font-size: 120px;
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: 900;
-  left: -825px;
-  top: 400px;
-  position: absolute;
-}
-.section-ar .phone-simulation .phone-content .device-title.passport {
-  color: #40C4FF;
-  opacity: 0;
-}
-.section-ar .phone-simulation .phone-content .device-title.keys {
-  color: #FFD600;
-}
-.section-ar .phone-simulation .phone-content .device-title.wallet {
-  color: #1DE9B6;
-  opacity: 0;
-}
-.section-ar .phone-simulation .phone-content .device-title.cards {
-  color: #EC407A;
-  opacity: 0;
-}
-.section-ar .phone-simulation .phone-content .device-location {
-  font-size: 90px;
-  position: absolute;
-}
-.section-ar .phone-simulation .phone-content .device-location.keys {
-  color: rgba(252, 228, 99, 0.6);
-  right: 50px;
-  top: 680px;
 }
 .section-kickstarter {
   text-align: center;
@@ -484,6 +499,7 @@ textarea {
   background: none;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
+  border-radius: 0;
 }
 .section-kickstarter .submit {
   display: block;
@@ -494,7 +510,7 @@ textarea {
   margin-top: 0;
   margin-left: 1rem;
   /*padding-top: 0.5em;
-      padding-bottom: 0.5em;*/
+        padding-bottom: 0.5em;*/
   padding-right: 0.5em;
   padding-left: 0.5em;
   color: white;
@@ -1217,68 +1233,6 @@ footer .brown-footer .text-container p.copywrite {
     box-sizing: border-box;
     position: relative;
     z-index: 3;
-  }
-  .section-ar .phone-simulation {
-    background: url(../img/Distance_battery.png) no-repeat;
-    width: 765px;
-    height: 1400px;
-    background-size: cover;
-    position: absolute;
-    left: 0;
-    top: -60px;
-  }
-  .section-ar .phone-simulation .phone-content {
-    background: url(../img/ar-background.jpg) no-repeat;
-    width: 555px;
-    height: 1190px;
-    position: relative;
-    left: 100px;
-    top: 97px;
-    border-radius: 53px;
-  }
-  .section-ar .phone-simulation .phone-content .iphone-top {
-    background: url(../img/Notch-dot.png) no-repeat;
-    background-size: contain;
-    margin: 0 auto;
-    width: 315px;
-    height: 80px;
-    position: absolute;
-    top: -1px;
-    left: 120px;
-  }
-  .section-ar .phone-simulation .phone-content .device-title {
-    font-family: "Roboto";
-    font-size: 120px;
-    color: #FFF;
-    text-transform: uppercase;
-    font-weight: 900;
-    left: -825px;
-    top: 400px;
-    position: absolute;
-  }
-  .section-ar .phone-simulation .phone-content .device-title.passport {
-    color: #40C4FF;
-    opacity: 0;
-  }
-  .section-ar .phone-simulation .phone-content .device-title.keys {
-    color: #FFD600;
-  }
-  .section-ar .phone-simulation .phone-content .device-title.wallet {
-    color: #1DE9B6;
-    opacity: 0;
-  }
-  .section-ar .phone-simulation .phone-content .device-title.cards {
-    color: #EC407A;
-    opacity: 0;
-  }
-  .section-ar .phone-simulation .phone-content .device-location {
-    font-size: 90px;
-    position: absolute;
-  }
-  .section-ar .phone-simulation .phone-content .device-location.keys {
-    color: rgba(252, 228, 99, 0.6);
-    right: 50px;
-    top: 680px;
   }
   .section-kickstarter {
     padding-bottom: 8.3rem;
