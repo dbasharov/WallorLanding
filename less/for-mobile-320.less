@@ -47,129 +47,12 @@
         display: block;
         float: none;
         position: inherit;
+        color: @white;
       }
 
       /*h1 br {
         display: none;
       }*/
-
-    }
-
-    &-kickstarter {
-      padding-bottom: 8.3rem;
-
-      h3 {
-        font-size: 7.3rem;
-        margin-bottom: 3.8rem;
-        font-weight: 300;
-
-      }
-
-      .kickstarter-logo {
-        width: 65rem;
-        margin: 0 auto 4rem;
-      }
-
-      .submit-box {
-        width: 100%;
-        margin: 3rem 0 6rem;
-      }
-
-      .submit-box div div {
-        float: left;
-        position: relative;
-        left: -50%;
-      }
-
-      .Input-text {
-        font-size: 5.6rem;
-        font-weight: 300;
-        width: 78rem;
-        float: none;
-        margin: 7rem 0 10rem;
-        line-height: 10.6rem;
-      }
-
-      .Input-text::placeholder {
-        font-size: 4.5rem;
-        line-height: 10.6rem;
-      }
-
-      .submit {
-        margin: 2.9rem 0 0;
-        font-size: 5.4rem;
-        line-height: 10.6rem;
-        font-weight: 400;
-        width: 56rem;
-        float: none;
-      }
-
-      .save-up {
-        margin: 16rem auto 0;
-        color: #78909C;
-        font-weight: 500;
-      }
-
-      .save-up, .save-up span {
-        font-size: 7rem;
-      }
-
-      .save-up span {
-        font-weight: 100;
-      }
-
-    }
-    //custom class added for gps styling
-
-    &-gps {
-      margin-bottom: 0;
-
-      .inner-content {
-
-        img {
-          position: static;
-          width: 115%;
-          margin-bottom: -120rem;
-          margin-left: -6.5rem;
-
-        }
-
-        p {
-          color: #F5F5F5;
-          font-size: 4.2rem;
-          line-height: 6.4rem;
-          text-align: center;
-          margin-top: 62.8rem;
-          font-weight: 300;
-        }
-
-        p.extra-fees-title {
-          margin-top: -0.2rem;
-          font-weight: 400;
-        }
-      }
-
-      .gps-content {
-        height: 124rem;
-        text-align: right;
-        padding: 0;
-      }
-
-      .gps-title {
-        font-size: 11.2rem;
-        line-height: 11.2rem;
-        padding-top: 0.8em;
-        padding-right: 0.6em;
-        margin: 0;
-      }
-
-      .gps-subtitle {
-        font-size: 7.2rem;
-        line-height: 8.0rem;
-        margin-top: -0.1em;
-        padding-right: 1.2em;
-        position: static;
-      }
 
     }
 
@@ -281,6 +164,134 @@
       }
     }
 
+    &-kickstarter {
+      padding-bottom: 8.3rem;
+
+      h3 {
+        font-size: 7.3rem;
+        margin-bottom: 3.8rem;
+        font-weight: 300;
+
+      }
+
+      .kickstarter-logo {
+        width: 65rem;
+        margin: 0 auto 4rem;
+      }
+
+      .submit-box {
+        width: 100%;
+        margin: 3rem 0 6rem;
+      }
+
+      .submit-box div div {
+        float: left;
+        position: relative;
+        left: -50%;
+      }
+
+      .Input-text {
+        font-size: 5.6rem;
+        font-weight: 300;
+        width: 78rem;
+        float: none;
+        margin: 7rem 0 12.4rem;
+        line-height: 10.6rem;
+        padding: 0.5em 1em;
+      }
+
+      .Input-text::placeholder {
+        font-size: 4.5rem;
+        line-height: 10.6rem;
+      }
+
+      .submit {
+        margin: 2.9rem auto 0;
+        font-size: 5.4rem;
+        line-height: 10.6rem;
+        font-weight: 400;
+        width: 56rem;
+        float: none;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+
+      }
+
+
+
+      .save-up {
+        margin: 16rem auto 0;
+        color: #78909C;
+        font-weight: 500;
+      }
+
+      .save-up, .save-up span {
+        font-size: 7.2rem;
+      }
+
+      .save-up span {
+        font-weight: 100;
+      }
+
+    }
+    //custom class added for gps styling
+
+
+    &-tracking {
+      height: 172.3rem;
+      margin-top: 11em;
+
+      .wide-title {
+        height: 55.9rem;
+
+        h1 {
+          font-size: 11.2rem;
+          line-height: 11.2rem;
+          padding-top: 0.8em;
+          padding-right: 0.6em;
+
+          span {
+            font-size: 7.2rem;
+            font-weight: 300;
+          }
+
+        }
+
+      }
+
+      .inner-content {
+        text-align: center;
+
+        img {
+          display: none;
+        }
+
+        img.mobile-320 {
+          display: block;
+          position: relative;
+          width: 100%;
+          margin-top: -1.8rem;
+          left: 0;
+          top: -19rem;
+        }
+
+        p {
+          display: none;
+        }
+
+        p.mobile-320 {
+          font-size: 6.0rem;
+          line-height: 9.5rem;
+          display: block;
+          width: 80rem;
+          float: none;
+          text-align: center;
+          margin: -3.2em auto 0;
+          padding-bottom: 20rem;
+        }
+      }
+    }
+
     &-planner {
       height: 273.4rem;
 
@@ -309,7 +320,7 @@
           display: block;
           width: 100em;
           height: auto;
-          margin: -30rem 0 0 -1.8rem;
+          margin: -30rem 0 0 -1.5rem;
 
         }
 
@@ -400,6 +411,209 @@
       }
     }
 
+    &-gps {
+      margin-bottom: 0;
+
+      .inner-content {
+
+        img {
+          position: static;
+          width: 115%;
+          margin-bottom: -120rem;
+          margin-left: -6.5rem;
+
+        }
+
+        p {
+          color: #F5F5F5;
+          font-size: 4.2rem;
+          line-height: 6.4rem;
+          text-align: center;
+          margin-top: 64.1rem;
+          font-weight: 300;
+        }
+
+        p.extra-fees-title {
+          margin: 6.0rem;
+          font-weight: 400;
+        }
+      }
+
+      .gps-content {
+        height: 124rem;
+        text-align: right;
+        padding: 0;
+      }
+
+      .gps-title {
+        font-size: 11.2rem;
+        line-height: 11.2rem;
+        padding-top: 0.8em;
+        padding-right: 0.6em;
+        margin: 0;
+      }
+
+      .gps-subtitle {
+        font-size: 7.2rem;
+        line-height: 8.0rem;
+        font-weight: 300;
+        margin-top: 0.0em;
+        padding-right: 1.2em;
+        position: static;
+      }
+
+    }
+
+    &-alerts {
+      height: 268rem;
+      background-image: url('../img/bg-alert-section-mobile-320.jpg');
+      background-position: center;
+      padding-top: 0;
+      margin-top: 0;
+      margin-bottom: -3rem;
+
+      .inner-content {
+
+        .titles {
+          width: 100%;
+          height: 42.8rem;
+          margin: 0 0 0 0;
+          padding-left: 10rem;
+          padding-top: 2.7rem;
+          position: static;
+        }
+
+        h1 {
+          font-size: 11.2rem;
+          line-height: 11.2rem;
+          margin-top: 2rem;
+        }
+
+        h2 {
+          margin-top: 1rem;
+          font-size: 6.4rem;
+          line-height: 6.4rem;
+        }
+
+        h3 {
+          position: relative;
+          margin-top: 2.4rem;
+          font-size: 4.9rem;
+          line-height: 4.8rem;
+          font-weight: 300;
+
+        }
+
+        .alert-description-box {
+          display: none;
+        }
+
+        .alert-description-box-mobile-320 {
+          display: block;
+          margin: 0 auto 0;
+          padding: 1rem 0 0;
+          width: 90%;
+          float: none;
+          font-size: 5.9rem;
+          line-height: 12.8rem;
+          text-align: center;
+          color: #37474F;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+          margin: -16.2rem auto 0;
+          position: relative;
+          z-index: 100;
+          float: none;
+          left: 2rem;
+        }
+
+      }
+
+    }
+
+    &-leather {
+
+      .inner-content {
+        margin: 0;
+        height: auto;
+        /*padding: 1.5rem 0 0 0;*/
+      }
+      img {
+        width: 95rem;
+        height: 56rem;
+        margin-bottom: -34.8em;
+        position: relative;
+
+      }
+
+      h1 {
+        font-weight: 300;
+        font-size: 5.4rem;
+        margin-bottom: 2rem;
+        color: #1a1a1a;
+      }
+
+      p {
+        font-size: 4.0rem;
+        line-height: 8rem;
+        font-weight: 300;
+        color: #546E7A;
+
+      }
+
+      .h-left {
+
+        h1, p {
+          margin-left: 38rem;
+
+        }
+
+        i {
+          top: 1.15em;
+          left: 14.6rem;
+        }
+
+      }
+
+      .h-right {
+
+        h1, p {
+          margin-left: 38rem;
+
+        }
+
+        i {
+          top: 1.15em;
+          left: 14.6rem;
+        }
+
+      }
+
+      .info-container {
+        grid-template-rows: 20rem;
+        grid-template-columns: repeat(1, 2fr);
+        padding-top: 23em;
+        padding-bottom: 10em;
+
+        i {
+          position: relative;
+          font-size: 12.4rem;
+          color: #1a1a1a;
+        }
+
+      }
+    }
+
+    &-wood {
+
+      .img {
+        width: 100%;
+      }
+    }
+
     &-rfid {
 
       .inner-content {
@@ -453,204 +667,6 @@
 
     }
 
-    &-wood {
-
-      .img {
-        width: 100%;
-      }
-    }
-
-    &-tracking {
-      height: 172.3rem;
-      margin-top: 11em;
-
-      .wide-title {
-        height: 55.9rem;
-
-        h1 {
-          font-size: 11.2rem;
-          line-height: 11.2rem;
-          padding-top: 0.8em;
-          padding-right: 0.6em;
-
-          span {
-            font-size: 7.2rem;
-            font-weight: 300;
-          }
-
-        }
-
-      }
-
-      .inner-content {
-        text-align: center;
-
-        img {
-          display: none;
-        }
-
-        img.mobile-320 {
-          display: block;
-          position: relative;
-          width: 100%;
-          margin-top: -1.8rem;
-          left: 0;
-          top: -19rem;
-        }
-
-        p {
-          display: none;
-        }
-
-        p.mobile-320 {
-          font-size: 5.8rem;
-          line-height: 9.5rem;
-          display: block;
-          width: 80rem;
-          float: none;
-          text-align: center;
-          margin: -3.2em auto 0;
-          padding-bottom: 20rem;
-        }
-      }
-    }
-
-    &-alerts {
-      height: 263rem;
-      background-image: url('../img/bg-alert-section-mobile-320.jpg');
-      padding-top: 0;
-      margin-top: 0;
-      margin-bottom: 5rem;
-
-      .inner-content {
-
-        .titles {
-          width: 100%;
-          height: 42.8rem;
-          margin: 0 0 0 0;
-          padding-left: 10em;
-          padding-top: 1.4em;
-          position: static;
-        }
-
-        h1 {
-          font-size: 11.2rem;
-        }
-
-        h2 {
-          top: -0.3em;
-          font-size: 6.4rem;
-        }
-
-        h3 {
-          position: relative;
-          top: -0.7em;
-          font-size: 4.8rem;
-          font-weight: 300;
-
-        }
-
-        .alert-description-box {
-          display: none;
-        }
-
-        .alert-description-box-mobile-320 {
-          display: block;
-          margin: 0 auto;
-          padding: 0;
-          width: 90%;
-          float: none;
-          font-size: 5.9rem;
-          line-height: 13rem;
-          text-align: center;
-        }
-
-        img {
-          width: 100%;
-          height: auto;
-          margin: -16.2rem auto 0;
-          position: relative;
-          z-index: 100;
-          float: none;
-          left: 2rem;
-        }
-
-      }
-
-    }
-
-    &-leather {
-
-      .inner-content {
-        margin: 0;
-        height: auto;
-      }
-      img {
-        width: 95rem;
-        height: 56rem;
-        margin-bottom: -33.8em;
-        position: relative;
-
-      }
-
-      h1 {
-        font-weight: 300;
-        font-size: 5.4rem;
-        margin-bottom: 0;
-        color: #1a1a1a;
-      }
-
-      p {
-        font-size: 4.1rem;
-        line-height: 8rem;
-        font-weight: 300;
-        color: #546E7A;
-
-      }
-
-      .h-left {
-
-        h1, p {
-          margin-left: 38rem;
-
-        }
-
-        i {
-          top: 1.36em;
-          left: 14.6rem;
-        }
-
-      }
-
-      .h-right {
-
-        h1, p {
-          margin-left: 38rem;
-
-        }
-
-        i {
-          top: 1.36em;
-          left: 14.6rem;
-        }
-
-      }
-
-      .info-container {
-        grid-template-rows: 20rem;
-        grid-template-columns: repeat(1, 2fr);
-        padding-top: 22em;
-        padding-bottom: 10em;
-
-        i {
-          position: relative;
-          font-size: 12.4rem;
-          color: #1a1a1a;
-        }
-
-      }
-    }
-
     &-wireless-charging {
 
       .inner-content {
@@ -692,6 +708,7 @@
             font-weight: 300;
             width: 100%;
             padding: 1.1em 2.5em;
+            color: #FAFAFA;
 
             span {
               font-weight: 500;
@@ -701,6 +718,7 @@
       }
     }
 
+
     &-powerbank {
 
       .inner-content {
@@ -708,7 +726,7 @@
         img {
           width: 100rem;
           height: auto;
-          margin-bottom: 4rem;
+          margin-bottom: 10rem;
           position: relative;
           left: -1rem;
         }
@@ -722,9 +740,11 @@
           h4 {
             text-align: center;
             font-weight: 300;
+            font-size: 5.6rem;
             line-height: 9.2rem;
             width: 80%;
             margin: 0 auto;
+            font-style: normal;
 
             strong {
               font-weight: bold;
@@ -759,6 +779,8 @@
       }
     }
 
+
+
     &-kickstarter-testimonials {
 
       .wrapper {
@@ -766,11 +788,10 @@
         margin: auto;
 
         .header {
-          position: relative;
-          left: 0;
-          padding-top: 0;
-          padding-bottom: 0;
+          position: static;
+          padding: 0;
           text-align: center;
+          width: 100%;
 
           h1 {
             display: none;
@@ -778,11 +799,13 @@
 
           h1.mobile-320 {
 
-            display: inherit;
-            margin: 0 auto;
+            display: block;
+            margin: 10rem auto 0 ;
             font-size: 5.3rem;
             line-height: 8.6rem;
             font-weight: 400;
+            width: 80rem;
+            float: none;
 
             strong {
               font-weight: bold;
@@ -790,11 +813,17 @@
 
           }
 
-          .icon-kickstarter img {
+          .icon-kickstarter{
+            margin: 6rem auto 9.6rem;
+            text-align: center;
+            float: none;
+
+
+          img {
             position: relative;
             width: 30rem;
-            float: none;
-            margin: 6rem auto 9.6rem;
+
+          }
           }
 
         }
@@ -900,7 +929,7 @@
         letter-spacing: 0.2rem;
         font-weight: 300;
         font-size: 5.4rem;
-        line-height: 8rem;
+        line-height: 7.8rem;
         margin: 7.2rem auto 0;
         padding: 0 0;
       }
