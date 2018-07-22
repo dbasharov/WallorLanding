@@ -484,7 +484,6 @@ textarea {
   background: none;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  border-radius: 0;
 }
 .section-kickstarter .submit {
   display: block;
@@ -505,6 +504,7 @@ textarea {
   -moz-box-sizing: border-box;
   border: solid 1px #FF3D00;
   cursor: pointer;
+  border-radius: 0;
 }
 .section-kickstarter .save-up {
   margin: 3rem auto 0;
