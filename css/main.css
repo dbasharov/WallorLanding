@@ -484,6 +484,9 @@ textarea {
   background: none;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
 }
 .section-kickstarter .submit {
   display: block;
@@ -1764,7 +1767,7 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-kickstarter-testimonials .wrapper .header h1.mobile-320 {
     display: block;
-    margin: 10rem auto 0 ;
+    margin: 10rem auto 0;
     font-size: 5.3rem;
     line-height: 8.6rem;
     font-weight: 400;
