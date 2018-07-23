@@ -480,6 +480,21 @@ textarea {
   font-size: 2rem;
   text-align: left;
 }
+.section-kickstarter .Input-text[type=text],
+.section-kickstarter .Input-text:focus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /*
+
+                outline: 0;
+                box-shadow: none;
+                background: none;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                border-radius: 0;
+          */
+}
 .section-kickstarter .Input-text {
   display: block;
   margin: auto;
@@ -497,15 +512,6 @@ textarea {
   border-bottom-color: #90a4ae;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-}
-.section-kickstarter .Input-text,
-.section-kickstarter .Input-text:focus {
-  outline: 0;
-  box-shadow: none;
-  background: none;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  border-radius: 0;
 }
 .section-kickstarter .submit {
   display: block;
