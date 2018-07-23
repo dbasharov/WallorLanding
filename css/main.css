@@ -480,12 +480,12 @@ textarea {
   font-size: 2rem;
   text-align: left;
 }
-.section-kickstarter .Input-text[type=text],
-.section-kickstarter .Input-text:focus {
+.section-kickstarter input.Input-text[type=text],
+.section-kickstarter input.Input-text:focus {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  /*
+  background-clip: padding-box /*
 
                 outline: 0;
                 box-shadow: none;
@@ -493,7 +493,7 @@ textarea {
                 box-sizing: border-box;
                 -moz-box-sizing: border-box;
                 border-radius: 0;
-          */
+          */;
 }
 .section-kickstarter .Input-text {
   display: block;
