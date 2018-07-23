@@ -243,14 +243,21 @@
         float: left;
         border: solid 1px @input-border-color;
         border-bottom-color: @input-border-bottom-color;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+
+      }
+
+
+      .Input-text, .Input-text:focus {
         outline: 0;
         box-shadow: none;
         background: none;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
         border-radius: 0;
-
       }
+
 
       .Input-text::placeholder {
 
