@@ -495,7 +495,8 @@ textarea {
   float: left;
   border: solid 1px #e9edef;
   border-bottom-color: #90a4ae;
-  outline: none;
+  outline: 0;
+  box-shadow: none;
   background: none;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
