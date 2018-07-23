@@ -240,16 +240,7 @@
         outline: 0;
         box-shadow: none;
         background: none;
-      }
-        /*
 
-
-
-
-
-          */
-
-      .Input-text {
         display: block;
         margin: auto;
         /*padding: 0.5em 1em;*/
@@ -266,6 +257,14 @@
         border-bottom-color: @input-border-bottom-color;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
+      }
+        /*
+
+
+          */
+
+      input.Input-text {
+
 
       }
 
@@ -275,7 +274,7 @@
 
       }
 
-      .submit {
+      input.submit[type=submit] {
         display: block;
         background-color: @submit-button-color;
         font-size: 1.1rem;

@@ -443,9 +443,6 @@ textarea {
   /*
 
 
-
-
-
           */
 }
 .section-kickstarter h3 {
@@ -497,8 +494,6 @@ textarea {
   outline: 0;
   box-shadow: none;
   background: none;
-}
-.section-kickstarter .Input-text {
   display: block;
   margin: auto;
   /*padding: 0.5em 1em;*/
@@ -516,7 +511,7 @@ textarea {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-.section-kickstarter .submit {
+.section-kickstarter input.submit[type=submit] {
   display: block;
   background-color: #FF3D00;
   font-size: 1.1rem;
