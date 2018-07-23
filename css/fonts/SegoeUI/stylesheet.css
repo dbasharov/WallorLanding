@@ -4,31 +4,34 @@
 	font-family: 'Segoe UI';
 	src: url('SegoeUI-Light.eot');
 	src: local('Segoe UI Light'), local('SegoeUI-Light'),
-		url('SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
 		url('SegoeUI-Light.woff') format('woff'),
-		url('SegoeUI-Light.ttf') format('truetype');
+		url('SegoeUI-Light.ttf') format('truetype'),
+		url('SegoeUI-Light.eot?#iefix') format('embedded-opentype');
 	font-weight: 300;
 	font-style: normal;
 }
 
+/*
 @font-face {
 	font-family: 'Segoe UI';
 	src: url('SegoeUI-BoldItalic.eot');
 	src: local('Segoe UI Bold Italic'), local('SegoeUI-BoldItalic'),
-		url('SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
 		url('SegoeUI-BoldItalic.woff') format('woff'),
+		url('SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
 		url('SegoeUI-BoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
 
+*/
+
 @font-face {
 	font-family: 'Segoe UI';
 	src: url('SegoeUI-SemiBold.eot');
 	src: local('Segoe UI Semibold'), local('SegoeUI-SemiBold'),
-		url('SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),
 		url('SegoeUI-SemiBold.woff') format('woff'),
-		url('SegoeUI-SemiBold.ttf') format('truetype');
+		url('SegoeUI-SemiBold.ttf') format('truetype'),
+		url('SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype');
 	font-weight: 600;
 	font-style: normal;
 }
@@ -37,13 +40,14 @@
 	font-family: 'Segoe UI';
 	src: url('SegoeUI.eot');
 	src: local('Segoe UI'), local('SegoeUI'),
-		url('SegoeUI.eot?#iefix') format('embedded-opentype'),
 		url('SegoeUI.woff') format('woff'),
-		url('SegoeUI.ttf') format('truetype');
+		url('SegoeUI.ttf') format('truetype'),
+		url('SegoeUI.eot?#iefix') format('embedded-opentype');
 	font-weight: normal;
 	font-style: normal;
 }
 
+/*
 @font-face {
 	font-family: 'Segoe UI';
 	src: url('SegoeUI-Bold.eot');
@@ -54,7 +58,9 @@
 	font-weight: bold;
 	font-style: normal;
 }
+*/
 
+/*
 @font-face {
 	font-family: 'Segoe UI';
 	src: url('SegoeUI-Italic.eot');
@@ -65,3 +71,4 @@
 	font-weight: normal;
 	font-style: italic;
 }
+*/
