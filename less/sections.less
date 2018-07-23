@@ -230,21 +230,24 @@
 
 
 
-      input.Input-text[type=text], input.Input-text:focus {
+      input[type=email]{
         -webkit-appearance: none;
         -moz-appearance: none;
-        appearance: none;
-        background-clip: padding-box
-
+        /*appearance: none;*/
+        background-clip: padding-box;
+        box-shadow: none !important;
+        border-radius: 0;
+        outline: 0;
+        box-shadow: none;
+        background: none;
+      }
         /*
 
-                outline: 0;
-                box-shadow: none;
-                background: none;
-                box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                border-radius: 0;
-          */    }
+
+
+
+
+          */
 
       .Input-text {
         display: block;

@@ -440,6 +440,13 @@ textarea {
 .section-kickstarter {
   text-align: center;
   margin-bottom: 6em;
+  /*
+
+
+
+
+
+          */
 }
 .section-kickstarter h3 {
   color: #BDBDBD;
@@ -480,20 +487,16 @@ textarea {
   font-size: 2rem;
   text-align: left;
 }
-.section-kickstarter input.Input-text[type=text],
-.section-kickstarter input.Input-text:focus {
+.section-kickstarter input[type=email] {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
-  background-clip: padding-box /*
-
-                outline: 0;
-                box-shadow: none;
-                background: none;
-                box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                border-radius: 0;
-          */;
+  /*appearance: none;*/
+  background-clip: padding-box;
+  box-shadow: none !important;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  background: none;
 }
 .section-kickstarter .Input-text {
   display: block;
