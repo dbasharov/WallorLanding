@@ -1168,7 +1168,7 @@ footer .brown-footer .text-container p.copywrite {
     left: 8rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   .main-wrapper {
     /*max-width: 100%;*/
   }
