@@ -13,7 +13,7 @@ FileETag none
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpeg "access plus 7 days"
-ExpiresByType image/png "access plus 7 days"
+ExpiresByType image/png "access plus 1 minutes"
 ExpiresByType image/jpg "access plus 7 days"
 ExpiresByType image/x-icon "access plus 1 year"
 ExpiresByType image/svg+xml "access plus 1 month"
