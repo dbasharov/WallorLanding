@@ -30,7 +30,7 @@
         padding: 7rem 0 8.8rem;
       }
 
-      h1 {
+      h1, h2 {
         display: none;
       }
 
@@ -48,6 +48,24 @@
         position: inherit;
         color: @white;
       }
+
+
+
+      h2.main-banner-title-320 {
+        font-family: @title-font-mobile;
+        font-size: 6.0rem;
+        letter-spacing: 0.35rem;
+        font-weight: 400;
+        line-height: 8.8rem;
+        text-align: center;
+        padding: 0 6rem;
+        margin: 0 0 8.5rem 0;
+        display: block;
+        float: none;
+        position: inherit;
+        color: @white;
+      }
+
 
 
     }
@@ -83,6 +101,14 @@
           box-sizing: border-box;
           position: relative;
           z-index: 3;
+
+        span{
+          font-size: 5.5rem;
+          line-height: 6.8rem;
+          padding-top: 3rem;
+          display: block;
+        }
+
         }
 
       }
@@ -109,14 +135,27 @@
         margin: 3rem 0 6rem;
       }
 
-      .submit-box div div {
+      .submit-box div.wrap-1 div.wrap-2 {
         float: left;
         position: relative;
         left: -50%;
       }
 
-      input[type=email] {
-        font-size: 5.6rem;
+      .mc-field-group{
+        float: none;
+        margin-right: 0;
+      }
+
+      #mc_embed_signup div.mce_inline_error {
+        font-size: 3.5rem;
+        bottom: -7rem;
+        left: 19.5rem;
+        text-align: center;
+      }
+
+
+      input[type=email], input[type=text] {
+        font-size: 4.6rem;
         font-weight: 300;
         width: 78rem;
         float: none;
@@ -253,7 +292,7 @@
           font-size: 6rem;
           line-height: 9.5rem;
           display: block;
-          width: 80%;
+          width: 82%;
           float: none;
           text-align: center;
           margin: 0 auto 0;
@@ -606,7 +645,9 @@
         }
 
         .blockquote {
-          position: static;
+          position: relative;
+          top: 0;
+          left: 0;
           margin: 0 0 -4.3rem 9rem;
 
           h1, h2 {
