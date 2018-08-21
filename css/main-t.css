@@ -773,6 +773,8 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
   color: #212121;
   padding-top: 1rem;
 }
+/*
+
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -780,23 +782,29 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
 .parallax__layer {
   position: relative;
 }
+
 .parallax__layer--back {
-  transform: translate3d(0, -442px, -1px) scale(2.06);
-  -webkit-transform: translate3d(0, -442px, -1px) scale(2.06);
+  transform: translate3d(0, -442px, -1px)  scale(2.06);
+  -webkit-transform: translate3d(0, -442px, -1px)  scale(2.06);
 }
+
 @supports (-webkit-overflow-scrolling: touch) {
   .parallax__layer--back {
     transform: translate3d(0, 0, -1px) scale(2.06);
     -webkit-transform: translate3d(0, 0, -1px) scale(2.06);
   }
+
 }
+
 .parallax__layer--base {
   transform: translateZ(0);
   z-index: 4;
 }
+*/
 @media only screen and (max-width: 414px) {
   .inner-content {
     max-width: 100%;
@@ -926,17 +934,24 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
     color: #212121;
     padding-top: 3rem;
   }
+  /*
   .parallax__layer--back {
     transform: translate3d(0, -525px, -1px) scale(2.06);
     -webkit-transform: translate3d(0, -525px, -1px) scale(2.06);
   }
+
   @supports not (-webkit-overflow-scrolling: touch) {
-    /* CSS for other than iOS devices */
+
   }
+
+
   @supports (-webkit-overflow-scrolling: touch) {
     .parallax__layer--back {
       transform: translate3d(0, -160px, -1px) scale(2.06);
       -webkit-transform: translate3d(0, -160px, -1px) scale(2.06);
     }
+
   }
+
+*/
 }
