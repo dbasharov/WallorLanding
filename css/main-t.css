@@ -925,6 +925,6 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
     -webkit-transform: translate3d(0, -525px, -1px) scale(2.06);
   }
   @supports (-webkit-overflow-scrolling: touch) {
-    transform: translate3d(0, -525px, -1px) scale(2.06);
+    transform: translate3d(0, 0, -1px) scale(2.06);
   }
 }
