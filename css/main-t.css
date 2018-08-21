@@ -785,6 +785,7 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
 }
 .parallax__layer--back {
   transform: translate3d(0, -442px, -1px) scale(2.06);
+  -webkit-transform: translate3d(0, -442px, -1px) scale(2.06);
 }
 .parallax__layer--base {
   transform: translateZ(0);
@@ -920,6 +921,10 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
     padding-top: 3rem;
   }
   .parallax__layer--back {
+    transform: translate3d(0, -525px, -1px) scale(2.06);
+    -webkit-transform: translate3d(0, -525px, -1px) scale(2.06);
+  }
+  @supports (-webkit-overflow-scrolling: touch) {
     transform: translate3d(0, -525px, -1px) scale(2.06);
   }
 }
