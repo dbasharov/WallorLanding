@@ -172,10 +172,15 @@
     //height: 410px;
   }
 
+  @supports not (-webkit-overflow-scrolling: touch) {
+    /* CSS for other than iOS devices */
+  }
+
+
   @supports (-webkit-overflow-scrolling: touch) {
     .parallax__layer--back {
       transform: translate3d(0, 0, -1px) scale(2.06);
-      -webkit-transform: translate3d(0, 0, -1px) scale(2.06);
+      -webkit-transform: translate3d(0, -100px, -1px) scale(2.06);
     }
 
   }
