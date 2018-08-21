@@ -621,7 +621,6 @@ textarea {
 .section-thank-header {
   width: 100%;
   height: 460px;
-  margin-top: -226px;
   background: url("../img/thank-you-page-header.jpg") no-repeat center center;
   background-size: cover;
   color: #333333;
@@ -637,7 +636,6 @@ textarea {
 .section-thank-content {
   color: #333333;
   background-color: #ffffff;
-  margin-top: 226px;
 }
 .section-thank-content h1,
 .section-thank-content h2,
@@ -778,6 +776,7 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
 .parallax {
   perspective: 1px;
   height: 100vh;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -785,10 +784,11 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
   position: relative;
 }
 .parallax__layer--back {
-  transform: translateZ(-0.5px) scale(1.5);
+  transform: translate3d(0, -442px, -1px) scale(2.06);
 }
 .parallax__layer--base {
   transform: translateZ(0);
+  z-index: 4;
 }
 @media only screen and (max-width: 414px) {
   .inner-content {
@@ -798,7 +798,6 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
   .section-thank-header {
     width: 100%;
     height: 310px;
-    margin-top: -263px;
     background: url("../img/thank-you-page-header.jpg") no-repeat center center;
     background-size: cover;
     color: #333333;
@@ -813,7 +812,6 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
   }
   .section-thank-content {
     color: #333333;
-    margin-top: 263px;
   }
   .section-thank-content h1,
   .section-thank-content h2,
@@ -920,5 +918,8 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
     line-height: 1.7;
     color: #212121;
     padding-top: 3rem;
+  }
+  .parallax__layer--back {
+    transform: translate3d(0, -525px, -1px) scale(2.06);
   }
 }

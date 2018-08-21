@@ -8,7 +8,8 @@
   &-thank-header {
     width: 100%;
     height: 460px;
-    margin-top: -226px;
+    //margin:-226px 0 226px;
+    //margin-top: -226px;
     //padding: 460px 0 0;
     background: url("../img/thank-you-page-header.jpg") no-repeat center center;
     background-size: cover;
@@ -28,7 +29,7 @@
   &-thank-content {
     color: #333333;
     background-color: #ffffff;
-    margin-top: 226px;
+    //margin-top: 226px;
 
     h1, h2, h3, h4, p, ul, li {
       -webkit-margin-before: 0;
@@ -196,7 +197,7 @@ footer.thank-footer {
 .parallax {
   perspective: 1px;
   height: 100vh;
-  //width: 100%;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -211,14 +212,14 @@ footer.thank-footer {
 }
 
 .parallax__layer--back {
-  transform: translateZ(-0.5px) scale(1.5);
-  //z-index: 3;
+  transform: translate3d(0, -442px, -1px)  scale(2.06);
+  //height: 410px;
 
 }
 
 .parallax__layer--base {
   transform: translateZ(0);
-  //z-index: 4;
+  z-index: 4;
 }
 
 // END Parallax
