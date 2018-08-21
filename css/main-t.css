@@ -773,6 +773,9 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
   color: #212121;
   padding-top: 1rem;
 }
+footer.thank-footer .footer-content .background-white-wrapper .inner-content p strong {
+  font-weight: 500;
+}
 /*
 
 .parallax {
