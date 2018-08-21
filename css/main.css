@@ -1159,9 +1159,9 @@ textarea {
   position: relative;
 }
 .section-alerts {
-  height: 110rem;
+  height: 60rem;
   background-image: url('../img/bg-blurr-ar.jpg');
-  background-position: right -58rem bottom;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10.6rem;
@@ -1170,22 +1170,27 @@ textarea {
 }
 .section-alerts .inner-content .titles {
   width: 100%;
-  height: 18.6rem;
   background-color: #fafafa;
-  padding: 4rem 2rem 2rem 6rem;
+  padding: 0rem 2rem 0rem 6rem;
   margin: 0 0 0 0;
   text-align: left;
   padding-left: 10em;
-  padding-top: 5.2rem;
   position: relative;
+  height: 11.2rem;
 }
-.section-alerts .inner-content h1 {
-  color: #1DE9B6;
-  font-weight: 700;
-  font-size: 5rem;
-  line-height: 5rem;
+.section-alerts .inner-content .titles h1 {
+  font-size: 3.8rem;
   font-family: "Roboto";
-  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 4.4rem;
+  color: #1DE9B6;
+  text-align: left;
+  padding-top: 0.35em;
+}
+.section-alerts .inner-content .titles h1 span {
+  font-weight: 300;
+  color: #78909C;
 }
 .section-alerts .inner-content h2 {
   margin: 0;
@@ -1216,22 +1221,22 @@ textarea {
   display: none;
 }
 .section-alerts .inner-content .alert-description-box {
-  margin-top: 4.6rem;
-  margin-left: 0;
-  width: 32%;
+  width: 40%;
   float: left;
-  font-size: 3.8rem;
-  line-height: 7.4rem;
-  text-align: right;
-  font-weight: 400;
+  margin-left: 10rem;
+}
+.section-alerts .inner-content .alert-description-box p {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  display: block;
+  text-align: left;
   color: #37474F;
-  position: relative;
-  right: -4rem;
+  font-weight: 400;
 }
 .section-alerts .inner-content img {
   width: 32.6rem;
   height: auto;
-  margin: -35.3rem auto 0;
+  margin: -20rem auto 0;
   position: relative;
   right: 15.8rem;
   z-index: 100;
@@ -1880,7 +1885,7 @@ footer .brown-footer .text-container p.copywrite {
     position: static;
   }
   .section-alerts {
-    height: 268rem;
+    height: 330rem;
     background-image: url('../img/bg-alert-section-mobile-320.jpg');
     background-position: center;
     padding-top: 0;
@@ -1889,16 +1894,20 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-alerts .inner-content .titles {
     width: 100%;
-    height: 42.8rem;
+    height: 57vw;
     margin: 0 0 0 0;
     padding-left: 10rem;
-    padding-top: 2.7rem;
+    padding-top: 0rem;
     position: static;
   }
-  .section-alerts .inner-content h1 {
+  .section-alerts .inner-content .titles h1 {
     font-size: 11.2rem;
     line-height: 11.2rem;
-    margin-top: 2rem;
+    padding-top: 0.8em;
+  }
+  .section-alerts .inner-content .titles h1 span {
+    font-size: 7.2rem;
+    font-weight: 300;
   }
   .section-alerts .inner-content h2 {
     margin-top: 1rem;
@@ -1916,20 +1925,20 @@ footer .brown-footer .text-container p.copywrite {
     display: none;
   }
   .section-alerts .inner-content .alert-description-box-mobile-320 {
+    font-size: 6rem;
+    line-height: 9.5rem;
     display: block;
-    margin: 0 auto 0;
-    padding: 1rem 0 0;
-    width: 90%;
+    width: 82%;
     float: none;
-    font-size: 5.9rem;
-    line-height: 12.8rem;
     text-align: center;
-    color: #37474F;
+    margin: 0 auto 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
   }
   .section-alerts .inner-content img {
     width: 100%;
     height: auto;
-    margin: -16.2rem auto 0;
+    margin: -30rem auto 0;
     position: relative;
     z-index: 100;
     float: none;
