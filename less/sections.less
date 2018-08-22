@@ -605,7 +605,6 @@
 
         height: 11.2rem;
 
-
         h1 {
           font-size: 3.8rem;
           font-family: @content-font;
@@ -624,11 +623,7 @@
 
         }
 
-
       }
-
-
-
 
       h1 {
         //color: @gps-text-color;
@@ -855,6 +850,8 @@
   }
 
   &-wireless-charging {
+    margin-bottom: 6rem;
+
 
     .inner-content {
 
@@ -883,6 +880,7 @@
       }
 
       .phone-power {
+        position: relative;
 
         img {
           width: 100%;
@@ -890,22 +888,48 @@
         }
 
         .blockquote {
+          position: absolute;
+          top: 2rem;
+          right: 2rem;
+          width: 34rem;
+
+          //padding: 0.9em 1.8em;
 
           p {
             margin: 0;
-            padding: 0;
+            padding: 2.0rem 3rem;
+            color: #FAFAFA;
+            font-size: 2.4rem;
+            font-weight: 700;
+            line-height: 3.2rem;
+            //line-height: 3.9rem;
+            background-color: rgba(29, 160, 233, .7);
+
           }
-          position: absolute;
-          top: 15.1rem;
-          right: 4.4rem;
-          color: #FAFAFA;
-          font-size: 2.4rem;
-          line-height: 3.9rem;
-          width: 33.4rem;
-          padding: 0.9em 1.8em;
-          font-weight: 700;
-          background-color: rgba(29, 160, 233, .7);
+
         }
+
+        .blockquote-nr {
+          width: 100%;
+
+          p {
+            margin: 0;
+            padding: 2.0rem 38rem 2.0rem 14rem;
+            color: #455A64;
+            font-size: 2.0rem;
+            font-weight: 400;
+            line-height: 3.2rem;
+            background-color: #FAFAFA;
+            //background-color: @gps-text-color;
+            //background-color: rgba(255, 255, 255, .7);
+
+            span {
+              font-weight: 700;
+            }
+
+          }
+        }
+
       }
     }
   }

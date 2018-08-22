@@ -1346,6 +1346,9 @@ textarea {
   height: auto;
   margin-left: -3.2rem;
 }
+.section-wireless-charging {
+  margin-bottom: 6rem;
+}
 .section-wireless-charging .inner-content .header {
   padding: 0 4rem 0 4rem;
 }
@@ -1367,25 +1370,42 @@ textarea {
   font-weight: 400;
   padding-bottom: 3rem;
 }
+.section-wireless-charging .inner-content .phone-power {
+  position: relative;
+}
 .section-wireless-charging .inner-content .phone-power img {
   width: 100%;
   height: auto;
 }
 .section-wireless-charging .inner-content .phone-power .blockquote {
   position: absolute;
-  top: 15.1rem;
-  right: 4.4rem;
-  color: #FAFAFA;
-  font-size: 2.4rem;
-  line-height: 3.9rem;
-  width: 33.4rem;
-  padding: 0.9em 1.8em;
-  font-weight: 700;
-  background-color: rgba(29, 160, 233, 0.7);
+  top: 2rem;
+  right: 2rem;
+  width: 34rem;
 }
 .section-wireless-charging .inner-content .phone-power .blockquote p {
   margin: 0;
-  padding: 0;
+  padding: 2rem 3rem;
+  color: #FAFAFA;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  background-color: rgba(29, 160, 233, 0.7);
+}
+.section-wireless-charging .inner-content .phone-power .blockquote-nr {
+  width: 100%;
+}
+.section-wireless-charging .inner-content .phone-power .blockquote-nr p {
+  margin: 0;
+  padding: 2rem 38rem 2rem 14rem;
+  color: #455A64;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  background-color: #FAFAFA;
+}
+.section-wireless-charging .inner-content .phone-power .blockquote-nr p span {
+  font-weight: 700;
 }
 .section-powerbank .inner-content img {
   width: 90.3%;
@@ -2062,15 +2082,31 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-wireless-charging .inner-content .phone-power .blockquote {
     position: static;
+    width: 100%;
+  }
+  .section-wireless-charging .inner-content .phone-power .blockquote p {
     font-size: 4.8rem;
     line-height: 7.6rem;
     font-weight: 300;
-    width: 100%;
     padding: 1.1em 2.5em;
     color: #FAFAFA;
   }
-  .section-wireless-charging .inner-content .phone-power .blockquote span {
+  .section-wireless-charging .inner-content .phone-power .blockquote p span {
     font-weight: 500;
+  }
+  .section-wireless-charging .inner-content .phone-power .blockquote-nr {
+    width: 100%;
+  }
+  .section-wireless-charging .inner-content .phone-power .blockquote-nr p {
+    margin: 0;
+    padding: 1.1em 2.5em;
+    font-size: 4.8rem;
+    line-height: 7.6rem;
+    font-weight: 300;
+    background-color: #FAFAFA;
+  }
+  .section-wireless-charging .inner-content .phone-power .blockquote-nr p span {
+    font-weight: 700;
   }
   .section-powerbank .inner-content img {
     width: 100rem;
