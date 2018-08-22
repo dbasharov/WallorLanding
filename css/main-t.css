@@ -876,11 +876,17 @@ footer.thank-footer a.fb-link:hover {
   .section-thank-content .inner-content p:first-child {
     padding-top: 0;
   }
-  .section-thank-content a.fb-link {
-    width: 86%;
-    padding: 10rem 7%;
+  .section-thank-content .wide-title {
+    padding: 10rem 0;
+  }
+  .section-thank-content .wide-title a.fb-link {
+    padding: 1rem 1rem;
     font-size: 6rem;
     line-height: 1.4;
+    border: solid 1px #1eaaf1;
+    display: block;
+    width: 86%;
+    margin: 0 auto;
   }
   footer.thank-footer {
     width: 100%;
@@ -899,11 +905,11 @@ footer.thank-footer a.fb-link:hover {
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
   }
-  footer.thank-footer .wide-title {
+  footer.thank-footer .wide-title-footer {
     padding: 8rem 0;
     margin: 0;
   }
-  footer.thank-footer .wide-title h2 {
+  footer.thank-footer .wide-title-footer h2 {
     font-size: 4.8rem;
     width: 86%;
     margin: 0 auto;
@@ -925,11 +931,17 @@ footer.thank-footer a.fb-link:hover {
     color: #212121;
     padding-top: 3rem;
   }
-  footer.thank-footer a.fb-link {
-    width: 86%;
-    padding: 10rem 7%;
+  footer.thank-footer .wide-title {
+    padding: 10rem 0;
+  }
+  footer.thank-footer .wide-title a.fb-link {
+    padding: 1rem 1rem;
     font-size: 6rem;
     line-height: 1.4;
+    border: solid 1px #1eaaf1;
+    display: block;
+    width: 86%;
+    margin: 0 auto;
   }
   /*
    .parallax__layer--back {
