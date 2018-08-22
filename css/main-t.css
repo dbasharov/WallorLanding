@@ -618,6 +618,10 @@ textarea {
   max-width: 100%;
   margin: 0 auto;
 }
+.with-set-wrapper {
+  width: 76%;
+  margin: 0 auto;
+}
 .section-thank-header {
   width: 100%;
   height: 460px;
@@ -652,6 +656,7 @@ textarea {
 .section-thank-content .wide-title-header {
   background-color: #f2f2f2;
   padding: 1.6rem 0;
+  margin-bottom: 3rem;
 }
 .section-thank-content .wide-title-header h1 {
   font-family: "Roboto";
@@ -662,8 +667,8 @@ textarea {
   text-align: center;
 }
 .section-thank-content .inner-content {
-  padding: 3rem 0;
-  width: 76%;
+  padding: 0rem 0;
+  width: 80%;
 }
 .section-thank-content .inner-content h2 {
   font-weight: 400;
@@ -690,6 +695,7 @@ textarea {
   width: 100%;
   background: #3b5998;
   padding: 2.4rem 0;
+  margin: 3rem 0 3rem;
   text-align: center;
 }
 .section-thank-content .wide-title a.fb-link {
@@ -712,6 +718,10 @@ footer.thank-footer {
   width: 100%;
   color: #333333;
 }
+footer.thank-footer .inner-content {
+  padding: 0rem 0;
+  width: 80%;
+}
 footer.thank-footer h1,
 footer.thank-footer h2,
 footer.thank-footer h3,
@@ -727,7 +737,7 @@ footer.thank-footer li {
 footer.thank-footer .wide-title-footer {
   background-color: #f2f2f2;
   padding: 1.6rem 0;
-  margin: 0;
+  margin-top: 3rem;
 }
 footer.thank-footer .wide-title-footer h2 {
   font-weight: 400;
@@ -744,19 +754,16 @@ footer.thank-footer .footer-content {
 }
 footer.thank-footer .footer-content .background-white-wrapper {
   background-color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 3rem;
 }
-footer.thank-footer .footer-content .background-white-wrapper .inner-content {
-  padding: 3rem 0;
-  width: 76%;
-}
-footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
+footer.thank-footer .footer-content .background-white-wrapper p {
   text-align: left;
   font-size: 1.2rem;
   line-height: 1.7;
   color: #212121;
   padding-top: 1rem;
 }
-footer.thank-footer .footer-content .background-white-wrapper .inner-content p strong {
+footer.thank-footer .footer-content .background-white-wrapper p strong {
   font-weight: 500;
 }
 footer.thank-footer .wide-title {
@@ -764,6 +771,7 @@ footer.thank-footer .wide-title {
   background: #3b5998;
   padding: 2.4rem 0;
   text-align: center;
+  margin: 0;
 }
 footer.thank-footer .wide-title a.fb-link {
   width: 100%;
@@ -816,6 +824,10 @@ footer.thank-footer a.fb-link:hover {
 @media only screen and (max-width: 414px) {
   .inner-content {
     max-width: 100%;
+    margin: 0 auto;
+  }
+  .with-set-wrapper {
+    width: 100%;
     margin: 0 auto;
   }
   .section-thank-header {
