@@ -2215,6 +2215,59 @@ footer .brown-footer .text-container p.copywrite {
     letter-spacing: 0.1rem;
     color: #78909C;
   }
+  .section-call-to-action {
+    margin-bottom: 2rem;
+  }
+  .section-call-to-action .inner-content {
+    margin: 0;
+    padding: 1.5rem 0 0 0;
+    height: auto;
+  }
+  .section-call-to-action .grid-wrapper {
+    width: 74rem;
+    margin: 0 auto;
+  }
+  .section-call-to-action .info-container {
+    display: grid;
+    grid-template-columns: 14rem 50rem;
+    grid-column-gap: 10rem;
+    grid-row-gap: 9rem;
+    position: relative;
+    padding-top: 7.5rem;
+    padding-bottom: 5.4rem;
+    margin: 0 auto;
+  }
+  .section-call-to-action .info-container .icon-leather,
+  .section-call-to-action .info-container .icon-meter,
+  .section-call-to-action .info-container .icon-tracking {
+    padding-top: 2rem;
+  }
+  .section-call-to-action .info-container .icon-leather i,
+  .section-call-to-action .info-container .icon-meter i,
+  .section-call-to-action .info-container .icon-tracking i {
+    font-size: 12.4rem;
+  }
+  .section-call-to-action .info-container .title-features {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-call-to-action .info-container .title-features h2 {
+    font-weight: 300;
+    font-size: 5.4rem;
+    line-height: 5.4rem;
+    color: #222;
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+  .section-call-to-action .info-container .title-features p {
+    color: #78909C;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
   .section-kickstarter-testimonials .wrapper {
     width: 80%;
     margin: auto;
