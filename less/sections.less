@@ -852,7 +852,6 @@
   &-wireless-charging {
     margin-bottom: 6rem;
 
-
     .inner-content {
 
       .header {
@@ -992,6 +991,86 @@
           color: @alert-info-color;
           font-weight: 400;
         }
+      }
+    }
+  }
+
+  &-call-to-action {
+    overflow-x: hidden;
+
+
+    .img {
+      width: 106rem;
+      position: relative;
+      left: -3rem;
+      overflow-x: hidden;
+      //height: auto;
+    }
+
+
+    .inner-content {
+      margin: 0;
+      padding: 1.5rem 0 0 0;
+      height: auto;
+    }
+
+
+    .info-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      position: relative;
+      left: 0;
+      background-color: #ECEFF1;
+      padding-top: 7.5rem;
+      padding-bottom: 5.4rem;
+      border: solid 1px red;
+
+      .icon-leather, .icon-meter, .icon-tracking{
+        font-size: 6.0rem;
+      }
+
+      .title-features{
+        h2 {
+          font-weight: 300;
+          font-size: 2.45rem;
+          line-height: 2.8rem;
+          margin-bottom: 0;
+        }
+
+        p {
+          color: @alert-info-color;
+          font-size: 1.45rem;
+          line-height: 1.8;
+          text-align: left;
+          margin-top: 0;
+        }
+
+
+      }
+
+
+      .h-left {
+        h1, p {
+          margin-left: 27.4rem;
+        }
+
+        i {
+          top: 1.17em;
+          left: 3.1em;
+        }
+
+      }
+
+      .h-right {
+        h1, p {
+          margin-left: 19.7rem;
+        }
+
+        i {
+          top: 1.17em;
+          left: 1.75em;
+        }
+
       }
     }
   }

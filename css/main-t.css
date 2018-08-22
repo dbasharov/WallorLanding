@@ -686,9 +686,15 @@ textarea {
 .section-thank-content .inner-content p:first-child {
   padding-top: 0;
 }
-.section-thank-content a.fb-link {
+.section-thank-content .wide-title {
   width: 100%;
+  background: #226e93;
   padding: 2.2rem 0;
+  text-align: center;
+}
+.section-thank-content .wide-title a.fb-link {
+  width: 100%;
+  padding: 1rem 2.4rem;
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.4;
@@ -696,17 +702,11 @@ textarea {
   text-align: center;
   color: #fff;
   text-decoration: none;
-  background: #226e93;
-  display: block;
   cursor: pointer;
-  box-shadow: inset 0px 1px 0px 0px #54a3f7;
-  background: linear-gradient(to bottom, rgba(84, 160, 197, 0.7), rgba(34, 110, 147, 0.5));
-  background-color: #226e93;
-  border: solid 1px rgba(124, 200, 247, 0.2);
-  text-shadow: 0 1px 0 rgba(84, 160, 197, 0.8);
+  border: solid 1px #1eaaf1;
 }
 .section-thank-content a.fb-link:hover {
-  background-color: #186489;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 footer.thank-footer {
   width: 100%;
@@ -724,12 +724,12 @@ footer.thank-footer li {
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
 }
-footer.thank-footer .wide-title {
+footer.thank-footer .wide-title-footer {
   background-color: #f2f2f2;
   padding: 1.6rem 0;
   margin: 0;
 }
-footer.thank-footer .wide-title h2 {
+footer.thank-footer .wide-title-footer h2 {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.4;
@@ -759,9 +759,15 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p {
 footer.thank-footer .footer-content .background-white-wrapper .inner-content p strong {
   font-weight: 500;
 }
-footer.thank-footer a.fb-link {
+footer.thank-footer .wide-title {
   width: 100%;
+  background: #226e93;
   padding: 2.2rem 0;
+  text-align: center;
+}
+footer.thank-footer .wide-title a.fb-link {
+  width: 100%;
+  padding: 1rem 2.4rem;
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.4;
@@ -769,17 +775,11 @@ footer.thank-footer a.fb-link {
   text-align: center;
   color: #fff;
   text-decoration: none;
-  background: #226e93;
-  display: block;
   cursor: pointer;
-  box-shadow: inset 0px 1px 0px 0px #54a3f7;
-  background: linear-gradient(to bottom, rgba(84, 160, 197, 0.7), rgba(34, 110, 147, 0.5));
-  background-color: #226e93;
-  border: solid 1px rgba(124, 200, 247, 0.2);
-  text-shadow: 0 1px 0 rgba(84, 160, 197, 0.8);
+  border: solid 1px #1eaaf1;
 }
 footer.thank-footer a.fb-link:hover {
-  background-color: #186489;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 /*
 
