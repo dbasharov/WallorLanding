@@ -688,7 +688,7 @@ textarea {
 }
 .section-thank-content .wide-title {
   width: 100%;
-  background: #226e93;
+  background: #3b5998;
   padding: 2.4rem 0;
   text-align: center;
 }
@@ -703,7 +703,7 @@ textarea {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-  border: solid 1px #1eaaf1;
+  border: solid 1px #8b9dc3;
 }
 .section-thank-content a.fb-link:hover {
   background-color: rgba(255, 255, 255, 0.05);
@@ -761,7 +761,7 @@ footer.thank-footer .footer-content .background-white-wrapper .inner-content p s
 }
 footer.thank-footer .wide-title {
   width: 100%;
-  background: #226e93;
+  background: #3b5998;
   padding: 2.4rem 0;
   text-align: center;
 }
@@ -776,7 +776,7 @@ footer.thank-footer .wide-title a.fb-link {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-  border: solid 1px #1eaaf1;
+  border: solid 1px #8b9dc3;
 }
 footer.thank-footer a.fb-link:hover {
   background-color: rgba(255, 255, 255, 0.05);
