@@ -547,6 +547,13 @@ textarea {
 }
 @font-face {
   font-family: 'Segoe UI';
+  src: url('SegoeUI-Bold.eot');
+  src: local('Segoe UI Bold'), local('SegoeUI-Bold'), url('SegoeUI-Bold.eot?#iefix') format('embedded-opentype'), url('SegoeUI-Bold.woff') format('woff'), url('SegoeUI-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Segoe UI';
   src: url('SegoeUI.eot');
   src: local('Segoe UI'), local('SegoeUI'), url('fonts/SegoeUI/SegoeUI.woff') format('woff'), url('fonts/SegoeUI/SegoeUI.ttf') format('truetype'), url('fonts/SegoeUI/SegoeUI.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
@@ -659,10 +666,9 @@ textarea {
   max-width: 100%;
 }
 .section-hero {
-  background: #26C6DA;
-  height: 60vw;
+  background: #001326;
+  height: 52vw;
   border: none;
-  border-bottom: solid 1rem #ffdf32;
   margin: 0;
 }
 .section-hero .main-banner-320 {
@@ -670,11 +676,10 @@ textarea {
 }
 .section-hero .logo {
   position: absolute;
-  right: 4.5rem;
-  top: 2rem;
-  fill: #FFF;
+  right: 5.8rem;
+  top: 2.3rem;
   z-index: 2;
-  width: 18rem;
+  width: 14.4rem;
 }
 .section-hero h1.main-banner-title-320,
 .section-hero h2.main-banner-title-320 {
@@ -683,32 +688,35 @@ textarea {
 .section-hero h1 {
   font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
   letter-spacing: 0.04em;
-  font-weight: 600;
-  line-height: 6.4rem;
-  font-size: 4.6rem;
+  font-weight: bold;
+  line-height: 4.9rem;
+  font-size: 3.4rem;
   color: #eeeeee;
   position: absolute;
-  right: 4.8rem;
-  top: 8rem;
+  right: 5.8rem;
+  top: 7rem;
   text-align: right;
   z-index: 200;
 }
 .section-hero h2 {
   font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
   letter-spacing: 0.04em;
-  font-weight: 600;
-  line-height: 3.6rem;
-  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 2.45rem;
+  font-size: 1.7rem;
   color: #eeeeee;
   position: absolute;
-  right: 4.8rem;
-  top: 49rem;
+  right: 5.8rem;
+  top: 39rem;
   text-align: right;
   z-index: 200;
 }
+.section-hero h2 span {
+  font-weight: 600;
+}
 .section-hero img.main-banner {
-  width: 83em;
-  height: 60.01em;
+  width: 100vw;
+  height: 52vw;
   float: left;
   position: absolute;
 }
@@ -953,11 +961,11 @@ textarea {
   margin-top: 6.8rem;
 }
 .section-tracking .wide-title {
-  background: #FFEA00;
+  background: #68c4ce;
   height: 11.2rem;
 }
 .section-tracking .wide-title h1 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 3.8rem;
   line-height: 4.4rem;
   font-family: "Roboto";
@@ -965,31 +973,34 @@ textarea {
   text-align: right;
   padding-top: 0.35em;
   right: 15.2rem;
+  color: #FFF;
 }
 .section-tracking .wide-title h1 span {
-  font-weight: 300;
+  font-weight: 400;
+  color: #32386a;
 }
 .section-tracking .inner-content img.mobile-320 {
   display: none;
 }
 .section-tracking .inner-content img {
   position: absolute;
-  width: 42.5rem;
-  top: -14.2rem;
-  left: 8.5rem;
+  width: 45.6rem;
+  top: -7.2rem;
+  left: 14rem;
 }
 .section-tracking .inner-content p.mobile-320 {
   display: none;
 }
 .section-tracking .inner-content p {
-  font-size: 2.4rem;
-  line-height: 4rem;
+  font-size: 1.9rem;
+  line-height: 3.17rem;
   display: block;
-  width: 55%;
+  width: 22%;
   float: right;
-  text-align: right;
-  margin-top: 10.4rem;
-  right: 15.2rem;
+  text-align: center;
+  margin-top: 4.4rem;
+  right: 14.2rem;
+  color: #101b2a;
 }
 .section-tracking .inner-content p strong {
   font-weight: 500;
