@@ -1,5 +1,4 @@
 @media only screen and (max-width: 480px) {
-//@media only screen and (max-width: 414px) {
 
   .main-wrapper {
 
@@ -206,8 +205,8 @@
     }
 
     &-tracking {
-      height: 172.3rem;
-      margin-top: 11em;
+      height: 192.0vw;
+      margin-top: 11vw;
 
       .wide-title {
         height: 55.9rem;
@@ -231,16 +230,21 @@
         text-align: center;
 
         img {
-          display: none;
+          //display: none;
+          position: relative;
+          width: 90%;
+          margin-top: -1.8rem;
+          left: 0;
+          top: -19vw;
         }
 
         img.mobile-320 {
-          display: block;
+          //display: block;
           position: relative;
           width: 100%;
           margin-top: -1.8rem;
           left: 0;
-          top: -19rem;
+          top: -19vw;
         }
 
         p {
@@ -255,8 +259,34 @@
           float: none;
           text-align: center;
           margin: -3.2em auto 0;
-          padding-bottom: 20rem;
+          padding: 0 0 10vw 0;
         }
+
+        .smart-icon-wrapper {
+          width: 74vw;
+          margin: 0 auto;
+          padding: 0;
+        }
+
+        .smart-icon-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-column-gap: 7vw;
+          grid-row-gap: 7vw;
+
+          div {
+            width: 20vw;
+            text-align: center;
+
+            img {
+              width: 20vw;
+              position: static;
+            }
+          }
+
+        }
+
+
       }
     }
 
@@ -264,7 +294,7 @@
       height: 273.4rem;
 
       .wide-title {
-        background: @gps-text-color;
+        background: #68c4ce;
         height: 57vw;
 
         h1 {
@@ -286,9 +316,9 @@
         img {
           position: static;
           display: block;
-          width: 100em;
+          width: 100vw;
           height: auto;
-          margin: -30rem 0 0 -1.5rem;
+          margin: -30vw 0 0 -1.5vw;
 
         }
 
@@ -318,8 +348,8 @@
         img {
           position: static;
           width: 115%;
-          margin-bottom: -120rem;
-          margin-left: -6.5rem;
+          margin-bottom: -120vw;
+          margin-left: -6.5vw;
 
         }
 
@@ -328,18 +358,18 @@
           font-size: 4.2rem;
           line-height: 6.4rem;
           text-align: center;
-          margin-top: 64.1rem;
+          margin-top: 64.1vw;
           font-weight: 300;
         }
 
         p.extra-fees-title {
-          margin: 6.0rem;
+          margin: 6.0vw;
           font-weight: 400;
         }
       }
 
       .gps-content {
-        height: 124rem;
+        height: 124vw;
         text-align: right;
         padding: 0;
       }
@@ -364,13 +394,13 @@
     }
 
     &-alerts {
-      height: 330rem;
-      //height: 268rem;
+      height: 330vw;
+      //height: 268vw;
       background-image: url('../img/bg-alert-section-mobile-320.jpg');
       background-position: center;
       padding-top: 0;
       margin-top: 0;
-      margin-bottom: -3rem;
+      margin-bottom: -3vw;
 
       .inner-content {
 
@@ -378,9 +408,9 @@
           width: 100%;
           height: 57vw;
           margin: 0 0 0 0;
-          padding-left: 10rem;
-          padding-top: 0rem;
-          //padding-top: 2.7rem;
+          padding-left: 10vw;
+          padding-top: 0;
+          //padding-top: 2.7vw;
           position: static;
 
           h1 {
@@ -397,26 +427,6 @@
           }
         }
 
-        h1 {
-          //font-size: 11.2rem;
-          //line-height: 11.2rem;
-          //margin-top: 2rem;
-        }
-
-        h2 {
-          margin-top: 1rem;
-          font-size: 6.4rem;
-          line-height: 6.4rem;
-        }
-
-        h3 {
-          position: relative;
-          margin-top: 2.4rem;
-          font-size: 4.9rem;
-          line-height: 4.8rem;
-          font-weight: 300;
-
-        }
 
         .alert-description-box {
           display: none;
@@ -424,8 +434,6 @@
         }
 
         .alert-description-box-mobile-320 {
-
-
             font-size: 6rem;
             line-height: 9.5rem;
             display: block;
@@ -433,7 +441,6 @@
             float: none;
             text-align: center;
             margin: 0 auto 0;
-
             -webkit-margin-before: 0;
             -webkit-margin-after: 0;
 
@@ -452,12 +459,12 @@
         img {
           width: 100%;
           height: auto;
-          margin: -30rem auto 0;
+          margin: -28vw auto 0;
           //margin: -16.2rem auto 0;
           position: relative;
           z-index: 100;
           float: none;
-          left: 2rem;
+          left: 2vw;
         }
 
       }
@@ -469,209 +476,96 @@
       .inner-content {
         margin: 0;
         height: auto;
-      }
-      img {
-        width: 95rem;
-        height: 56rem;
-        margin-bottom: -34.8em;
-        position: relative;
 
-      }
-
-      h1 {
-        font-weight: 300;
-        font-size: 5.4rem;
-        margin-bottom: 2rem;
-        color: #1a1a1a;
-      }
-
-      p {
-        font-size: 4.0rem;
-        line-height: 8rem;
-        font-weight: 300;
-        color: #546E7A;
-
-      }
-
-      .h-left {
-
-        h1, p {
-          margin-left: 38rem;
-
+        img {
+          width: 100vw;
         }
-
-        i {
-          top: 1.15em;
-          left: 14.6rem;
-        }
-
       }
 
-      .h-right {
 
-        h1, p {
-          margin-left: 38rem;
-
-        }
-
-        i {
-          top: 1.15em;
-          left: 14.6rem;
-        }
-
-      }
-
-      .info-container {
-        grid-template-rows: 20rem;
-        grid-template-columns: repeat(1, 2fr);
-        padding-top: 23em;
-        padding-bottom: 10em;
-
-        i {
-          position: relative;
-          font-size: 12.4rem;
-          color: #1a1a1a;
-        }
-
-      }
-    }
-
-    &-wood {
-
-      .img {
-        width: 100%;
-      }
     }
 
     &-rfid {
 
       .inner-content {
-        //grid-template-columns: repeat(1, 2fr);
-        //padding: 6rem 4rem 8rem 4rem;
-        //padding: 6rem 4rem 22rem 4rem;
 
-        .half {
-
-          h1, h2, p {
-            margin: 0;
-
-          }
-
-          h1 {
-            font-size: 11.2rem;
-            line-height: 11.2rem;
-            margin-top: 3.0rem;
-            margin-left: 12rem;
-          }
-
-          h2 {
-            font-size: 4.7rem;
-            line-height: 5.5rem;
-            font-weight: 400;
-            padding: 0;
-            margin-left: 12rem;
-            letter-spacing: 0.1rem;
-            color: #78909C;
-          }
-
-          p {
-            display: none;
-          }
-
-          p.mobile-320 {
-            display: block;
-            font-size: 4.8rem;
-            line-height: 7.8rem;
-            font-weight: 300;
-            margin-top: 10rem;
-            text-align: center;
-          }
-
-          img {
-            width: 100%;
-            margin-left: 0;
-            margin-top: 5rem;
-          }
-        }
       }
 
     }
 
-    &-wireless-charging {
-
-      .inner-content {
-
-        .header {
-          padding: 0 4rem 0 7.4rem;
-          margin-bottom: 2rem;
-
-          h1, h2 {
-            margin: 0;
-          }
-
-          h1 {
-            font-size: 7rem;
-            line-height: 9rem;
-            text-transform: uppercase;
-          }
-
-          h2 {
-            font-size: 4.6rem;
-            line-height: 6rem;
-            font-weight: 400;
-            padding-bottom: 3rem;
-            letter-spacing: 0.1rem;
-          }
-        }
-
-        .phone-power {
-
-          img {
-            width: 100%;
-            height: auto;
-          }
-
-          .blockquote {
-            position: static;
-            width: 100%;
-
-            p{
-              font-size: 4.8rem;
-              line-height: 7.6rem;
-              font-weight: 300;
-              padding: 1.1em 2.5em;
-              color: #FAFAFA;
-
-              span {
-                font-weight: 500;
-              }
-            }
-
-          }
-
-          .blockquote-nr {
-            width: 100%;
-
-            p {
-              margin: 0;
-              padding: 1.1em 2.5em;
-              font-size: 4.8rem;
-              line-height: 7.6rem;
-              font-weight: 300;
-              background-color: #FAFAFA;
-              //background-color: @gps-text-color;
-              //background-color: rgba(255, 255, 255, .7);
-
-              span {
-                font-weight: 700;
-              }
-
-            }
-          }
-
-        }
-      }
-    }
+    //&-wireless-charging {
+    //
+    //  .inner-content {
+    //
+    //    .header {
+    //      padding: 0 4rem 0 7.4rem;
+    //      margin-bottom: 2rem;
+    //
+    //      h1, h2 {
+    //        margin: 0;
+    //      }
+    //
+    //      h1 {
+    //        font-size: 7rem;
+    //        line-height: 9rem;
+    //        text-transform: uppercase;
+    //      }
+    //
+    //      h2 {
+    //        font-size: 4.6rem;
+    //        line-height: 6rem;
+    //        font-weight: 400;
+    //        padding-bottom: 3rem;
+    //        letter-spacing: 0.1rem;
+    //      }
+    //    }
+    //
+    //    .phone-power {
+    //
+    //      img {
+    //        width: 100%;
+    //        height: auto;
+    //      }
+    //
+    //      .blockquote {
+    //        position: static;
+    //        width: 100%;
+    //
+    //        p{
+    //          font-size: 4.8rem;
+    //          line-height: 7.6rem;
+    //          font-weight: 300;
+    //          padding: 1.1em 2.5em;
+    //          color: #FAFAFA;
+    //
+    //          span {
+    //            font-weight: 500;
+    //          }
+    //        }
+    //
+    //      }
+    //
+    //      .blockquote-nr {
+    //        width: 100%;
+    //
+    //        p {
+    //          margin: 0;
+    //          padding: 1.1em 2.5em;
+    //          font-size: 4.8rem;
+    //          line-height: 7.6rem;
+    //          font-weight: 300;
+    //          background-color: #FAFAFA;
+    //
+    //          span {
+    //            font-weight: 700;
+    //          }
+    //
+    //        }
+    //      }
+    //
+    //    }
+    //  }
+    //}
 
     //&-powerbank {
     //
@@ -727,31 +621,27 @@
 
       .inner-content {
         margin: 0;
-        padding: 1.5rem 0 0 0;
+        padding: 1.5vw 0 0 0;
         height: auto;
       }
 
       .grid-wrapper {
-        width: 74rem;
+        width: 74vw;
         margin: 0 auto;
-        //border: solid 1px yellow;
       }
 
       .info-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 10rem;
-        grid-row-gap: 9.0rem;
+        grid-column-gap: 10vw;
+        grid-row-gap: 9.0vw;
         position: relative;
-        padding-top: 7.5rem;
-        padding-bottom: 5.4rem;
+        padding-top: 7.5vw;
+        padding-bottom: 5.4vw;
         margin: 0 auto;
-        //border: solid 1px red;
 
 
         .title-features {
-          //border: solid 1px blue;
-
           -webkit-margin-before: 0;
           -webkit-margin-after: 0;
 
@@ -905,19 +795,18 @@
   }
 
   footer {
-    margin-top: 10rem;
-    //margin-top: 20rem;
+    margin-top: 10vw;
     .yellow-footer {
       padding-top: 0;
-      width: 82rem;
-      height: 62rem;
+      width: 82vw;
+      height: 62vw;
       text-align: center;
-      margin-bottom: -22.5rem;
+      margin-bottom: -22.5vw;
       position: relative;
 
       img {
-        width: 67rem;
-        margin-top: 3rem;
+        width: 67vw;
+        margin-top: 3vw;
       }
 
       h1 {
@@ -934,12 +823,12 @@
 
     .brown-footer {
       margin: 0;
-      padding-top: 35rem;
+      padding-top: 35vw;
       padding-bottom: 1vw;
       text-align: center;
 
       .text-container {
-        width: 85rem;
+        width: 85vw;
         margin: 0 auto;
 
         p {

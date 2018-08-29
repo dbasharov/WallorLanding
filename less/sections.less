@@ -5,11 +5,8 @@
 .section {
   &-hero {
     background: #001326;
-    //background: @cyan;
     height: 52vw;
-    //height: 60vw;
     border: none;
-    //border-bottom: solid 1rem rgba(255, 223, 50, 1);
     margin: 0;
 
     .main-banner-320 {
@@ -18,13 +15,10 @@
 
     .logo {
       position: absolute;
-      right: 5.8rem;
-      //right: 4.5rem;
-      top: 2.3rem;
-      //fill: @white;
+      right: 5.8vw;
+      top: 2.3vw;
       z-index: 2;
-      width: 14.4rem;
-      //width: 18rem;
+      width: 14.4vw;
     }
 
     h1.main-banner-title-320, h2.main-banner-title-320 {
@@ -36,15 +30,11 @@
       letter-spacing: 0.04em;
       font-weight: bold;
       line-height: 4.90rem;
-      //line-height: 4.72rem;
-      //line-height: 6.4rem;
       font-size: 3.4rem;
-      //font-size: 4.6rem;
       color: #eeeeee;
       position: absolute;
-      right: 5.8rem;
-      //right: 4.8rem;
-      top: 7rem;
+      right: 5.8vw;
+      top: 7vw;
       text-align: right;
       z-index: 200;
     }
@@ -55,12 +45,10 @@
       font-weight: 400;
       line-height: 2.45rem;
       font-size: 1.7rem;
-      //font-size: 2.6rem;
       color: #eeeeee;
       position: absolute;
-      right: 5.8rem;
-      //right: 4.8rem;
-      top: 39.0rem;
+      right: 5.8vw;
+      top: 39.0vw;
       text-align: right;
       z-index: 200;
 
@@ -72,7 +60,6 @@
     img.main-banner {
       width: 100vw;
       height: 52vw;
-      //height: 60.01em;
       float: left;
       position: absolute;
     }
@@ -80,76 +67,61 @@
   }
 
   &-ar {
-    /*border-top: 1em solid rgba(255, 223, 50, 1);*/
     position: relative;
     height: auto;
     z-index: 2;
 
-    .mobile-320-wrap {
+    .video-landscape-higher-1024, .video-portrait-under-1024, .video-landscape-under-1024, .video-480-1024, .video-mobile, .video-mobile-portrait, .video-mobile-landscape {
       display: none;
     }
-
-    h1.main-banner-title-320 {
-      display: none;
-    }
-
-.video-landscape-higher-1024, .video-portrait-under-1024, .video-landscape-under-1024, .video-480-1024, .video-mobile, .video-mobile-portrait, .video-mobile-landscape{
-  display: none;
-}
-
 
     @media only screen and (min-width: 1025px) and (orientation: landscape) {
-      .video-landscape-higher-1024{
+      .video-landscape-higher-1024 {
         display: block;
       }
     }
-
 
     @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
-      .video-portrait-under-1024{
+      .video-portrait-under-1024 {
         display: block;
       }
     }
-
 
     @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
-      .video-landscape-under-1024{
+      .video-landscape-under-1024 {
         display: block;
       }
     }
 
-
-
     @media only screen and (min-width: 481px) and (max-width: 1024px) {
-      .video-480-1024{
+      .video-480-1024 {
         //display: block;
       }
     }
 
     @media only screen and (max-width: 480px) {
-      .video-mobile{
+      .video-mobile {
         //display: block;
       }
     }
 
     @media only screen and (max-width: 480px) and (orientation: portrait) {
-      .video-mobile-portrait{
+      .video-mobile-portrait {
         display: block;
       }
     }
 
-@media only screen and (max-width: 480px) and (orientation: landscape) {
-      .video-mobile-landscape{
+    @media only screen and (max-width: 480px) and (orientation: landscape) {
+      .video-mobile-landscape {
         display: block;
       }
     }
-
 
   }
 
   &-kickstarter {
     text-align: center;
-    margin-bottom: 6em;
+    margin-bottom: 6rem;
 
     h3 {
       color: @kickstarter-welcome-color;
@@ -206,9 +178,6 @@
     }
 
     input[type=email], input[type=text] {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      /*appearance: none;*/
       background-clip: padding-box;
       box-shadow: none !important;
       border-radius: 0;
@@ -216,7 +185,6 @@
       box-shadow: none;
       background: none;
       display: block;
-      //margin: auto;
       padding: 0 1em;
       color: @input-text-color;
       width: 22rem;
@@ -230,6 +198,9 @@
       border-bottom-color: @input-border-bottom-color;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      /*appearance: none;*/
     }
 
     .input.Input-text::placeholder {
@@ -287,30 +258,27 @@
 
   &-tracking {
     height: 56.25vw;
-    margin-top: 6.8rem;
+    margin-top: 6.8vw;
     background-color: #f6f6f6;
     .wide-title {
       background: #68c4ce;
-      //background: @yellow;
       height: 11.2rem;
 
       h1 {
         font-weight: 700;
-        //font-weight: 500;
         font-size: 3.8rem;
         line-height: 4.4rem;
         font-family: @content-font;
         text-transform: uppercase;
         text-align: right;
         padding-top: 0.35em;
-        right: 15.2rem;
+        padding-right: 15.2vw;
         color: @white;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
 
         span {
           font-weight: 400;
-          //font-weight: 300;
           color: #32386a;
         }
 
@@ -326,12 +294,9 @@
 
       img {
         position: absolute;
-        width: 45.6rem;
-        //width: 42.5rem;
-        top: -7.2rem;
-        //top: -14.2rem;
-        left: 14rem;
-        //left: 8.5rem;
+        width: 45.6vw;
+        top: -7.2vw;
+        left: 14vw;
       }
 
       p.mobile-320 {
@@ -340,18 +305,13 @@
 
       p {
         font-size: 1.9rem;
-        //font-size: 2.4rem;
         line-height: 3.17rem;
-        //line-height: 4.0rem;
         display: block;
         width: 22%;
-        //width: 55%;
+        padding-right: 14.2vw;
         float: right;
         text-align: center;
         margin-top: 4.4rem;
-        //margin-top: 10.4rem;
-        right: 14.2rem;
-        //right: 15.2rem;
         color: #101b2a;
 
         strong {
@@ -402,7 +362,8 @@
         font-weight: 700;
         text-align: left;
         padding-top: 0.35em;
-        left: 12rem;
+        padding-left: 12vw;
+        //left: 12rem;
         color: @white;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
@@ -420,9 +381,8 @@
       img {
         position: absolute;
         top: -18vw;
-        right: 15.8rem;
+        right: 15.8vw;
         width: 28.75vw;
-        //width: 32.6rem;
       }
 
       p.mobile-320 {
@@ -435,7 +395,7 @@
         float: left;
         text-align: left;
         margin-top: 5.3vw;
-        left: 12rem;
+        padding-left: 12vw;
         font-size: 1.9rem;
         line-height: 3.17rem;
         color: #101b2a;
@@ -449,7 +409,6 @@
 
   }
 
-  //custom class added for gps styling
   &-gps {
     margin-bottom: 0;
 
@@ -458,8 +417,7 @@
       img {
         position: absolute;
         width: 63.2vw;
-        //width: 62.5rem;
-        top: -9.5em;
+        top: -9.5vw;
       }
 
       p {
@@ -514,7 +472,7 @@
     background-size: cover;
     padding-top: 10vw;
     margin-top: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 5vw;
 
     .inner-content {
 
@@ -556,18 +514,7 @@
         font-weight: 700;
       }
 
-      h3 {
-        position: relative;
-        color: #101B2A;
-        font-family: @content-font;
-        font-size: 2.4rem;
-        line-height: 2.4rem;
-        font-weight: 400;
-        margin: 0;
-        top: -1.0rem;
-      }
-
-      h1, h2, h3 {
+      h1, h2 {
         margin: 0;
         padding: 0;
       }
@@ -609,7 +556,7 @@
         height: auto;
         margin: -15.5vw auto 0;
         position: relative;
-        right: 14.5rem;
+        right: 14.5vw;
         z-index: 100;
         float: right;
 
@@ -634,7 +581,6 @@
         width: 100%;
         height: auto;
         position: relative;
-        //z-index: 10;
       }
 
       h2 {
@@ -646,85 +592,29 @@
       }
 
       .wallets-type-1 {
-        left: 14.58rem;
-        top: 4.4rem;
+        left: 14.58vw;
+        top: 4.4vw;
       }
 
       .wallets-type-2 {
-        left: 42.9rem;
-        top: 4.4rem;
+        left: 42.9vw;
+        top: 4.4vw;
       }
 
       .wallets-type-3 {
-        left: 65.6rem;
-        top: 4.4rem;
+        left: 65.6vw;
+        top: 4.4vw;
       }
 
     }
 
-    h1 {
-      font-weight: 300;
-      font-size: 2.45rem;
-      line-height: 2.8rem;
-      margin-bottom: 0;
-    }
-
-    p {
-      color: @alert-info-color;
-      font-size: 1.45rem;
-      line-height: 1.8;
-      text-align: left;
-      margin-top: 0;
-    }
-
-    .h-left {
-      h1, p {
-        margin-left: 27.4rem;
-      }
-
-      i {
-        top: 1.17em;
-        left: 3.1em;
-      }
-
-    }
-
-    .h-right {
-      h1, p {
-        margin-left: 19.7rem;
-      }
-
-      i {
-        top: 1.17em;
-        left: 1.75em;
-      }
-
-    }
-
-    .info-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      position: relative;
-      left: 0;
-      background-color: #ECEFF1;
-      padding-top: 7.5rem;
-      padding-bottom: 5.4rem;
-
-      i {
-        position: relative;
-        font-size: 6.0rem;
-      }
-      .leather-words {
-
-      }
-    }
   }
 
   &-rfid {
     height: 19.7vw;
     position: relative;
     .inner-content {
-      padding: 0rem 0rem 0rem 14.5rem;
+      padding: 0 0 0 14.5vw;
 
       h1, h2, p {
         margin: 0;
@@ -762,8 +652,8 @@
         width: 54vw;
         height: auto;
         position: absolute;
-        top: -7.6rem;
-        right: 6.77rem;
+        top: -7.6vw;
+        right: 6.77vw;
         z-index: 5;
       }
 
@@ -772,16 +662,16 @@
   }
 
   &-wireless-charging {
-    margin-bottom: 6rem;
+    margin-bottom: 6vw;
     background-color: #f6f6f6;
 
     .inner-content {
 
       .header {
-        padding: 0 4rem 0 4rem;
+        padding: 0 4vw 0 4vw;
 
         h1, h2 {
-          margin: 0 0 0 10rem;
+          margin: 0 0 0 10vw;
         }
 
         h1 {
@@ -819,8 +709,6 @@
           height: 100%;
           background-color: rgba(0, 19, 38, 0.85);
 
-          //padding: 0.9em 1.8em;
-
           h2 {
             color: @white;
             font-size: 2.53rem;
@@ -850,7 +738,7 @@
       }
 
       .phone-notready {
-        padding-top: 8rem;
+        padding-top: 8vw;
         position: relative;
 
         img {
@@ -1001,45 +889,39 @@
   &-call-to-action {
     overflow-x: hidden;
     background-color: #f6f6f6;
-    margin-bottom: 6rem;
+    margin-bottom: 6vw;
 
     .img {
       width: 100%;
       position: relative;
       overflow-x: hidden;
-      //height: auto;
     }
 
     .inner-content {
       margin: 0;
-      padding: 1.5rem 0 0 0;
+      padding: 1.5vw 0 0 0;
       height: auto;
     }
 
     .grid-wrapper {
       width: 68vw;
       margin: 0 auto;
-      //border: solid 1px yellow;
     }
 
     .info-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-column-gap: 4rem;
+      grid-column-gap: 4vw;
       position: relative;
       left: 0;
-      padding-top: 2rem;
-      padding-bottom: 3rem;
+      padding-top: 2vw;
+      padding-bottom: 3vw;
       margin: 0 auto;
-      //border: solid 1px red;
-
 
       .title-features {
-        //border: solid 1px blue;
-
         text-align: center;
 
-        img{
+        img {
           width: 9.375vw;
         }
 
@@ -1068,7 +950,6 @@
       width: 45vw;
       padding-top: 8vw;
       float: right;
-      //position: absolute;
       right: 0;
     }
 
@@ -1078,125 +959,13 @@
     }
   }
 
-  &-kickstarter-testimonials {
-
-    .wrapper {
-      width: 80%;
-      margin: auto;
-
-      .header {
-        width: 67.2rem;
-        position: relative;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin: 0 auto;
-
-        h1.mobile-320 {
-          display: none;
-        }
-
-        h1 {
-          strong {
-            font-weight: 700;
-          }
-          width: 57rem;
-          margin: 0;
-          font-weight: 400;
-          line-height: 4.8rem;
-          font-size: 2.4rem;
-          display: block;
-          float: right;
-        }
-
-        .icon-kickstarter {
-
-          margin: 2.4rem 0 0 0;
-          width: 6.5rem;
-          text-align: center;
-          float: left;
-
-          img {
-            position: relative;
-            width: 5.1rem;
-            display: block;
-            margin: 0 auto;
-
-          }
-        }
-      }
-
-    }
-
-    .kickstarter-row {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding: 0.7rem 0;
-
-      .inner-content {
-        display: grid;
-        grid-template-columns: 6.5rem 57rem;
-        grid-column-gap: 3.7rem;
-        justify-content: center;
-        margin-bottom: 0;
-
-        img {
-          display: block;
-          float: left;
-          width: 6.5rem;
-          margin: 0.9rem 0 0;
-
-        }
-
-        .kickstarter {
-          position: relative;
-          line-height: 1.4rem;
-
-          &-name {
-            font-size: 0.9rem;
-            color: @kickstarter-name-color;
-          }
-
-          &-backer {
-            font-size: 0.9rem;
-            font-style: italic;
-            color: @kickstarter-baker-since-color;
-          }
-
-          &-member {
-            float: right;
-            font-size: 0.9rem;
-            font-style: italic;
-            color: @kickstarter-baker-since-color;
-          }
-
-        }
-        p {
-          margin-top: 0.5rem;
-          font-size: 1.04rem;
-          font-weight: 500;
-          line-height: 2rem;
-          color: @kickstarter-testimonials-text-color;
-        }
-      }
-    }
-
-    .grey-bg {
-      background-color: @kickstarter-testimonials-gray-bg-color;
-    }
-
-    hr {
-      border: none;
-      border-bottom: solid 0.5rem @kickstarter-testimonials-border-color;
-      margin: 1.8rem 0 1.8rem;
-    }
-  }
 }
 
 footer {
 
   .yellow-footer {
     padding-top: 0;
-    width: 54rem;
+    width: 54vw;
     height: 16.0vw;
     text-align: center;
     margin: -8.0vw auto 0;
@@ -1205,7 +974,7 @@ footer {
     top: 8.0vw;
 
     img {
-      width: 17rem;
+      width: 17vw;
       margin-top: 1.5vw;
     }
 
@@ -1225,7 +994,7 @@ footer {
   .brown-footer {
     background-color: #001326;
     margin: 0;
-    padding-top: 9.8rem;
+    padding-top: 9.8vw;
     padding-bottom: 1vw;
     color: white;
 
@@ -1233,7 +1002,7 @@ footer {
 
     .text-container {
       position: relative;
-      width: 54em;
+      width: 54vw;
       text-align: center;
       margin: 0 auto;
       color: @footer-on-brown-text-color;
@@ -1259,24 +1028,11 @@ footer {
   }
 }
 
-@media only screen and (min-width: 415px) {
-
-  .right {
-    position: relative;
-    right: 8rem;
-  }
-
-  .left {
-    position: relative;
-    left: 8rem;
-  }
-
-}
 
 .temporary-link {
   position: fixed;
-  top: 3rem;
-  left: 3rem;
+  top: 3vw;
+  left: 3vw;
   z-index: 999;
   border: solid 1px #888;
   padding: 0.5rem;
@@ -1286,5 +1042,4 @@ footer {
   line-height: 1.3rem;
   text-decoration: none;
   color: #666;
-
 }
