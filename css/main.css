@@ -978,6 +978,9 @@ textarea {
   font-weight: 400;
   color: #32386a;
 }
+.section-planner .inner-content img.mobile-320 {
+  display: none;
+}
 .section-planner .inner-content img {
   position: absolute;
   top: -18vw;
@@ -1004,10 +1007,16 @@ textarea {
 .section-gps {
   margin-bottom: 0;
 }
+.section-gps .inner-content img.mobile-320 {
+  display: none;
+}
 .section-gps .inner-content img {
   position: absolute;
   width: 63.2vw;
   top: -9.5vw;
+}
+.section-gps .inner-content p.mobile-320 {
+  display: none;
 }
 .section-gps .inner-content p {
   color: #f4f4f4;
@@ -1117,6 +1126,9 @@ textarea {
   line-height: 3.79rem;
   font-weight: 500;
 }
+.section-alerts .inner-content img.mobile-320 {
+  display: none;
+}
 .section-alerts .inner-content img {
   width: 31.45vw;
   height: auto;
@@ -1135,6 +1147,9 @@ textarea {
   padding: 0 0 0 0;
   height: auto;
   position: relative;
+}
+.section-leather .inner-content img.mobile-320 {
+  display: none;
 }
 .section-leather .inner-content img {
   display: block;
@@ -1198,6 +1213,9 @@ textarea {
   width: 24vw;
   color: #333333;
 }
+.section-rfid .inner-content img.mobile-320 {
+  display: none;
+}
 .section-rfid .inner-content img {
   width: 54vw;
   height: auto;
@@ -1236,6 +1254,9 @@ textarea {
 .section-wireless-charging .inner-content .phone-wireless {
   position: relative;
 }
+.section-wireless-charging .inner-content .phone-wireless img.mobile-320 {
+  display: none;
+}
 .section-wireless-charging .inner-content .phone-wireless img {
   width: 100%;
   height: auto;
@@ -1259,6 +1280,9 @@ textarea {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
+.section-wireless-charging .inner-content .phone-wireless .blockquote p.mobile-320 {
+  display: none;
+}
 .section-wireless-charging .inner-content .phone-wireless .blockquote p {
   margin: 3rem 0 0;
   padding: 0 13rem 0 8rem;
@@ -1272,6 +1296,9 @@ textarea {
   padding-top: 8vw;
   position: relative;
 }
+.section-wireless-charging .inner-content .phone-notready img.mobile-320 {
+  display: none;
+}
 .section-wireless-charging .inner-content .phone-notready img {
   width: 46.8vw;
   position: absolute;
@@ -1282,6 +1309,9 @@ textarea {
   background: #68c4ce;
   width: 59vw;
   float: right;
+}
+.section-wireless-charging .inner-content .phone-notready .wide-title h2.mobile-320 {
+  display: none;
 }
 .section-wireless-charging .inner-content .phone-notready .wide-title h2 {
   color: #FFF;
@@ -1338,6 +1368,9 @@ textarea {
   background-color: #f6f6f6;
   position: relative;
 }
+.section-powerbank .inner-content img.mobile-320 {
+  display: none;
+}
 .section-powerbank .inner-content img {
   width: 40.1%;
   height: auto;
@@ -1371,6 +1404,9 @@ textarea {
   margin-top: 6vw;
   padding: 0 0 0 14.48vw;
 }
+.section-powerbank .inner-content .blockquote p.mobile-320 {
+  display: none;
+}
 .section-powerbank .inner-content .blockquote p {
   margin: 0;
   color: #1a1a1a;
@@ -1388,6 +1424,9 @@ textarea {
   overflow-x: hidden;
   background-color: #f6f6f6;
   margin-bottom: 6vw;
+}
+.section-call-to-action img.mobile-320 {
+  display: none;
 }
 .section-call-to-action .img {
   width: 100%;
@@ -1457,6 +1496,9 @@ footer .yellow-footer {
 footer .yellow-footer img {
   width: 17vw;
   margin-top: 1.5vw;
+}
+footer .yellow-footer h1.mobile-320 {
+  display: none;
 }
 footer .yellow-footer h1 {
   color: #FFF;
@@ -1536,7 +1578,7 @@ footer .brown-footer .text-container p.copywrite {
     float: none;
     position: static;
     margin: 0 auto;
-    padding: 14vw 0 10vw;
+    padding: 13vw 0 7vw;
   }
   .section-hero h1,
   .section-hero h2 {
@@ -1544,9 +1586,9 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-hero h1.main-banner-title-320 {
     font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
-    font-size: 6.8rem;
-    letter-spacing: 0.35rem;
-    font-weight: bold;
+    font-size: 6.6rem;
+    letter-spacing: inherit;
+    font-weight: 600;
     line-height: 10.8rem;
     text-align: center;
     padding: 0 5vw;
@@ -1564,7 +1606,7 @@ footer .brown-footer .text-container p.copywrite {
     line-height: 6.2rem;
     text-align: center;
     padding: 0 6rem;
-    margin: 8vw 0 10vw 0;
+    margin: 7vw 0 7vw 0;
     display: block;
     float: none;
     position: inherit;
@@ -1683,8 +1725,8 @@ footer .brown-footer .text-container p.copywrite {
     display: none;
   }
   .section-tracking .inner-content p.mobile-320 {
-    font-size: 7.5rem;
-    line-height: 10.5rem;
+    font-size: 7.1rem;
+    line-height: 1.5;
     display: block;
     width: 80vw;
     float: none;
@@ -1722,7 +1764,7 @@ footer .brown-footer .text-container p.copywrite {
     position: static;
   }
   .section-planner {
-    height: 273.4rem;
+    height: 350vw;
   }
   .section-planner .wide-title {
     background: #68c4ce;
@@ -1740,122 +1782,472 @@ footer .brown-footer .text-container p.copywrite {
     padding: 3vw 0 0;
   }
   .section-planner .inner-content img {
+    display: none;
+  }
+  .section-planner .inner-content img.mobile-320 {
     position: static;
     display: block;
-    width: 100vw;
+    width: 98vw;
     height: auto;
-    margin: -21vw 0 0 -1.5vw;
+    margin: -21vw auto 8vw;
   }
   .section-planner .inner-content p {
     display: none;
   }
   .section-planner .inner-content p.mobile-320 {
-    font-size: 6rem;
-    line-height: 9.5rem;
+    font-size: 7.1rem;
+    line-height: 1.5;
     display: block;
-    width: 82%;
+    width: 80vw;
     float: none;
     text-align: center;
     margin: 0 auto 0;
+    padding: 0 0 8vw 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-planner .inner-content p.mobile-320 strong {
+    font-weight: 500;
   }
   .section-gps {
     margin-bottom: 0;
+    background-color: #f6f6f6;
   }
   .section-gps .inner-content img {
+    display: none;
+  }
+  .section-gps .inner-content img.mobile-320 {
+    display: block;
     position: static;
-    width: 115%;
-    margin-bottom: -120vw;
-    margin-left: -6.5vw;
+    width: 100%;
+    margin: 0 auto -57vw;
   }
   .section-gps .inner-content p {
-    color: #F5F5F5;
-    font-size: 4.2rem;
-    line-height: 6.4rem;
-    text-align: center;
-    margin-top: 64.1vw;
-    font-weight: 300;
+    display: none;
   }
-  .section-gps .inner-content p.extra-fees-title {
-    margin: 6vw;
+  .section-gps .inner-content p.mobile-320 {
+    display: block;
+    color: #F5F5F5;
+    font-size: 7.1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 64.1vw auto 0;
     font-weight: 400;
+    width: 70vw;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-gps .inner-content .extra-fees-title {
+    font-weight: 600;
+    padding-top: 8vw;
+    display: block;
   }
   .section-gps .gps-content {
-    height: 124vw;
-    text-align: right;
+    height: 174vw;
+    text-align: center;
     padding: 0;
   }
   .section-gps .gps-title {
-    font-size: 11.2rem;
-    line-height: 11.2rem;
-    padding-top: 0.8em;
-    padding-right: 0.6em;
+    font-size: 13.6rem;
+    line-height: 13.6rem;
+    padding: 64vw 0 4vw;
+    text-align: center;
     margin: 0;
   }
   .section-gps .gps-subtitle {
-    font-size: 7.2rem;
+    font-size: 13.6rem;
+    margin: 0 0 10vw;
+    padding: 2vw 0 0;
     line-height: 8rem;
-    font-weight: 300;
-    margin-top: 0em;
-    padding-right: 1.2em;
+    font-weight: 500;
+    text-align: center;
     position: static;
   }
   .section-alerts {
-    height: 330vw;
-    background-image: url('../img/bg-alert-section-mobile-320.jpg');
-    background-position: center;
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: -3vw;
+    height: 430vw;
+    background-image: url('../img/ncm-smart-alerts-bg.jpg');
+    background-color: #f9fcfd;
+    background-position: top;
+    background-size: contain;
+    padding: 8vw 0 0;
+    margin: 0 0 20vw;
+  }
+  .section-alerts .wide-title {
+    background: #68c4ce;
+    height: 69vw;
   }
   .section-alerts .inner-content .titles {
     width: 100%;
-    height: 57vw;
+    height: 117vw;
     margin: 0 0 0 0;
-    padding-left: 10vw;
-    padding-top: 0;
+    padding: 0;
     position: static;
+    background: rgba(255, 255, 255, 0.85);
   }
   .section-alerts .inner-content .titles h1 {
-    font-size: 11.2rem;
-    line-height: 11.2rem;
-    padding-top: 0.8em;
+    font-size: 13.6rem;
+    line-height: 13.6rem;
+    padding: 10rem 0 0;
+    text-align: center;
   }
   .section-alerts .inner-content .titles h1 span {
-    font-size: 7.2rem;
-    font-weight: 300;
+    font-size: 13.6rem;
+    display: block;
+    padding: 3vw 0 0;
   }
   .section-alerts .inner-content .alert-description-box {
     display: none;
   }
   .section-alerts .inner-content .alert-description-box-mobile-320 {
-    font-size: 6rem;
-    line-height: 9.5rem;
+    width: 100%;
     display: block;
-    width: 82%;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+  .section-alerts .inner-content .alert-description-box-mobile-320 p {
+    font-size: 7.1rem;
+    line-height: 1.5;
+    display: block;
+    width: 78vw;
     float: none;
     text-align: center;
     margin: 0 auto 0;
+    padding: 0 0 8vw 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
   }
+  .section-alerts .inner-content .alert-description-box-mobile-320 p strong {
+    font-weight: 500;
+  }
   .section-alerts .inner-content img {
-    width: 100%;
+    display: none;
+  }
+  .section-alerts .inner-content img.mobile-320 {
+    position: static;
+    display: block;
+    width: 96vw;
     height: auto;
-    margin: -28vw auto 0;
-    position: relative;
-    z-index: 100;
+    margin: -72vw auto 10vw;
     float: none;
-    left: 2vw;
+  }
+  .section-leather {
+    margin-top: 20vw;
+    background: none;
+    padding: 0;
   }
   .section-leather .inner-content {
     margin: 0;
     height: auto;
   }
+  .section-leather .inner-content h2 {
+    font-size: 10.4rem;
+    line-height: 10.4rem;
+    position: static;
+    text-align: left;
+    padding-left: 20vw;
+  }
+  .section-leather .inner-content .wallets-type-1 {
+    margin-bottom: 5vw;
+  }
+  .section-leather .inner-content .wallets-type-2 {
+    margin-bottom: 0;
+    padding-left: 17.5vw;
+  }
+  .section-leather .inner-content .wallets-type-3 {
+    margin-bottom: 5.5vw;
+  }
   .section-leather .inner-content img {
-    width: 100vw;
+    display: none;
+  }
+  .section-leather .inner-content img.mobile-320 {
+    display: block;
+    width: 100%;
+    margin: 0 auto 25vw;
+  }
+  .section-leather .inner-content img.mobile-320:last-child {
+    margin-bottom: 0;
+  }
+  .section-rfid {
+    height: 190vw;
+    position: static;
+  }
+  .section-rfid .inner-content {
+    padding: 16vw 0 0;
+  }
+  .section-rfid .inner-content h1 {
+    font-size: 13.6rem;
+    line-height: 13.6rem;
+    padding: 10rem 0 0;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+  }
+  .section-rfid .inner-content h2 {
+    font-size: 10.2rem;
+    line-height: 10.2rem;
+    padding: 0;
+    margin: 3vw 0 0;
+    text-align: center;
+  }
+  .section-rfid .inner-content p {
+    display: none;
+  }
+  .section-rfid .inner-content p.mobile-320 {
+    display: block;
+    font-size: 7.1rem;
+    line-height: 1.5;
+    width: 78vw;
+    float: none;
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 0 0 8vw 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-rfid .inner-content img {
+    display: none;
+  }
+  .section-rfid .inner-content img.mobile-320 {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: static;
+    margin: 17vw auto 12vw;
+  }
+  .section-wireless-charging {
+    margin-bottom: 6vw;
+    background: none;
+  }
+  .section-wireless-charging .inner-content .header {
+    padding: 0 0 17vw;
+  }
+  .section-wireless-charging .inner-content .header h1 {
+    font-size: 13.6rem;
+    line-height: 15.6rem;
+    padding: 10rem 0 0;
+    text-align: center;
+    margin: 0;
+  }
+  .section-wireless-charging .inner-content .header h2 {
+    font-size: 10.2rem;
+    line-height: 10.2rem;
+    padding: 0;
+    margin: 3vw 0 0;
+    text-align: center;
+  }
+  .section-wireless-charging .inner-content .phone-wireless {
+    position: static;
+  }
+  .section-wireless-charging .inner-content .phone-wireless img {
+    display: none;
+  }
+  .section-wireless-charging .inner-content .phone-wireless img.mobile-320 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .section-wireless-charging .inner-content .phone-wireless .blockquote {
+    position: static;
+    width: 100%;
+    padding: 18vw 0;
+  }
+  .section-wireless-charging .inner-content .phone-wireless .blockquote h2 {
+    font-size: 8.28rem;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 8vw;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-wireless-charging .inner-content .phone-wireless .blockquote p {
+    display: none;
+  }
+  .section-wireless-charging .inner-content .phone-wireless .blockquote p.mobile-320 {
+    display: block;
+    font-size: 7.1rem;
+    line-height: 1.5;
+    width: 88vw;
+    float: none;
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 0 0 8vw 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-wireless-charging .inner-content .phone-wireless .blockquote p:last-child {
+    padding-bottom: 0;
+  }
+  .section-wireless-charging .inner-content .phone-notready {
+    padding-top: 0;
+    position: relative;
+  }
+  .section-wireless-charging .inner-content .phone-notready .wide-title {
+    width: 100%;
+    float: none;
+    padding: 18vw 0;
+  }
+  .section-wireless-charging .inner-content .phone-notready .wide-title h2 {
+    display: none;
+  }
+  .section-wireless-charging .inner-content .phone-notready .wide-title h2.mobile-320 {
+    display: block;
+    width: 80vw;
+    font-size: 10.2rem;
+    line-height: 11.4rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-wireless-charging .inner-content .phone-notready .wide-title h2.mobile-320 strong {
+    font-weight: 700;
+    font-size: 8.28rem;
+    line-height: 1;
+  }
+  .section-wireless-charging .inner-content .phone-notready .wide-title h2.mobile-320 span {
+    padding: 0;
+    font-weight: 600;
+    font-size: 8.28rem;
+    line-height: 1;
+  }
+  .section-wireless-charging .inner-content .phone-notready img {
+    display: none;
+  }
+  .section-wireless-charging .inner-content .phone-notready img.mobile-320 {
+    display: block;
+    margin: 0 auto;
+    position: static;
+  }
+  .section-wireless-charging .inner-content .phone-notready img.not-ready1 {
+    margin: -14.4vw auto 14vw;
+    width: 100%;
+  }
+  .section-wireless-charging .inner-content .phone-notready p {
+    font-size: 7.1rem;
+    line-height: 2;
+    display: block;
+    width: 78vw;
+    float: none;
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 0 0 8vw 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-wireless-charging .inner-content .phone-notready p strong {
+    font-weight: 600;
+  }
+  .section-wireless-charging .inner-content .phone-notready p span {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 7.1rem;
+    line-height: 2;
+  }
+  .section-wireless-charging .inner-content .phone-notready .not-ready_second_section {
+    width: 100%;
+    height: 172vw;
+    position: static;
+  }
+  .section-wireless-charging .inner-content .phone-notready .not-ready_second_section img.not-ready2 {
+    margin: 10vw auto 14vw;
+    width: 70%;
+    position: static;
+  }
+  .section-wireless-charging .inner-content .phone-notready .not-ready_second_section img.not-ready3 {
+    margin: 0 auto 0;
+    width: 45%;
+    position: static;
+  }
+  .section-powerbank {
+    height: 350vw;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: none;
+    position: static;
+  }
+  .section-powerbank .inner-content img {
+    display: none;
+  }
+  .section-powerbank .inner-content img.mobile-320 {
+    display: block;
+    width: 100%;
+    margin: 11vw auto 0;
+    position: static;
+  }
+  .section-powerbank .inner-content .header {
+    margin: 0 auto 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .section-powerbank .inner-content .header h1 {
+    font-size: 10.2rem;
+    line-height: 11.6rem;
+    padding: 10rem 0 0;
+    text-align: center;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-powerbank .inner-content .header h2 {
+    font-size: 10.2rem;
+    line-height: 10.2rem;
+    padding: 0;
+    margin: 3vw 0 0;
+    text-align: center;
+    font-weight: 400;
+    color: #78909C;
+  }
+  .section-powerbank .inner-content .header h2 span {
+    display: none;
+  }
+  .section-powerbank .inner-content .blockquote {
+    position: static;
+    margin: 22vw 0 0;
+    padding: 0;
+    width: 100%;
+  }
+  .section-powerbank .inner-content .blockquote p {
+    display: none;
+  }
+  .section-powerbank .inner-content .blockquote p.mobile-320 {
+    display: block;
+    font-size: 7.1rem;
+    line-height: 1.5;
+    width: 80vw;
+    float: none;
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 0 0 8vw 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  .section-powerbank .inner-content .blockquote p.mobile-320 span {
+    font-size: 8.28rem;
+    line-height: 1;
+    font-weight: 500;
+    font-style: italic;
   }
   .section-call-to-action {
+    background: none;
     margin-bottom: 2rem;
+  }
+  .section-call-to-action .img {
+    display: none;
+  }
+  .section-call-to-action img.mobile-320 {
+    display: block;
+  }
+  .section-call-to-action .img-call-m-1 {
+    width: 100%;
+    margin: 14vw auto 0;
   }
   .section-call-to-action .inner-content {
     margin: 0;
@@ -1870,7 +2262,7 @@ footer .brown-footer .text-container p.copywrite {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 10vw;
-    grid-row-gap: 9vw;
+    grid-row-gap: 24vw;
     position: relative;
     padding-top: 7.5vw;
     padding-bottom: 5.4vw;
@@ -1884,105 +2276,34 @@ footer .brown-footer .text-container p.copywrite {
     width: 30vw;
   }
   .section-call-to-action .info-container .title-features h2 {
-    font-weight: 300;
-    font-size: 5.4rem;
-    line-height: 5.4rem;
-    color: #222;
+    font-size: 7.1rem;
+    line-height: 1.1rem;
+    color: #000000;
     width: 100%;
     margin: 0 0 2rem 0;
+    padding: 14vw 0 10vw;
+    font-weight: 500;
   }
   .section-call-to-action .info-container .title-features p {
-    color: #78909C;
-    font-size: 4rem;
-    line-height: 4.8rem;
-    font-weight: 300;
+    color: #000000;
+    font-size: 7.1rem;
+    line-height: 1.5;
+    font-weight: 400;
     text-align: center;
     margin: 0;
     width: 100%;
   }
-  .section-kickstarter-testimonials .wrapper {
-    width: 80%;
-    margin: auto;
-  }
-  .section-kickstarter-testimonials .wrapper .header {
-    position: static;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-  }
-  .section-kickstarter-testimonials .wrapper .header h1 {
+  .section-call-to-action .img-2,
+  .section-call-to-action .img-3 {
     display: none;
   }
-  .section-kickstarter-testimonials .wrapper .header h1.mobile-320 {
-    display: block;
-    margin: 10rem auto 0;
-    font-size: 5.3rem;
-    line-height: 8.6rem;
-    font-weight: 400;
-    width: 80rem;
-    float: none;
+  .section-call-to-action .img-call-m-2 {
+    width: 100%;
+    margin: 24vw auto 0;
   }
-  .section-kickstarter-testimonials .wrapper .header h1.mobile-320 strong {
-    font-weight: 700;
-  }
-  .section-kickstarter-testimonials .wrapper .header .icon-kickstarter {
-    margin: 6rem auto 9.6rem;
-    text-align: center;
-    float: none;
-  }
-  .section-kickstarter-testimonials .wrapper .header .icon-kickstarter img {
-    position: relative;
-    width: 30rem;
-  }
-  .section-kickstarter-testimonials .kickstarter-row {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 11.5rem 0 23.5rem;
-  }
-  .section-kickstarter-testimonials .kickstarter-row .inner-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 0;
-  }
-  .section-kickstarter-testimonials .kickstarter-row .inner-content img {
-    display: block;
-    float: none;
-    width: 38rem;
-    margin: 0 auto 12rem;
-  }
-  .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter {
-    position: relative;
-    padding: 0;
-    line-height: 7rem;
-  }
-  .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter-name {
-    font-size: 4.2rem;
-    font-weight: 300;
-    margin-bottom: 0.9rem;
-    display: block;
-  }
-  .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter-backer {
-    font-size: 4.2rem;
-    font-weight: 300;
-    display: block;
-  }
-  .section-kickstarter-testimonials .kickstarter-row .inner-content .kickstarter-member {
-    float: none;
-    font-size: 4.2rem;
-    font-weight: 300;
-    display: block;
-  }
-  .section-kickstarter-testimonials .kickstarter-row .inner-content p {
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    font-size: 4.75rem;
-    line-height: 11.2rem;
-    font-weight: normal;
-  }
-  .section-kickstarter-testimonials hr {
-    border: none;
-    border-bottom: solid 2.6rem #2DEA8E;
-    margin: 9rem 0 0;
+  .section-call-to-action .img-call-m-3 {
+    width: 100%;
+    margin: 24vw auto 0;
   }
   .display-none {
     display: none;
@@ -1992,30 +2313,33 @@ footer .brown-footer .text-container p.copywrite {
   }
   footer .yellow-footer {
     padding-top: 0;
-    width: 82vw;
-    height: 62vw;
+    width: 100%;
+    height: 85vw;
     text-align: center;
-    margin-bottom: -22.5vw;
+    margin-bottom: 0;
     position: relative;
   }
   footer .yellow-footer img {
-    width: 67vw;
-    margin-top: 3vw;
+    width: 59vw;
+    margin-top: 10vw;
   }
   footer .yellow-footer h1 {
+    display: none;
+  }
+  footer .yellow-footer h1.mobile-320 {
+    display: block;
     width: 74rem;
     font-family: "Segoe UI", "Roboto", Lucinda, Helvetica;
-    letter-spacing: 0.2rem;
-    font-weight: 300;
-    font-size: 5.4rem;
-    line-height: 7.8rem;
-    margin: 7.2rem auto 0;
+    font-weight: 600;
+    font-size: 7.1rem;
+    line-height: 1.5;
+    margin: 6rem auto 0;
     padding: 0 0;
   }
   footer .brown-footer {
     margin: 0;
-    padding-top: 35vw;
-    padding-bottom: 1vw;
+    padding-top: 13vw;
+    padding-bottom: 4vw;
     text-align: center;
   }
   footer .brown-footer .text-container {
@@ -2028,15 +2352,20 @@ footer .brown-footer .text-container p.copywrite {
   footer .brown-footer .text-container p.mobile-320 {
     padding-top: 3rem;
     display: inherit;
-    font-size: 3.6rem;
-    line-height: 3.1em;
-    font-weight: 300;
+    font-size: 3.84rem;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  footer .brown-footer .text-container p.mobile-320:first-child {
+    margin-bottom: 8rem;
   }
   footer .brown-footer .text-container p.copywrite {
     display: inherit;
     margin-top: 3em;
     margin-bottom: 0;
-    padding-bottom: 3em;
-    font-size: 4rem;
+    padding-bottom: 0;
+    font-size: 4.14rem;
+    line-height: 1.2;
+    font-weight: 400;
   }
 }
