@@ -1361,25 +1361,23 @@ textarea {
   left: 53vw;
 }
 .section-powerbank {
-  height: 30.6vw;
+  height: 35.57vw;
   width: 100%;
-  padding-top: 3vw;
+  padding: 0;
   margin-bottom: 7vw;
-  background-color: #f6f6f6;
+  background: url("../img/nc-powerbank-2.jpg") no-repeat right top;
+  background-size: cover;
   position: relative;
 }
 .section-powerbank .inner-content img.mobile-320 {
   display: none;
 }
 .section-powerbank .inner-content img {
-  width: 40.1%;
-  height: auto;
-  position: absolute;
-  top: 5.8vw;
-  right: 12.5vw;
+  width: 100%;
+  height: 35.57vw;
 }
 .section-powerbank .inner-content .header {
-  padding: 0 0 0 14.48vw;
+  padding: 4vw 0 0 14vw;
 }
 .section-powerbank .inner-content .header h1,
 .section-powerbank .inner-content .header h2 {
@@ -1392,6 +1390,10 @@ textarea {
   line-height: 4.4rem;
   font-weight: 700;
 }
+.section-powerbank .inner-content .header h1 span {
+  font-style: italic;
+  width: 500;
+}
 .section-powerbank .inner-content .header h2 {
   font-size: 1.9rem;
   line-height: 2.4rem;
@@ -1402,7 +1404,7 @@ textarea {
 .section-powerbank .inner-content .blockquote {
   width: 31vw;
   margin-top: 6vw;
-  padding: 0 0 0 14.48vw;
+  padding: 0 0 0 14vw;
 }
 .section-powerbank .inner-content .blockquote p.mobile-320 {
   display: none;
@@ -1618,7 +1620,7 @@ footer .brown-footer .text-container p.copywrite {
   .section-ar {
     height: auto;
     margin-bottom: 5vw;
-    box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 20px 10px rgba(100, 100, 100, 0.01);
   }
   .section-kickstarter {
     margin-bottom: 2rem;
@@ -2180,6 +2182,7 @@ footer .brown-footer .text-container p.copywrite {
   .section-powerbank .inner-content img.mobile-320 {
     display: block;
     width: 100%;
+    height: inherit;
     margin: 11vw auto 0;
     position: static;
   }
