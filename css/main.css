@@ -1675,6 +1675,7 @@ footer .brown-footer .text-container p.copywrite {
     float: none;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    text-transform: capitalize;
   }
   .section-kickstarter .save-up {
     margin: 10vw auto 0;
@@ -1843,20 +1844,20 @@ footer .brown-footer .text-container p.copywrite {
     display: block;
   }
   .section-gps .gps-content {
-    height: 174vw;
+    height: 180vw;
     text-align: center;
     padding: 0;
   }
   .section-gps .gps-title {
     font-size: 13.6rem;
     line-height: 13.6rem;
-    padding: 64vw 0 4vw;
+    padding: 60vw 0 4vw;
     text-align: center;
     margin: 0;
   }
   .section-gps .gps-subtitle {
     font-size: 13.6rem;
-    margin: 0 0 10vw;
+    margin: 0 0 12vw;
     padding: 2vw 0 0;
     line-height: 8rem;
     font-weight: 500;
@@ -1864,12 +1865,12 @@ footer .brown-footer .text-container p.copywrite {
     position: static;
   }
   .section-alerts {
-    height: 430vw;
+    height: 422vw;
     background-image: url('../img/ncm-smart-alerts-bg.jpg');
     background-color: #f9fcfd;
     background-position: top;
     background-size: contain;
-    padding: 8vw 0 0;
+    padding: 12vw 0 0;
     margin: 0 0 20vw;
   }
   .section-alerts .wide-title {
@@ -1969,7 +1970,7 @@ footer .brown-footer .text-container p.copywrite {
     margin-bottom: 0;
   }
   .section-rfid {
-    height: 190vw;
+    height: 186vw;
     position: static;
   }
   .section-rfid .inner-content {
@@ -1978,7 +1979,7 @@ footer .brown-footer .text-container p.copywrite {
   .section-rfid .inner-content h1 {
     font-size: 13.6rem;
     line-height: 13.6rem;
-    padding: 10rem 0 0;
+    padding: 6rem 0 0;
     text-align: center;
     font-weight: 700;
     margin: 0;
@@ -2024,8 +2025,8 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-wireless-charging .inner-content .header h1 {
     font-size: 13.6rem;
-    line-height: 15.6rem;
-    padding: 10rem 0 0;
+    line-height: 16.4rem;
+    padding: 7rem 0 0;
     text-align: center;
     margin: 0;
   }
@@ -2033,7 +2034,7 @@ footer .brown-footer .text-container p.copywrite {
     font-size: 10.2rem;
     line-height: 10.2rem;
     padding: 0;
-    margin: 3vw 0 0;
+    margin: 2.4vw 0 0;
     text-align: center;
   }
   .section-wireless-charging .inner-content .phone-wireless {
@@ -2046,7 +2047,7 @@ footer .brown-footer .text-container p.copywrite {
     display: block;
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 6vw auto 0;
   }
   .section-wireless-charging .inner-content .phone-wireless .blockquote {
     position: static;
@@ -2077,6 +2078,7 @@ footer .brown-footer .text-container p.copywrite {
     padding: 0 0 8vw 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+    font-weight: 400;
   }
   .section-wireless-charging .inner-content .phone-wireless .blockquote p:last-child {
     padding-bottom: 0;
@@ -2088,7 +2090,7 @@ footer .brown-footer .text-container p.copywrite {
   .section-wireless-charging .inner-content .phone-notready .wide-title {
     width: 100%;
     float: none;
-    padding: 18vw 0;
+    padding: 20.5vw 0;
   }
   .section-wireless-charging .inner-content .phone-notready .wide-title h2 {
     display: none;
@@ -2125,7 +2127,7 @@ footer .brown-footer .text-container p.copywrite {
     position: static;
   }
   .section-wireless-charging .inner-content .phone-notready img.not-ready1 {
-    margin: -14.4vw auto 14vw;
+    margin: -14.4vw auto 6vw;
     width: 100%;
   }
   .section-wireless-charging .inner-content .phone-notready p {
@@ -2155,7 +2157,7 @@ footer .brown-footer .text-container p.copywrite {
     position: static;
   }
   .section-wireless-charging .inner-content .phone-notready .not-ready_second_section img.not-ready2 {
-    margin: 10vw auto 14vw;
+    margin: 15vw auto 13vw;
     width: 70%;
     position: static;
   }
@@ -2189,7 +2191,7 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-powerbank .inner-content .header h1 {
     font-size: 10.2rem;
-    line-height: 11.6rem;
+    line-height: 12.4rem;
     padding: 10rem 0 0;
     text-align: center;
     margin: 0;
@@ -2200,7 +2202,7 @@ footer .brown-footer .text-container p.copywrite {
     font-size: 10.2rem;
     line-height: 10.2rem;
     padding: 0;
-    margin: 3vw 0 0;
+    margin: 2.4vw 0 0;
     text-align: center;
     font-weight: 400;
     color: #78909C;
@@ -2210,7 +2212,7 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-powerbank .inner-content .blockquote {
     position: static;
-    margin: 22vw 0 0;
+    margin: 20vw 0 0;
     padding: 0;
     width: 100%;
   }
@@ -2251,7 +2253,7 @@ footer .brown-footer .text-container p.copywrite {
   }
   .section-call-to-action .inner-content {
     margin: 0;
-    padding: 1.5vw 0 0 0;
+    padding: 0 0 0;
     height: auto;
   }
   .section-call-to-action .grid-wrapper {
@@ -2262,9 +2264,9 @@ footer .brown-footer .text-container p.copywrite {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 10vw;
-    grid-row-gap: 24vw;
+    grid-row-gap: 22vw;
     position: relative;
-    padding-top: 7.5vw;
+    padding-top: 2.5vw;
     padding-bottom: 5.4vw;
     margin: 0 auto;
   }
@@ -2273,7 +2275,7 @@ footer .brown-footer .text-container p.copywrite {
     -webkit-margin-after: 0;
   }
   .section-call-to-action .info-container .title-features img {
-    width: 30vw;
+    width: 56vw;
   }
   .section-call-to-action .info-container .title-features h2 {
     font-size: 7.1rem;
@@ -2281,7 +2283,7 @@ footer .brown-footer .text-container p.copywrite {
     color: #000000;
     width: 100%;
     margin: 0 0 2rem 0;
-    padding: 14vw 0 10vw;
+    padding: 12vw 0 12vw;
     font-weight: 500;
   }
   .section-call-to-action .info-container .title-features p {
@@ -2350,14 +2352,14 @@ footer .brown-footer .text-container p.copywrite {
     display: none;
   }
   footer .brown-footer .text-container p.mobile-320 {
-    padding-top: 3rem;
+    padding-top: 4rem;
     display: inherit;
     font-size: 3.84rem;
     line-height: 1.2;
     font-weight: 400;
   }
   footer .brown-footer .text-container p.mobile-320:first-child {
-    margin-bottom: 8rem;
+    margin-bottom: 8vw;
   }
   footer .brown-footer .text-container p.copywrite {
     display: inherit;
